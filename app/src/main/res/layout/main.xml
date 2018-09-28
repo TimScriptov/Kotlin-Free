@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<include
+			layout="@layout/main_toolbar"/>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"
+		android:gravity="center">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:layout_weight="1.0"
+			android:gravity="center">
+
+			<Button
+				android:background="@drawable/bt_shape"
+				android:stateListAnimator="@drawable/state_list_animator_z"
+				android:id="@+id/btnLessons"
+				android:layout_width="250.0dip"
+				android:layout_height="wrap_content"
+				android:text="@string/lessons"/>
+
+			<Button
+				android:background="@drawable/bt_shape"
+				android:stateListAnimator="@drawable/state_list_animator_z"
+				android:layout_height="wrap_content"
+				android:layout_width="250dp"
+				android:text="@string/preferences_title"
+				android:id="@+id/btnPreferences"
+				android:layout_marginTop="5dp"/>
+
+			<Button
+				android:background="@drawable/bt_shape"
+				android:stateListAnimator="@drawable/state_list_animator_z"
+				android:id="@+id/btnChangelog"
+				android:layout_width="250.0dip"
+				android:layout_height="wrap_content"
+				android:text="@string/changelog"
+				android:layout_marginTop="5dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<com.google.android.gms.ads.AdView
+				xmlns:ads="http://schemas.android.com/apk/res-auto"
+				android:id="@+id/adView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				ads:adSize="SMART_BANNER"
+				ads:adUnitId="@string/banner_ad_unit_id"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

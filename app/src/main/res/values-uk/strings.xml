@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Kotlin Free</string>
+	<string name="lessons">Уроки</string>
+	<string name="lessons1">Частина 1</string>
+	<string name="lessons2">Частина 2</string>
+	<string name="lessons3">Частина 3</string>
+	<string name="lessons4">Частина 4</string>
+	<string name="powered_by_aide">Powered by Aide</string>
+	<string name="changelog">Історія змін</string>
+	<string name="preferences_title">Налаштування</string>
+	<string name="preferences_title_language">Мова</string>
+	<string name="preferences_summary_language">Виберіть мову додатки</string>
+	<string name="preferences_title_about">Iнформація</string>
+	<string name="preferences_summary_about">Про Kotlin</string>
+	<string name="changelog_p">" V16.0-9.09.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Класи(en/ru)
+		\u0009\u0009• властивості(en/ru)
+		\u0009\u0009• Функції-члени(en/ru)
+		\u0009\u0009Fix:
+		\u0009\u0009• Налаштування
+
+		\u0009\u0009V15.0-2.09.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Параметри функції(en/ru)
+		\u0009\u0009• Аргументи функції за замовчуванням(en/ru)
+		\u0009\u0009• Перевірка типів і автоматичне копіювання(en/ru)
+		\u0009\u0009• Невірні типи(en/ru)
+		\u0009\u0009Налаштування:
+		\u0009\u0009• Вибір мови
+		\u0009\u0009
+		\u0009\u0009V14.0-18.08.18
+		\u0009\u0009New:
+		\u0009\u0009• Новий інтерфейс
+		\u0009\u0009• Доданий українську мову
+		\u0009\u0009
+		\u0009\u0009V13.0-17.08.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Використання циклів з масивами(ru)
+		\u0009\u0009• Час практики: Цикли і Масиви(en/ru)
+		\u0009\u0009• Функції(en/ru)
+
+		\u0009\u0009V12.1-16.08.18
+		\u0009\u0009Fix:
+		\u0009\u0009• Тема для sdk 14-20
+
+		\u0009\u0009V12.0-15.08.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Цикл for(en/ru)
+		\u0009\u0009• Використання циклів з масивами(en)
+
+		\u0009\u0009V11.0-3.08.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Масиви(en/ru)
+		\u0009\u0009• Ітерарий(en/ru)
+
+		\u0009\u0009V10.1-27.07.18
+		\u0009\u0009New:
+		\u0009\u0009Код:
+		\u0009\u0009• Шрифт monospace
+		\u0009\u0009• HorizontalScrollView
+
+		\u0009\u0009V10.0-25.07.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Цикл while(en/ru)
+		\u0009\u0009• Цикл do-while(en/ru)
+		\u0009\u0009• break и continue(en/ru)
+
+		\u0009\u0009V9.0-20.07.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Вираз when(en/ru)
+		\u0009\u0009Fix:
+		\u0009\u0009• Російська мова
+		\u0009\u0009• Англійська мова
+
+		\u0009\u0009V8.0-15.07.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Логічні оператори(en/ru)
+		\u0009\u0009Fix:
+		\u0009\u0009• Російська мова
+
+		\u0009\u0009V7.0-25.06.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Оператори: if і else(en/ru)
+		\u0009\u0009• Оператори: if-else-if(en/ru)
+
+		\u0009\u0009V6.0-22.06.18
+		\u0009\u0009New:
+		\u0009\u0009• Історія змін
+		\u0009\u0009Уроки:
+		\u0009\u0009• Інкремент і декремент(en/ru)
+		\u0009\u0009• Строкові шаблони(en/ru)
+		\u0009\u0009• Час практики: основа(en/ru)
+
+		\u0009\u0009V5.1-21.06.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Висновок(ru)
+		\u0009\u0009• Введення(ru)
+		\u0009\u0009• Коментарі(ru)
+		\u0009\u0009• Арифметичні операції(ru)
+
+		\u0009\u0009V5.0-18.06.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Висновок(en)
+		\u0009\u0009• Введення(en)
+		\u0009\u0009• Коментарі(en)
+		\u0009\u0009• Арифметичні операції(en)
+
+		\u0009\u0009V4.0-15.06.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Літерали і константи(en/ru)
+
+		\u0009\u0009V3.0-15.06.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Символи і рядки(en/ru)
+
+		\u0009\u0009V2.0-14.06.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Базові типи(en/ru)
+
+		\u0009\u0009V1.2-13.06.18
+		\u0009\u0009New:
+		\u0009\u0009• Підсвічування коду
+
+		\u0009\u0009V1.1-13.06.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Ласкаво просимо в Kotlin!(ru)
+		\u0009\u0009• Базовий синтаксис(ru)
+		\u0009\u0009• Змінні(ru)
+
+		\u0009\u0009V1.0-12.06.18
+		\u0009\u0009New:
+		\u0009\u0009Уроки:
+		\u0009\u0009• Ласкаво просимо в Kotlin!(en)
+		\u0009\u0009• Базовий синтаксис(en)
+		\u0009\u0009• Змінні(en)"</string>
+	<string name="lesson1_title">Ласкаво просимо в Kotlin!</string>
+	<string name="lesson1_p">"Kotlin is a statically-typed programming language that runs on the Java virtual machine.
+
+		\u0009\u0009Kotlin is a fully supported programming language by Google on the Android Operating System and was announced as an official Android development language at Google I/O 2017.
+		\u0009\u0009Kotlin can be used for backend development.
+
+		\u0009\u0009Kotlin uses aggressive type inference to determine the type of values and expressions where type has been left unstated. This reduces language verbosity compared to Java."</string>
+	<string name="lesson1_hint">"Kotlin's standard library is designed to interoperate with Java code and is reliant on Java code from the existing Java Class Library."</string>
+	<string name="lesson2_title">Basic Syntax</string>
+	<string name="lesson2_p">"Let's start by printing a Hello, world! message to the screen:"</string>
+	<string name="lesson2_p2">"Let's break down the code:
+
+		\u0009\u0009\u0009\u0009Every Kotlin program must have the main function defined, which is the starting point of the program and is done with the fun keyword.
+		\u0009\u0009The println() function is used to generate output. In our case we have passed the message to print in double quotes to the function.
+
+		\u0009\u0009Play around with the following code to print your name."</string>
+	<string name="lesson2_hint">"In most cases, there's no need for semicolons as Kotlin provides semicolon inference. Try to run the code without the semicolon at the end of the println() statement."</string>
+	<string name="lesson3_title">Variables</string>
+	<string name="lesson3_p">Declaring variables is done using either var or val. val declarations cannot be reassigned (they are called immutable). For example:</string>
+	<string name="lesson3_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009val num = 10;
+		\u0009\u0009println(num);
+		\u0009\u0009val str = Hello;
+		\u0009\u0009println(str);
+		\u0009\u0009}"</string>
+	<string name="lesson3_p2">"Assigning a new value to num or str leads to a compile error.
+		\u0009\u0009The following code will not compile:"</string>
+	<string name="lesson3_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009val num = 10;
+		\u0009\u0009num = 12;
+		\u0009\u0009}"</string>
+	<string name="lesson3_p3">The var keyword allows to declare variables that can be reassigned:</string>
+	<string name="lesson3_code3">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var test = 10;
+		\u0009\u0009println(test);
+		\u0009\u0009test = 21;
+		\u0009\u0009println(test);
+		\u0009\u0009}"</string>
+	<string name="lesson3_p4">"As you can see, we did not explicitly set the type of the variables. The variables get there corresponding type thanks to Kotlin's type interference, where the type gets automatically inferred from the value you have assigned to the variable.
+
+		\u0009\u0009To explicitly declare the type of a variable, use the following syntax:"</string>
+	<string name="lesson3_code4">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var num: Int = 8;
+		\u0009\u0009val immutable_str: String = Will not change;
+		\u0009\u0009println(num);
+		\u0009\u0009println(immutable_str);
+		\u0009\u0009}"</string>
+	<string name="lesson3_hint">The code above declares a num variable of type Int and a str variable of type String</string>
+	<string name="lesson4_title">Basic Types</string>
+	<string name="lesson4_p">"Kotlin is a statically typed programming language with basic data types support such as Numbers, Characters, Booleans, Arrays, and Strings.
+
+		\u0009\u0009\u0009\u0009Numbers are represented by the following built-in types:
+		\u0009\u0009\u0009\u0009- Double
+		\u0009\u0009\u0009\u0009- Float
+		\u0009\u0009\u0009\u0009- Long
+		\u0009\u0009\u0009\u0009- Int
+		\u0009\u0009\u0009\u0009- Short
+		\u0009\u0009\u0009\u0009- Byte
+		\u0009\u0009\u0009\u0009Let's declare an Integer and print its value:"</string>
+	<string name="lesson4_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var num: Int = 42;
+		\u0009\u0009println(num);
+		\u0009\u0009}"</string>
+	<string name="lesson4_p2">"The number types differ by the memery size they allocate:
+		\u0009\u0009Byte allocates 1 byte of memory.
+		\u0009\u0009Short is 2 bytes,
+		\u0009\u0009Int is 4 bytes,
+		\u0009\u0009Long allows to store 8 bytes of data.
+		\u0009\u0009If you need to store a floating point value, for instance, 3.14, you can use Float or Double."</string>
+	<string name="lesson4_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var pi: Float = 3.14f;
+		\u0009\u0009var e: Double = 2.71828;
+
+		\u0009\u0009println(pi);
+		\u0009\u0009println(e);
+		\u0009\u0009}"</string>
+	<string name="lesson4_p3">"Notice the f after 3.14. Kotlin, by default, interprets floating point numbers as Doubles, which have higher precision compared to Floats.
+		\u0009\u0009To declare a Float literal, you should explicitly tell the compiler that your value is Float by adding f at the end of the value."</string>
+	<string name="lesson4_hint">To represent boolean values (true, false) the type Boolean is used.</string>
+	<string name="lesson5_title">Characters and Strings</string>
+	<string name="lesson5_p">Characters are represented by the type Char.</string>
+	<string name="lesson5_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var ch: Char = a;
+		\u0009\u0009println(ch);
+		\u0009\u0009}"</string>
+	<string name="lesson5_p2">"A collection of characters is represented by a String.
+		\u0009\u0009Let’s declare a String variable and print it’s value:"</string>
+	<string name="lesson5_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009// string literal
+		\u0009\u0009println(Hello, world!);
+
+		\u0009\u0009var s: String = Hello, world!;
+		\u0009\u0009// printing the content of the s variable
+		\u0009\u0009println(s);
+		\u0009\u0009}"</string>
+	<string name="lesson5_p3">In languages like C++, characters are implicitly treated as numbers, however in Kotlin that is not the case.</string>
+	<string name="lesson6_title">Literal Constants</string>
+	<string name="lesson6_p">"Literals refer to fixed values that the program may not alter during its execution.
+
+		\u0009\u0009\u0009\u0009These can be of any of the basic data types like an integer constant, a floating constant, a character constant, or a string literal."</string>
+	<string name="lesson6_p2">"Kotlin supports the following literals for integral values:
+
+		\u0009\u0009\u0009\u0009- Decimals: 123 (Longs are tagged by a capital L: 123L)
+		\u0009\u0009- Hexadecimals: 0x0F
+		\u0009\u0009- Binaries: 0b00001011"</string>
+	<string name="lesson6_hint">Octal literals (numbers in base 8) are not supported in Kotlin.</string>
+	<string name="lesson6_p3">You can use underscores to make number constants more readable:</string>
+	<string name="lesson6_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009val billion = 1_000_000_000;
+		\u0009\u0009val hexNum = 0xAA_0C_BA_FF;
+		\u0009\u0009val bytes = 0b11011011_11100010;
+
+		\u0009\u0009// everything will be printed in base 10
+		\u0009\u0009println(billion);
+		\u0009\u0009println(hexNum);
+		\u0009\u0009println(bytes);
+		\u0009\u0009}"</string>
+	<string name="lesson6_p4">As floating-point numbers are by default interpreted as Double, Floats are tagged by f or F.</string>
+	<string name="lesson6_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009val thisIsFloat = 3.14f;
+		\u0009\u0009val againFloat = 2.78F;
+		\u0009\u0009val doubleIsDefault = 20.134;
+
+		\u0009\u0009println(thisIsFloat);
+		\u0009\u0009println(againFloat);
+		\u0009\u0009println(doubleIsDefault);
+		\u0009\u0009}"</string>
+	<string name="lesson7_title">Output</string>
+	<string name="lesson7_p">Output in Kotlin can be done using the println function.</string>
+	<string name="lesson7_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009println(Hello, world!);
+		\u0009\u0009}"</string>
+	<string name="lesson7_p2">"println() automatically adds a newline (
+		\u0009\u0009\u0009) at the end of the output.
+		\u0009\u0009print() can be used to output without the newline:"</string>
+	<string name="lesson7_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009println(Line by);
+		\u0009\u0009println(line);
+
+		\u0009\u0009print(On the );
+		\u0009\u0009print(same line);
+		\u0009\u0009}"</string>
+	<string name="lesson7_p3">"To include a variable’s value in a string, we can use either the + (plus) operator or string templates, which starts with a dollar sign ($). Check out the examples below: "</string>
+	<string name="lesson7_code3">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var num: Int = 42;
+		\u0009\u0009println(Num is + num);
+		\u0009\u0009// using string templates
+		\u0009\u0009println(Num is $num);
+
+		\u0009\u0009val dbl = 3.14;
+		\u0009\u0009println(Int value is $num, and double value is $dbl);
+		\u0009\u0009}"</string>
+	<string name="lesson7_p4">"String templates can include expressions in curly braces, which will be evaluated.
+		\u0009\u0009For example:"</string>
+	<string name="lesson7_code4">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var a: Int = 42;
+		\u0009\u0009var b: Int = 8;
+
+		\u0009\u0009println(Result: ${a+b});
+		\u0009\u0009}"</string>
+	<string name="lesson8_title">Input</string>
+	<string name="lesson8_p">An easy way to read from the standard input is the readLine() function:</string>
+	<string name="lesson8_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009val test = readLine();
+		\u0009\u0009println(Your input is $test);
+		\u0009\u0009}"</string>
+	<string name="lesson8_hint">Anything that the user inputs automatically gets converted to a String.</string>
+	<string name="lesson8_p2">To convert the input to an integer, use the toInt() function using dot syntax:</string>
+	<string name="lesson8_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var age = readLine()!!.toInt();
+		\u0009\u0009println(You are $age years old);
+		\u0009\u0009}"</string>
+	<string name="lesson8_p3">"The !! implies that the input cannot return null, making it necessary to input something. null denotes the absence of value.
+
+		\u0009\u0009The same logic works for Doubles and other types, using the toDouble() and similar functions."</string>
+	<string name="lesson8_code3">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var intTest: Int; intTest = readLine()!!.toInt(); var dblTest = readLine()!!.toDouble();
+		\u0009\u0009var longTest: Long = readLine()!!.toLong();
+
+		\u0009\u0009println(Int input is $intTest, double input is $dblTest, long input is $longTest);
+		\u0009\u0009}"</string>
+	<string name="lesson9_title">Comments</string>
+	<string name="lesson9_p">"Commenting code is a good practice, helping you and your  fellow programmers understand and maintain the code.
+
+		\u0009\u0009\u0009\u0009There are two types of comments in Kotlin: single-line comments and multi-line comments.
+
+		\u0009\u0009Single-line comments start with two forward slashes(//). Everything after them is ignored by the compiler:"</string>
+	<string name="lesson9_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009println(Hello World!); // outputs Hello World!
+		\u0009\u0009}"</string>
+	<string name="lesson9_p2">"Comments clarify the program’s intent to the reader.
+
+
+		\u0009\u0009Multi-line comments can span multiple lines. They start with a forward slash and an asterisk, end with an asterisk and a forward slash(/* */):"</string>
+	<string name="lesson9_code2">"/* This is a multi-line comment */
+		\u0009\u0009fun main(args: Array&lt;String>) {
+		\u0009\u0009println(Hello World!);
+		\u0009\u0009/* Multi-line comments
+		\u0009\u0009\u0009can span
+		\u0009\u0009\u0009over multiple lines */
+		\u0009\u0009}"</string>
+	<string name="lesson9_hint">Commenting code is a good practice. It helps explain the code to you and other programmers reading your code.</string>
+	<string name="lesson10_title">Arithmetics Operations</string>
+	<string name="lesson10_p">"Kotlin supports the following arithmetic operations:
+
+		\u0009\u0009\u0009\u0009+ (addition)
+
+		\u0009\u0009\u0009\u0009- (subtraction)
+
+		\u0009\u0009\u0009\u0009* (multiplication)
+
+		\u0009\u0009\u0009\u0009/ (division)
+
+		\u0009\u0009\u0009\u0009% (modulo)
+
+
+		\u0009\u0009\u0009\u0009These operations are binary, which means they operate with two operands.
+
+		\u0009\u0009The code below declares two integer variables and prints their sum using the + (addition) operator:"</string>
+	<string name="lesson10_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var num1:Int = 8;
+		\u0009\u0009var num2:Int = 3;
+
+		\u0009\u0009// Calculating the sum
+		\u0009\u0009val sum = num1 + num2;
+		\u0009\u0009println(Sum is $sum);
+		\u0009\u0009}"</string>
+	<string name="lesson10_title2">Division</string>
+	<string name="lesson10_p2">"The division (/) operator results in an integer, removing any remainder.
+		\u0009\u0009For example, dividing 8 by 3 results in 2:"</string>
+	<string name="lesson10_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var num1:Int = 10;
+		\u0009\u0009var num2:Int = 3;
+
+		\u0009\u0009var div = num1 / num2;
+		\u0009\u0009println(div);
+		\u0009\u0009}"</string>
+	<string name="lesson10_p3">"To get the remainder of the division use the  % (modulo) operator.
+		\u0009\u0009For example:"</string>
+	<string name="lesson10_code3">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var num1:Int = 10;
+		\u0009\u0009var num2:Int = 3;
+
+		\u0009\u0009var remainder = num1 % num2;
+		\u0009\u0009println(remainder);
+		\u0009\u0009}"</string>
+	<string name="lesson10_p4">"The modulo operator cannot be applied to floating-point numbers, however the  division operator works with floating-point values and results in a floating-point result:"</string>
+	<string name="lesson10_code4">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var num1: Double = 10.42;
+		\u0009\u0009var num2: Double = 5.14;
+
+		\u0009\u0009var res = num1 / num2;
+		\u0009\u0009println(res);
+		\u0009\u0009}"</string>
+	<string name="lesson10_hint">Division by zero produces an exception.</string>
+	<string name="lesson11_title">Increment and Decrement</string>
+	<string name="lesson11_p">"The increment operator ++ provides a shortcut for adding 1 to an integer.
+		\u0009\u0009The following code outputs 5:"</string>
+	<string name="lesson11_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var x: Int = 4;
+		\u0009\u0009x++; // the same as x = x + 1;
+		\u0009\u0009println(x);
+		\u0009\u0009}"</string>
+	<string name="lesson11_p2">Similarly, the decrement operator -- is used to subtract 1 from an integer:</string>
+	<string name="lesson11_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var x: Int = 4;
+		\u0009\u0009x--; // the same as x = x - 1;
+		\u0009\u0009println(x);
+		\u0009\u0009}"</string>
+	<string name="lesson11_p3">"Both, increment and decrement operators have prefix (before the variable name) and postfix (after the variable name) forms.
+
+		\u0009\u0009The prefix form increments the variable and then uses it in the assignment statement."</string>
+	<string name="lesson11_code3">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var x: Int = 4;
+		\u0009\u0009val y = ++x;
+		\u0009\u0009// x is incremented, then assigned to y
+		\u0009\u0009println(y);
+		\u0009\u0009}"</string>
+	<string name="lesson11_p4">The postfix form uses the value of the variable first, before incrementing it.</string>
+	<string name="lesson11_code4">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var x: Int = 4;
+		\u0009\u0009val y = x++;
+		\u0009\u0009// x is assigned to y, then incremented
+		\u0009\u0009println(y);
+		\u0009\u0009}"</string>
+	<string name="lesson11_hint">The same applies to the decrement operator.</string>
+	<string name="lesson12_title">String Templates</string>
+	<string name="lesson12_p">String templates are used to insert a variable’s value into a string:</string>
+	<string name="lesson12_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var x = 5;
+		\u0009\u0009val s1 = Value is $x;
+		\u0009\u0009println(s1);
+		\u0009\u0009}"</string>
+	<string name="lesson12_p2">Anything in the curly brackets starting with a $ (dollar) sign will be evaluated and the result will be put in the string:</string>
+	<string name="lesson12_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var x = 5;
+		\u0009\u0009var y = 6;
+		\u0009\u0009val sum = Sum is ${x + y};
+		\u0009\u0009println(sum);
+		\u0009\u0009}"</string>
+	<string name="lesson12_p3">"We can even call functions in the expression.
+
+		\u0009\u0009\u0009\u0009Let's call the replace() function t to replace is with was:"</string>
+	<string name="lesson12_code3">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var x = 5;
+		\u0009\u0009var s1 = Value is $x;
+		\u0009\u0009var s2 = ${s1.replace(«is», «was»)}, but now is ${x + 2};
+		\u0009\u0009println(s2);
+		\u0009\u0009}"</string>
+	<string name="lesson13_title">Practice Time: Basics</string>
+	<string name="lesson13_p">The following code takes as input the name and the age of a user and prints a hello message:</string>
+	<string name="lesson13_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var name: String;
+		\u0009\u0009var age: Int;
+		\u0009\u0009println(Please insert your name and age);
+		\u0009\u0009name = readLine()!!;
+		\u0009\u0009age = readLine()!!.toInt();
+
+		\u0009\u0009println(Hi $name, you are $age years old);
+
+		\u0009\u0009\u0009\u0009}"</string>
+	<string name="lesson13_p2">"Practice your Kotlin skills by implementing the following tasks:
+
+		\u0009\u0009\u0009\u00091. Write a code that takes as input 3 integers and print their sum.
+
+		\u0009\u0009\u0009\u00092. Take two floating-point numbers as input and insert their difference into the output using string templates."</string>
+	<string name="lesson14_title">Control Flow: if and else</string>
+	<string name="lesson14_p">"Conditional statements perform different actions depending on whether a boolean condition evaluates to true or false.
+
+
+		\u0009\u0009\u0009\u0009Use the if statement to specify a block of code to be executed if a condition is true.
+		\u0009\u0009Let’s print a «Good morning» greeting if the hour variable’s value is less than 12:"</string>
+	<string name="lesson14_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009val hour = 11;
+		\u0009\u0009if (hour &lt; 12) {
+		\u0009\u0009println(Good morning!);
+		\u0009\u0009}
+		\u0009\u0009}"</string>
+	<string name="lesson14_p2">"What if we need to print another message if hour is not less than 12?
+		\u0009\u0009The else statement is used to specify a block of code to be executed if the condition evaluates to false:"</string>
+	<string name="lesson14_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009val hour = 15;
+		\u0009\u0009if (hour &lt; 12) {
+		\u0009\u0009println(Good morning!);
+		\u0009\u0009} else {
+		\u0009\u0009println(Good day!);
+		\u0009\u0009}
+		\u0009\u0009}"</string>
+	<string name="lesson14_p3">The condition for the if statement can be any Boolean value:</string>
+	<string name="lesson14_code3">"fun main(args: Array&lt;String>) {
+		\u0009\u0009val hour = 11;
+		\u0009\u0009val isMorning: Boolean = (hour &lt; 12);
+
+		\u0009\u0009if (isMorning) {
+		\u0009\u0009println(Good morning!);
+		\u0009\u0009} else {
+		\u0009\u0009println(Good day!);
+		\u0009\u0009}
+		\u0009\u0009}"</string>
+	<string name="lesson14_p4">In Kotlin, if is an expression, i.e. it returns a value. This means that we can use if to assign values to a variable based on the condition. For example:</string>
+	<string name="lesson14_code4">"fun main(args: Array&lt;String>) {
+		\u0009\u0009val a = 8;
+		\u0009\u0009val b = 42;
+		\u0009\u0009val max = if (a > b) a else b;
+
+		\u0009\u0009println(max);
+		\u0009\u0009} "</string>
+	<string name="lesson14_p5">Because of this, there is no ternary operator in Kotlin, as the same behavior can be accomplished with the if statement.</string>
+	<string name="lesson14_hint">When the if statement is used as an expression, the else clause is mandatory.</string>
+	<string name="lesson15_title">The if-else-if Chain</string>
+	<string name="lesson15_p">"There can be multiple else if clauses when a decision among three or more actions is needed.
+		\u0009\u0009The last else clause is optional:"</string>
+	<string name="lesson15_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var age = readLine()!!.toInt()
+
+		\u0009\u0009if (age &lt; 20) {
+		\u0009\u0009println(Too young)
+		\u0009\u0009}
+		\u0009\u0009else if (age > 50) {
+		\u0009\u0009println(Too old)
+		\u0009\u0009}
+		\u0009\u0009else {
+		\u0009\u0009println(Welcome!)
+		\u0009\u0009}
+		\u0009\u0009}"</string>
+	<string name="lesson15_hint">You can add as many else if statements as you need into your chain.</string>
+	<string name="lesson16_title">Logical Operators</string>
+	<string name="lesson16_p">Logical operators &amp;&amp; (AND), || (OR), ! (NOT) are used to combine conditional statements forming a compound boolean expression that returns true or false as the result.</string>
+	<string name="lesson16_p2">The &amp;&amp; operator</string>
+	<string name="lesson16_p3">The &amp;&amp; operator (logical AND) returns true if all boolean expressions evaluate to true.</string>
+	<string name="lesson16_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var a: Int = 3;
+		\u0009\u0009var b: Int = 5;
+
+		\u0009\u0009if(a == 3 &amp;&amp; b &lt; 8) {
+		\u0009\u0009println(hello);
+		\u0009\u0009}
+		\u0009\u0009if (a == 3 &amp;&amp; b > 8) {
+		\u0009\u0009println(bye);
+		\u0009\u0009}
+		\u0009\u0009}"</string>
+	<string name="lesson16_hint">"The == operator is used to check for equality.
+		\u0009\u0009Not equal to is checked using the != operator."</string>
+	<string name="lesson16_p4">The || operator</string>
+	<string name="lesson16_p5">The || operator (logical OR) returns true if any one of the boolean expressions evaluates to true.</string>
+	<string name="lesson16_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var a: Int = 3;
+		\u0009\u0009var b: Int = 5;
+
+		\u0009\u0009if(a == 3 || b &lt; 8) {
+		\u0009\u0009println(hello);
+		\u0009\u0009}
+		\u0009\u0009if (a == 3 || b > 8) {
+		\u0009\u0009println(bye);
+		\u0009\u0009}
+		\u0009\u0009}"</string>
+	<string name="lesson16_p6">The ! operator</string>
+	<string name="lesson16_p7">"The ! operator (logical NOT) returns the reverse of the state of a boolean expression.
+		\u0009\u0009NOT true returns false, and NOT false returns true.
+		\u0009\u0009The following code outputs bye because (b == 6) evaluates to false, which is then reversed to true using the ! operator:"</string>
+	<string name="lesson16_code3">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var b: Int = 5;
+
+		\u0009\u0009if (!(b == 6)) {
+		\u0009\u0009println(bye);
+		\u0009\u0009}
+		\u0009\u0009}"</string>
+	<string name="lesson17_title">when Expression</string>
+	<string name="lesson17_p">"In Kotlin, the when statement is used to check for multiple conditions.
+		\u0009\u0009The basic syntax of the when statement is as follows:"</string>
+	<string name="lesson17_code">"when (variable) {
+		\u0009\u0009condition -> statement
+		\u0009\u0009}"</string>
+	<string name="lesson17_hint">when is the equivalent to the switch statement in other languages.</string>
+	<string name="lesson17_p2">when matches its argument against all branches sequentially until some branch condition is satisfied.</string>
+	<string name="lesson17_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009val num = 15;
+		\u0009\u0009when (num) {
+		\u0009\u000910 -> println(Case 1);
+		\u0009\u000915 -> println(Case 2);
+		\u0009\u000920 -> println(Case 3);
+		\u0009\u0009else -> println(Default case);
+		\u0009\u0009}
+		\u0009\u0009}"</string>
+	<string name="lesson17_p3">when can also be used as a replacement for an if-else if chain. If no argument is supplied, the branch conditions are simply boolean expressions:</string>
+	<string name="lesson17_code3">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var age: Int = readLine()!!.toInt();
+		\u0009\u0009when {
+		\u0009\u0009age &lt; 22 -> println(Too young);
+		\u0009\u0009age > 50 -> println(Too old);
+		\u0009\u0009else -> println(Welcome);
+		\u0009\u0009}
+		\u0009\u0009}"</string>
+	<string name="lesson17_p4">"The last else case is evaluated if all of the previous cases before it evaluated to false.
+
+		\u0009\u0009Multiple conditions can be tested in one case as long as they are all separated by commas."</string>
+	<string name="lesson17_code4">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var x = 5;
+
+		\u0009\u0009when(x) {
+		\u0009\u00091, 3, 5, 7, 9 -> println(Odd);
+		\u0009\u00092, 4, 6, 8 -> println(Even);
+		\u0009\u0009else -> println(Unknown);
+		\u0009\u0009}
+		\u0009\u0009//Outputs Odd
+		\u0009\u0009}"</string>
+	<string name="lesson17_p5">when can also be used as an expression. If it is used as an expression, the value of the satisfied branch becomes the value of the overall expression.</string>
+	<string name="lesson17_code5">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var grade = 88;
+		\u0009\u0009var result = when {
+		\u0009\u0009grade &lt; 50 -> Failed;
+		\u0009\u0009grade > 50 &amp;&amp; grade &lt; 80 -> Good;
+		\u0009\u0009grade > 80 -> Awesome!;
+		\u0009\u0009else -> Unknown;
+		\u0009\u0009}
+		\u0009\u0009println(result);
+		\u0009\u0009}"</string>
+	<string name="lesson17_hint2">If when is used as an expression, the else branch is mandatory.</string>
+	<string name="lesson18_title">The while Loop</string>
+	<string name="lesson18_p">"A loop is a block of code that will repeatedly run until a certain condition is true.
+		\u0009\u0009The while statement executes statements repeatedly while an expression is true.
+		\u0009\u0009It takes the form:"</string>
+	<string name="lesson18_code">"while(condition) {
+		\u0009\u0009statement(s)
+		\u0009\u0009}"</string>
+	<string name="lesson18_p2">"The statements within the curly brackets will repeatedly execute until the given condition is satisfied.
+		\u0009\u0009For example:"</string>
+	<string name="lesson18_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var x = 0;
+
+		\u0009\u0009while(x &lt;= 5) {
+		\u0009\u0009println(x);
+		\u0009\u0009x++;
+		\u0009\u0009}
+		\u0009\u0009}"</string>
+	<string name="lesson18_hint">It is important to ensure that the condition eventually evaluates to false. Otherwise we will encounter an infinite loop.</string>
+	<string name="lesson19_title">The do-while Loop</string>
+	<string name="lesson19_p">"The do-while loop first executes the loop statements before evaluating the expression.
+		\u0009\u0009This means that the statements in a do-while loop will always run at least once, even if the condition evaluates to false."</string>
+	<string name="lesson19_code">"do {
+		\u0009\u0009statements
+		\u0009\u0009} while (condition);"</string>
+	<string name="lesson19_p2">For example:</string>
+	<string name="lesson19_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var x = 5;
+		\u0009\u0009do {
+		\u0009\u0009println(x);
+		\u0009\u0009x--;
+		\u0009\u0009} while (x > 0);
+		\u0009\u0009}"</string>
+	<string name="lesson19_p3">Notice the semicolon at the end of the while condition.</string>
+	<string name="lesson20_title">break and continue</string>
+	<string name="lesson20_p">The break statement ends the execution of the loop.</string>
+	<string name="lesson20_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var x = 5;
+		\u0009\u0009do {
+		\u0009\u0009println(x);
+		\u0009\u0009x--;
+		\u0009\u0009if (x == 3) break;
+		\u0009\u0009} while (x > 0);
+		\u0009\u0009}"</string>
+	<string name="lesson20_p2">In case you want to remain in the loop, but skip an iteration, use the continue statement:</string>
+	<string name="lesson20_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var x = 0;
+		\u0009\u0009while (x &lt; 5) {
+		\u0009\u0009x++;
+		\u0009\u0009if (x == 3)
+		\u0009\u0009continue;
+		\u0009\u0009println(x);
+		\u0009\u0009}
+		\u0009\u0009}"</string>
+	<string name="lesson21_title">Arrays</string>
+	<string name="lesson21_p">"An array is a collection of values of the same type.
+		\u0009\u0009When you need to store a list of values, such as numbers, you can store them in an array, instead of declaring separate variables for each number.
+
+		\u0009\u0009To create an array, we can use a library function arrayOf() and pass the item values to it:"</string>
+	<string name="lesson21_code">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var arr = arrayOf(1, 2, 3);
+		\u0009\u0009println(arr[0]);
+		\u0009\u0009println(arr[1]);
+		\u0009\u0009println(arr[2]);
+		\u0009\u0009}"</string>
+	<string name="lesson21_p2">"In an array the elements are ordered and each has a specific and constant position, which is called an index.
+		\u0009\u0009To access an array element by its index, the index operator [] should be used."</string>
+	<string name="lesson21_code2">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var arr = arrayOf(1, 2, 3);
+		\u0009\u0009println(arr[0]);
+		\u0009\u0009println(arr[1]);
+		\u0009\u0009println(arr[2]);
+		\u0009\u0009}"</string>
+	<string name="lesson21_p3">"Kotlin supports specialized classes to represent arrays of primitive types. ByteArray, ShortArray, IntArray and so on.
+		\u0009\u0009Here’s an example of declaring an IntArray array. Note the intArrayOf() library function that creates and returns an IntArray:"</string>
+	<string name="lesson21_code3">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var nums: IntArray = intArrayOf(4, 13, 25, 6, -2);
+		\u0009\u0009println(Printing 1st and last elements);
+		\u0009\u0009println(nums[0]);
+		\u0009\u0009println(nums[4]);
+		\u0009\u0009}"</string>
+	<string name="lesson21_hint">"Note that elements in the array are identified with zero-based index numbers, meaning that the first element’s index is 0 rather than one.
+		\u0009\u0009Thus, the maximum index of the 5-element array is 4."</string>
+	<string name="lesson22_title">Ranges</string>
+	<string name="lesson22_p">"Kotlin provides a unique type for a range of values.
+
+		\u0009\u0009\u0009\u0009A range has a start and an end value.
+
+
+		\u0009\u0009\u0009\u0009To create a range you can use the rangeTo() function:"</string>
+	<string name="lesson22_code">var myRange = 1.rangeTo(10);</string>
+	<string name="lesson22_p2">"This code defines a range variable myRange containing values from 1 to 10 inclusive.
+		\u0009\u0009Ranges in Kotlin are closed, meaning that the start value and end value are included in the range.
+
+		\u0009\u0009To create a decreasing range, use the downTo() function:"</string>
+	<string name="lesson22_code2">var decRange = 8.downTo(2);</string>
+	<string name="lesson22_p3">decRange contains the values: 8, 7, 6, 5, 4, 3, 2.</string>
+	<string name="lesson22_p4">"The .. operator
+		\u0009\u0009Another way to define a range is using the .. (double dot) operator:"</string>
+	<string name="lesson22_code3">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var myRange = 1..10;
+		\u0009\u0009println(myRange);
+		\u0009\u0009}"</string>
+	<string name="lesson22_p5">The in operator allows to verify if a value belongs to a range:</string>
+	<string name="lesson22_code4">"fun main(args: Array&lt;String>) {
+		\u0009\u0009var myRange = 1..10;
+		\u0009\u0009if (5 in myRange) {
+		\u0009\u0009println(5 is in the range);
+		\u0009\u0009}
+		\u0009\u0009}"</string>
+	<string name="lesson22_p6">Similarly, !in can be used to check if a number does not belong to a range.</string>
+	<string name="lesson22_hint">Ranges are similar to arrays, they are collections of values which could be iterated through.</string>
+	<string name="lesson23_title">The for Loop</string>
+	<string name="lesson23_p">"The for loop iterates through a collection, more specifically through anything that provides an iterator.
+		Let‘s print the list of values in a range."</string>
+	<string name="lesson23_code">"fun main(args: Array&lt;String>) {
+		var myRange = 1..10;
+		for (x in myRange) {
+		println(x);
+		}
+		}"</string>
+	<string name="lesson23_p2">"The program will print numbers 1 through 10.
+		During each step of the loop, the variable x will contain the value of the current element in the range.
+
+		Let’s say we want to iterate over a range of even numbers.
+		To do so we can define a range with a step:"</string>
+	<string name="lesson23_code2">"fun main(args: Array&lt;String>) {
+		var evenRange = 0..10 step 2;
+		for (i in evenRange) {
+		println(i)
+		}
+		}"</string>
+	<string name="lesson24_title">Using Loops with Arrays</string>
+	<string name="lesson24_p">One of the most convenient ways to loop over an array is the for loop:</string>
+	<string name="lesson24_code">"fun main(args: Array&lt;String>) {
+		var nums: IntArray = intArrayOf(4, 5, -5, 12);
+		for (n in nums) {
+		println(Value: $n);
+		}
+		}"</string>
+	<string name="lesson24_p2">The while loop requires an additional index variable to access array elements.</string>
+	<string name="lesson24_code2">"fun main(args: Array&lt;String>) {
+		var nums: IntArray = intArrayOf(4, 5, -5, 12);
+		var index: Int = 0;
+		while (index &lt; 4) {
+		println(Value: ${nums[index]});
+		++index;
+		}
+		}"</string>
+	<string name="lesson24_p3">To iterate through an array with an index, you can use the for loop with the array indices:</string>
+	<string name="lesson24_code3">"fun main(args: Array&lt;String>) {
+		var nums: IntArray = intArrayOf(4, 5, -5, 12);
+		for (ix in nums.indices) {
+		println(Value: ${nums[ix]});
+		}
+		}"</string>
+	<string name="lesson25_title">Practice Time: Loops and Arrays</string>
+	<string name="lesson25_p">"Let’s see an example of arrays and loops in action.
+		Having an array of floating-point numbers and we want to calculate the sum of the array elements."</string>
+	<string name="lesson25_code">"fun main(args: Array&lt;String>) {
+		var nums: DoubleArray = doubleArrayOf(3.14, 1.1, 2.2, 44.55, 21.3);
+
+		//Calculating the sum
+		var sum: Double = 0.0;
+		for (num in nums) {
+		sum += num;
+		}
+		println(The sum equals to $sum);
+		}"</string>
+	<string name="lesson25_p2">"We declared a variable sum with initial value 0.0. This variable is then used to accumulate the sum of the array elements using the for loop.
+
+		Implement the following tasks:
+		1. Define an array of integers and calculate the product of its elements.
+		2. Define a range of numbers from 0 to 100, and output only the odd numbers in that range."</string>
+	<string name="lesson26_title">Functions</string>
+	<string name="lesson26_p">"A function is a block of code that can be executed by calling the function.
+		A function declaration is done using the fun keyword.
+		The basic syntax of a function in Kotlin looks like this:"</string>
+	<string name="lesson26_code">"fun name(parameter: type = default value): return type {
+		statements
+		}"</string>
+	<string name="lesson26_p2">"A function has a name, which is used to refer to it, in other words, to call the function.
+		After the name comes the list of function parameters.
+		Following the brackets is the data type that should be returned by the function.
+		This can be anything, as long as the variable being returned matches that type.
+
+		When the function is called, all of the statements within the curly brackets are run. Let’s declare and then call a function that prints greeting messages:"</string>
+	<string name="lesson26_code2">"fun greetUser() {
+		println(Hello user!);
+		println(Good morning.);
+		}
+
+		fun main(args: Array&lt;String>) {
+		greetUser();
+		}"</string>
+	<string name="lesson26_p3">"The greetUser() function does not take any parameters, and does not return any value, as it just generates output.
+
+		Let’s define a function that takes an Int parameter and returns the square of that number:"</string>
+	<string name="lesson26_code3">"fun square(x: Int): Int {
+		return x * x
+		}
+
+		fun main(args: Array&lt;String>) {
+		println(square(8));
+		}"</string>
+	<string name="lesson26_p4">The return keyword is used to return a value from a function.</string>
+	<string name="lesson26_hint">"You can call a function as many times as you want.
+		If a function returns a value, you can assign it to a variable, like: var a = square(8);"</string>
+	<string name="lesson27_title">Function Parameters</string>
+	<string name="lesson27_p">"Function parameters are used to pass values to a function.
+		Parameters are defined on function declaration by using a name and the type of the parameter:"</string>
+	<string name="lesson27_code">"fun greetUser(name: String) {
+		println(\"Hello $name!\");
+		}
+
+		fun main(args: Array&lt;String>) {
+		greetUser(\"Max\");
+		}"</string>
+	<string name="lesson27_p2">"We declared a greetUser() function which takes one String parameter called name.
+		Now, when calling the function, we can pass the actual value of the parameter to the function (also called the argument). In the example above, Max is the argument passed to the function.
+
+		Functions can take multiple parameters.
+		Let‘s declare a function that takes two integers and prints their sum:"</string>
+	<string name="lesson27_code2">"fun printSum(num1: Int, num2: Int) {
+		println(\"The sum is ${num1 + num2}!\");
+		}
+
+		fun main(args: Array&lt;String>) {
+		val a = 4;
+		val b = 5;
+		printSum(a, b);
+		}"</string>
+	<string name="lesson27_p3">"One of the most important properties of functions is their ability to return a value.
+		Let’s declare a function taking two integer parameters and returning their product.
+		The return keyword is used to return a value:"</string>
+	<string name="lesson27_code3">"fun printSum(num1: Int, num2: Int) {
+		println(\"The sum is ${num1 + num2}!\");
+		}
+
+		fun getProduct(num1: Int, num2: Int): Int {
+		return num1 * num2;
+		}
+
+		fun main(args: Array&lt;String>) {
+		val a = 4;
+		val b = 5;
+		printSum(a, b);
+
+		val product = getProduct(a, b);
+		println(\"The product is $product\");
+		}"</string>
+	<string name="lesson27_p4">"Notice the additional :Int after the closing bracket of the parameter list in the function declaration: it defines the type of the function’s return value.
+
+		We can directly include the returned value of the function in a string, using string templates:"</string>
+	<string name="lesson27_code4">"fun getProduct(num1: Int, num2: Int): Int {
+		return num1 * num2;
+		}
+
+		fun main(args: Array&lt;String>) {
+		val a = 4;
+		val b = 5;
+
+		println(\"The product is ${getProduct(a, b)}\");
+		}"</string>
+	<string name="lesson28_title">Function Default Arguments</string>
+	<string name="lesson28_p">"Sometimes it is convenient to set a default value for the function parameters. These default values are used when corresponding arguments are omitted.
+
+		Let’s declare a function with three parameters, which calculates and returns their sum:"</string>
+	<string name="lesson28_code">"fun getSum(num1: Int, num2: Int, num3: Int): Int {
+		return num1 + num2 + num3;
+		}
+
+		fun main(args: Array&lt;String>) {
+		val a = 4;
+		val b = 5;
+		val c = 6;
+
+		println(The sum is ${getSum(a, b, c)});
+		}"</string>
+	<string name="lesson28_p2">Let’s set a default value for the third argument:</string>
+	<string name="lesson28_code2">"fun getSum(num1: Int, num2: Int, num3: Int = 0): Int {
+		return num1 + num2 + num3;
+		}
+
+		fun main(args: Array&lt;String>) {
+		val a = 4;
+		val b = 5;
+		val c = 6;
+
+		println(The sum is ${getSum(a, b, c)});
+		println(The sum of two numbers is ${getSum(a, b)});
+		}"</string>
+	<string name="lesson28_p3">"Now we can call the same function with two arguments only.
+
+		Named Arguments
+		Function parameters can be named when calling functions:"</string>
+	<string name="lesson28_code3">"fun getSum(num1: Int, num2: Int): Int {
+		return num1 + num2;
+		}
+
+		fun main(args: Array&lt;String>) {
+		println(getSum(num1 = 42, num2 = 14));
+		}"</string>
+	<string name="lesson28_p4">This makes the code more readable when calling functions with multiple parameters.</string>
+	<string name="lesson28_hint">If a default parameter precedes a parameter with no default value, the default value can be used only by calling the function with named arguments.</string>
+	<string name="lesson29_title">Type Checks and Automatic Casts</string>
+	<string name="lesson29_p">"Kotlin provides a special type called Any.
+		This type allows storing literally anything.
+		Let’s declare a function taking Any as the parameter:"</string>
+	<string name="lesson29_code">"fun printIt(arg: Any) {
+		println(arg);
+		}
+
+		fun main(args: Array&lt;String>) {
+		printIt(Some string);
+		printIt(42);
+		}"</string>
+	<string name="lesson29_p2">"As you can see in the example above, the function can be called using any argument type.
+
+		You can check the arguments type using the is operator.
+		Let’s check if the argument is a String and output its length:"</string>
+	<string name="lesson29_code2">"fun printIt(arg: Any) {
+		if (arg is String) {
+		println(Length ${arg.length});
+		}
+		println(arg);
+		}
+
+		fun main(args: Array&lt;String>) {
+		printIt(Some string);
+		printIt(42);
+		}"</string>
+	<string name="lesson29_p3">Kotlin automatically casts the Any argument to the correct type. In the example above, we can access the length property of the String without the need to convert arg to String.</string>
+	<string name="lesson30_title">Nullable Types</string>
+	<string name="lesson30_p">"In programming languages, null is the absence of value.
+		If you declare a variable in Kotlin you get a non-nullable value, meaning that the variable cannot be null:"</string>
+	<string name="lesson30_code">"fun main(args: Array&lt;String>) {
+		var str: String = \"Kotlin\";
+		str = null;
+		}"</string>
+	<string name="lesson30_p2">This code generates a compile error, because Kotlin’s type system tries to eliminate NullPointerException. This guarantees accessing properties and methods of str:</string>
+	<string name="lesson30_code2">"fun main(args: Array&lt;String>) {
+		var a: String = \"Kotlin\";
+		println(a.length);// safely accessing a property
+		}"</string>
+	<string name="lesson30_p3">To allow nulls, we can declare a variable as nullable using the question mark as shown below:</string>
+	<string name="lesson30_code3">"fun main(args: Array&lt;String>) {
+		var str: String? = \"Kotlin\";
+		str = null;
+		println(str);
+		}"</string>
+	<string name="lesson30_p4">"The code above will work without any errors.
+
+		However, now, trying to access a property on nullable str, causes a compile-time error, as now str can be null:"</string>
+	<string name="lesson30_code4">"fun main(args: Array&lt;String>) {
+		var str: String? = \"Kotlin\";
+		println(str.length);
+		}"</string>
+	<string name="lesson30_p5">To safely access nullable values, we have to use the ?. operator (called the safe call operator).</string>
+	<string name="lesson30_code5">"fun main(args: Array&lt;String>) {
+		var str: String? = \"Kotlin\";
+		println(str?.length);
+		}"</string>
+	<string name="lesson30_hint">The ? can be used with any type to make it nullable.</string>
+	<string name="lesson31_title">Classes</string>
+	<string name="lesson31_p">"A class is like a blueprint for an object.
+		We can think of a class as a sketch (prototype) of a house. It contains all the details of the house (floors, doors, windows, etc.)
+		Based on the prototype we then build the house, which is the object.
+
+		Just like houses, we can create multiple objects from a class.
+
+		To define a class in Kotlin, the class keyword is used:"</string>
+	<string name="lesson31_code">"class ClassName {
+
+		}"</string>
+	<string name="lesson31_p2">Now, we can declare objects of the type ClassName():</string>
+	<string name="lesson31_code2">"class ClassName {
+		// methods and/or
+		// properties
+		}
+
+		fun main(args: Array&lt;String>) {
+		val obj = ClassName();
+		var obj2: ClassName = ClassName();
+		}"</string>
+	<string name="lesson31_p3">Both ways shown in the code above can be used to create objects.</string>
+	<string name="lesson31_hint">Each object is called an instance of a class. The process of creating objects is called instantiation.</string>
+	<string name="lesson32_title">Properties</string>
+	<string name="lesson32_p">"Classes can have properties.
+		Properties are similar to regular variables but declared in a class.
+		For example:"</string>
+	<string name="lesson32_code">"class User {
+		var name: String = \"\";
+		var email: String = \"\";
+		}"</string>
+	<string name="lesson32_p2">"Similar to regular variables, properties declared using the var keyword are mutable, i.e. they can be reassigned.
+		To declare a read-only property, we should use the val keyword:"</string>
+	<string name="lesson32_code2">"class User {
+		var name: String = \"\";
+		var email: String = \"\";
+		val learningAt = \"Kotlin\";
+		}"</string>
+	<string name="lesson32_p3">"Each object has it's own unique values for it's class properties.
+		In order to use properties, simply refer to it by name on the instance object using a dot:"</string>
+	<string name="lesson32_code3">"class User {
+		var name: String = \"\";
+		var email: String = \"\";
+		val learningAt = \"Kotlin\";
+		}
+
+		fun main(args: Array&lt;String>) {
+		val obj = User();
+		obj.name = \"John\";
+		println(obj.learningAt);
+		}"</string>
+	<string name="lesson33_title">Member Functions</string>
+	<string name="lesson33_p">"A class can have functions declaration in its body.
+		These functions are called member functions (or methods).
+		These are declared just like regular functions:"</string>
+	<string name="lesson33_code">"class User {
+		fun printHello() {
+		println(\"Hello!\");
+		}
+		}"</string>
+	<string name="lesson33_p2">Member functions are called (invoked) with dot notation:</string>
+	<string name="lesson33_code2">"class User {
+		fun printHello() {
+		println(\"Hello!\");
+		}
+		}
+
+		fun main(args: Array&lt;String>) {
+		val obj = User();
+		obj.printHello();
+		}"</string>
+	<string name="lesson33_p3">"We can access class properties from member functions, make any necessary calculation, and so on.
+		For example, the printHello() member function below prints a hello message using the name property of the class:"</string>
+	<string name="lesson33_code3">"class User {
+		var name: String = \"\";
+		fun printHello() {
+		println(\"Hello, $name!\");
+		}
+		}
+
+		fun main(args: Array&lt;String>) {
+		val obj = User();
+		obj.name = \"John\";
+		obj.printHello();
+		}"</string>
+	<string name="lesson34_title">Getters and Setters</string>
+	<string name="lesson34_p">"Accessing properties directly is not a good practice.
+		Sometimes you need to check the value in case of an invalid input, or do some other data validation or calculation before assigning or accessing the property value.
+		Let's say we have a User class with an age property:"</string>
+	<string name="lesson34_code">"class User {
+		var age: Int = 0;
+		fun printInfo() {
+		println(\"The user is $age years old.\");
+		}
+		}"</string>
+	<string name="lesson34_p2">"The object's property can be easily assigned to an invalid value. Here's an example:"</string>
+	<string name="lesson34_code2">"class User {
+		var age: Int = 0;
+		fun printInfo() {
+		println(\"The user is $age years old.\");
+		}
+		}
+
+		fun main(args: Array&lt;String>) {
+		// client code
+		val obj = User();
+		obj.age = -12;
+		obj.printInfo();
+		}"</string>
+	<string name="lesson34_p3">Getters and setters allow flexibility in property access. The setter is defined using the set keyword and allows to define behavior when a value is assigned to the property:</string>
+	<string name="lesson34_code3">"class User {
+		var age: Int = 0
+		set(value) {
+		if (value > 0) {
+		field = value;
+		}
+		}
+		fun printInfo() {
+		println(\"The user is $age years old.\");
+		}
+		}
+
+		fun main(args: Array&lt;String>) {
+		// client code
+		val obj = User();
+		obj.age = -12;
+		obj.printInfo();
+		obj.age = 11;
+		obj.printInfo();
+		}"</string>
+	<string name="lesson34_p4">"The field keyword refers to the property (age in this case).
+		Every time a client code assigns a new value to the age property, the setter is called with the value as its argument. The code checks whether the value is greater than 0, and only then assigns it to the property.
+		The following code will output 0, as the value -12 won't be assigned to the age property:"</string>
+	<string name="lesson34_code4">"class User {
+		var age: Int = 0
+		set(value) {
+		if (value > 0) {
+		field = value;
+		}
+		}
+		fun printInfo() {
+		println(\"The user is $age years old.\");
+		}
+		}
+
+		fun main(args: Array&lt;String>) {
+		// client code
+		val obj = User();
+		obj.age = -12;
+		obj.printInfo();
+		obj.age = 11;
+		obj.printInfo();
+		}"</string>
+	<string name="lesson34_p5">"A getter, on the contrary, is called every time the value of a property is read.
+		We can, for example, add 2 to the value of the age property when it is accessed:"</string>
+	<string name="lesson34_code5">"class User {
+		var age: Int = 0
+		get() {
+		return field + 2;
+		}
+		set(value) {
+		if (value > 0) {
+		field = value;
+		}
+		}
+		fun printInfo() {
+		println(\"The user is $age years old.\");
+		}
+		}
+
+		fun main(args: Array&lt;String>) {
+		// client code
+		val obj = User();
+		obj.age = -12;
+		obj.printInfo();
+		obj.age = 11;
+		obj.printInfo();
+		println(\"Accessing age gives the value ${obj.age}\");
+		}"</string>
+	<string name="lesson34_p6">"The field keyword refers to the property (age in this case).
+		A property can have both, a getter and a setter."</string>
+	<string name="lesson35_title">Primary Constructor</string>
+	<string name="lesson36_title">Initializer Block</string>
+</resources>

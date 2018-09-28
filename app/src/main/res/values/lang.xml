@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--Language Selector-->
+	<string-array name="language_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+
+	<string-array name="language_strings">
+		<item>Default</item>
+		<item>English</item>
+		<item>Pусский</item>
+		<item>Український</item>
+	</string-array>
+</resources>
+

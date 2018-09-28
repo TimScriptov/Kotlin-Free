@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout="@layout/preference_item"
+    android:title="@string/preferences_title">
+	
+        <ListPreference
+			android:key="language"
+            android:layout="@layout/preference_item"
+            android:title="@string/preferences_title_language"
+            android:summary="@string/preferences_summary_language"
+			android:entries="@array/language_strings"
+			android:entryValues="@array/language_values"
+			android:dialogTitle="@string/preferences_title_language"
+            android:defaultValue="0"/>
+		
+        <Preference
+            android:key="about"
+            android:layout="@layout/preference_item"
+            android:title="@string/preferences_title_about"
+            android:summary="@string/preferences_summary_about"/>
+
+</PreferenceScreen>

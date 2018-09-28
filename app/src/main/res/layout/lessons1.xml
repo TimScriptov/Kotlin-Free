@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".Lessons1">
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<include
+			layout="@layout/main_toolbar"/>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"
+		android:gravity="center">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:layout_weight="1.0"
+			android:gravity="center">
+
+			<ScrollView
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+
+				<LinearLayout
+					android:gravity="center"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent">
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson1"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson1_title"
+						android:layout_marginTop="5dp"/>
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson2"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson2_title"
+						android:layout_marginTop="5dp"/>
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson3"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson3_title"
+						android:layout_marginTop="5dp"/>
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson4"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson4_title"
+						android:layout_marginTop="5dp"/>
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson5"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson5_title"
+						android:layout_marginTop="5dp"/>
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson6"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson6_title"
+						android:layout_marginTop="5dp"/>
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson7"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson7_title"
+						android:layout_marginTop="5dp"/>
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson8"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson8_title"
+						android:layout_marginTop="5dp"/>
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson9"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson9_title"
+						android:layout_marginTop="5dp"/>
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson10"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson10_title"
+						android:layout_marginTop="5dp"/>
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson11"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson11_title"
+						android:layout_margin="5dp"/>
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson12"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson12_title"/>
+
+					<Button
+						android:background="@drawable/bt_shape"
+						android:stateListAnimator="@drawable/state_list_animator_z"
+						android:id="@+id/btnLesson13"
+						android:layout_width="250.0dip"
+						android:layout_height="wrap_content"
+						android:text="@string/lesson13_title"
+						android:layout_marginTop="5dp"
+						android:layout_marginBottom="5dp"/>
+
+				</LinearLayout>
+
+			</ScrollView>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<com.google.android.gms.ads.AdView
+				xmlns:ads="http://schemas.android.com/apk/res-auto"
+				android:id="@+id/adView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				ads:adSize="SMART_BANNER"
+				ads:adUnitId="@string/banner_ad_unit_id"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+
