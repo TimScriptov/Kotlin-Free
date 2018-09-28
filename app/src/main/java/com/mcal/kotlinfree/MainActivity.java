@@ -36,7 +36,7 @@ import android.util.Log;
 //##################################################################
 /**
  * @since 25.09.2018
- * @author Тимашков Иван
+ * @author Тимашков Иван, Эльмурзаев Рамзан
  * @author https://github.com/TimScriptov
  */
 public class MainActivity extends AppCompatActivity
