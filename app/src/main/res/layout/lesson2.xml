@@ -54,7 +54,14 @@
 					</LinearLayout>
 
 				</HorizontalScrollView>
-
+				
+				<TextView
+					android:padding="10.0dip"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="#FF009B00"
+					android:text="Hello, World!"/>
+				
 				<TextView
 					android:padding="10.0dip"
 					android:layout_width="fill_parent"
@@ -76,9 +83,16 @@
 							android:background="@drawable/lesson2_code2"/>
 
 					</LinearLayout>
-
+					
 				</HorizontalScrollView>
-
+				
+				<TextView
+					android:padding="10.0dip"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="#FF009B00"
+					android:text="Your name goes here"/>
+				
 				<TextView
 					android:background="#fffcfc00"
 					android:padding="10.0dip"

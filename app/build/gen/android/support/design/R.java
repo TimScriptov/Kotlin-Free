@@ -3597,19 +3597,19 @@ containing a value of this type.
     }
     public static final class style {
         public static final int ActionBar_Title=0x7f080180;
-        public static final int AlertDialog_AppCompat=0x7f0800a3;
-        public static final int AlertDialog_AppCompat_Light=0x7f0800a4;
-        public static final int Animation_AppCompat_Dialog=0x7f0800a5;
-        public static final int Animation_AppCompat_DropDownUp=0x7f0800a6;
+        public static final int AlertDialog_AppCompat=0x7f0800a1;
+        public static final int AlertDialog_AppCompat_Light=0x7f0800a2;
+        public static final int Animation_AppCompat_Dialog=0x7f0800a3;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0800a4;
         public static final int Animation_Design_BottomSheetDialog=0x7f080165;
         public static final int AppTheme=0x7f080182;
-        public static final int Base_AlertDialog_AppCompat=0x7f0800a7;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f0800a8;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f0800a9;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0800aa;
+        public static final int Base_AlertDialog_AppCompat=0x7f0800a5;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0800a6;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0800a7;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0800a8;
         public static final int Base_CardView=0x7f080001;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f0800ab;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0800ac;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0800a9;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0800aa;
         public static final int Base_TextAppearance_AppCompat=0x7f080043;
         public static final int Base_TextAppearance_AppCompat_Body1=0x7f080044;
         public static final int Base_TextAppearance_AppCompat_Body2=0x7f080045;
@@ -3628,7 +3628,7 @@ containing a value of this type.
         public static final int Base_TextAppearance_AppCompat_Medium=0x7f08004f;
         public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f080011;
         public static final int Base_TextAppearance_AppCompat_Menu=0x7f080050;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0800ad;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0800ab;
         public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f080051;
         public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f080052;
         public static final int Base_TextAppearance_AppCompat_Small=0x7f080053;
@@ -3645,8 +3645,8 @@ containing a value of this type.
         public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f08005a;
         public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f08005b;
         public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f08005c;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f08009f;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0800a0;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0800ac;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0800ad;
         public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f080099;
         public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0800ae;
         public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f08005d;
@@ -3774,8 +3774,8 @@ containing a value of this type.
         public static final int Platform_V14_AppCompat_Light=0x7f08002d;
         public static final int Platform_V21_AppCompat=0x7f08008c;
         public static final int Platform_V21_AppCompat_Light=0x7f08008d;
-        public static final int Platform_V25_AppCompat=0x7f0800a1;
-        public static final int Platform_V25_AppCompat_Light=0x7f0800a2;
+        public static final int Platform_V25_AppCompat=0x7f08009f;
+        public static final int Platform_V25_AppCompat_Light=0x7f0800a0;
         public static final int Platform_Widget_AppCompat_Spinner=0x7f080026;
         public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f080035;
         public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f080036;
@@ -3814,6 +3814,9 @@ containing a value of this type.
         public static final int TextAppearance_AppCompat_Menu=0x7f0800e5;
         public static final int TextAppearance_AppCompat_Notification=0x7f08002e;
         public static final int TextAppearance_AppCompat_Notification_Info=0x7f08008e;
+        /** style name="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored" parent="android:TextAppearance.Material.Widget.Button.Borderless.Colored"/>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Colored" parent="android:TextAppearance.Material.Widget.Button.Colored"/
+         */
         public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f08008f;
         public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0800e6;
         public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0800e7;
