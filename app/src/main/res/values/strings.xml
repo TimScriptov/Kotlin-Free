@@ -202,42 +202,19 @@
 		\u0009\u0009- Short
 		\u0009\u0009- Byte
 		\u0009\u0009Let's declare an "<b>Integer</b> and print its value:</string>
-	<string name="lesson4_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> num: <font color="#FF0096FF">Int</font>" = 42;
-		println(num);
-		}"</string>
 	<string name="lesson4_p2">"The number types differ by the memery size they allocate:
 		"<b>Byte</b> allocates <b>1 byte</b>" of memory.
 		"<b>Short</b> is <b>2 bytes</b>",
 		"<b>Int</b> is <b>4 bytes</b>",
 		"<b>Long</b> allows to store <b>8 bytes</b>" of data.
 		If you need to store a "<b>floating point</b> value, for instance, 3.14, you can use Float or Double.</string>
-	<string name="lesson4_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> pi: <font color="#FF0096FF">Float</font>" = 3.14f;
-		"<font color="#FF2C82C8">var</font> e: <font color="#FF0096FF">Double</font>" = 2.71828;
-
-		println(pi);
-		println(e);
-		}"</string>
 	<string name="lesson4_p3">Notice the <b>f</b> after 3.14. Kotlin, by default, interprets floating point numbers as <b>Doubles</b>, which have higher precision compared to <b>Floats</b>".
 		To declare a Float literal, you should explicitly tell the compiler that your value is Float by adding "<b>f</b> at the end of the value.</string>
 	<string name="lesson4_hint">To represent boolean values (true, false) the type <b>Boolean</b> is used.</string>
 	<string name="lesson5_title">Characters and Strings</string>
 	<string name="lesson5_p">Characters are represented by the type <b>Char</b>.</string>
-	<string name="lesson5_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> ch: <font color="#FF0096FF">Char</font> = <font color="#FFBC0000">\'a\'</font>";
-		println(ch);
-		}"</string>
 	<string name="lesson5_p2">A collection of characters is represented by a <b>String.</b>"
 		Let’s declare a "<b>String</b> variable and print it’s value:</string>
-	<string name="lesson5_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF009B00">// string literal</font>"
-		println("<font color="#FFBC0000">\"Hello, world!\"</font>");
-
-		"<font color="#FF2C82C8">var</font> s: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"Hello, world!\"</font>";
-		"<font color="#FF009B00">// printing the content of the s variable</font>"
-		println(s);
-		}"</string>
 	<string name="lesson5_p3">In languages like C++, characters are implicitly treated as numbers, however in Kotlin that is not the case.</string>
 	<string name="lesson6_title">Literal Constants</string>
 	<string name="lesson6_p">"Literals refer to fixed values that the program may not alter during its execution.
@@ -250,102 +227,32 @@
 		- Binaries: "<b>0b00001011</b></string>
 	<string name="lesson6_hint">Octal literals (numbers in base 8) are not supported in Kotlin.</string>
 	<string name="lesson6_p3">You can use underscores to make number constants more readable:</string>
-	<string name="lesson6_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">val</font>" billion = 1_000_000_000;
-		"<font color="#FF2C82C8">val</font>" hexNum = 0xAA_0C_BA_FF;
-		"<font color="#FF2C82C8">val</font>" bytes = 0b11011011_11100010;
-
-		"<font color="#FF009B00">// everything will be printed in base 10</font>"
-		println(billion);
-		println(hexNum);
-		println(bytes);
-		}"</string>
 	<string name="lesson6_p4">As floating-point numbers are by default interpreted as Double, Floats are tagged by <b>f</b> or <b>F</b>.</string>
-	<string name="lesson6_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">val</font>" thisIsFloat = 3.14f;
-		"<font color="#FF2C82C8">val</font>" againFloat = 2.78F;
-		"<font color="#FF2C82C8">val</font>" doubleIsDefault = 20.134;
-
-		println(thisIsFloat);
-		println(againFloat);
-		println(doubleIsDefault);
-		}"</string>
 	<string name="lesson7_title">Output</string>
 	<string name="lesson7_p">Output in Kotlin can be done using the <b>println</b> function.</string>
-	<string name="lesson7_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		println("<font color="#FFBC0000">\"Hello, world!\"</font>");
-		}"</string>
 	<string name="lesson7_p2"><b>println()</b> automatically adds a <b>newline</b> (<b>"
 			"</b>") at the end of the output.
 		"<b>print()</b> can be used to output without the newline:</string>
-	<string name="lesson7_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		println("<font color="#FFBC0000">\"Line by\"</font>");
-		println("<font color="#FFBC0000">\"line\"</font>");
-
-		print("<font color="#FFBC0000">\"On the \"</font>");
-		print("<font color="#FFBC0000">\"same line\"</font>");
-		}"</string>
 	<string name="lesson7_p3">To include a variable’s value in a string, we can use either the <b>+ (plus)</b> operator or <b>string templates</b>", which starts with a dollar sign ($). Check out the examples below: "</string>
-	<string name="lesson7_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> num: <font color="#FF0096FF">Int</font>" = 42;
-		println("<font color="#FFBC0000">\"Num is\"</font>" + num);
-		"<font color="#FF009B00">// using string templates</font>"
-		println("<font color="#FFBC0000">\"Num is $num\"</font>");
-
-		"<font color="#FF2C82C8">val</font>" dbl = 3.14;
-		println("<font color="#FFBC0000">\"Int value is $num, and double value is $dbl\"</font>");
-		}"</string>
 	<string name="lesson7_p4">String templates can include expressions in <b>curly braces</b>", which will be evaluated.
 		For example:"</string>
-	<string name="lesson7_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> a: <font color="#FF0096FF">Int</font>" = 42;
-		"<font color="#FF2C82C8">var</font> b: <font color="#FF0096FF">Int</font>" = 8;
-
-		println("<font color="#FFBC0000">\"Result: ${a+b}\"</font>");
-		}"</string>
 	<string name="lesson8_title">Input</string>
 	<string name="lesson8_p">An easy way to read from the standard input is the <b>readLine()</b> function:</string>
-	<string name="lesson8_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">val</font>" test = readLine();
-		println("<font color="#FFBC0000">\"Your input is $test\"</font>");
-		}"</string>
 	<string name="lesson8_hint">Anything that the user inputs automatically gets converted to a <b>String</b>.</string>
 	<string name="lesson8_p2">To convert the input to an integer, use the <b>toInt()</b> function using <b>dot syntax</b>:</string>
-	<string name="lesson8_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" age = readLine()!!.toInt();
-		println("<font color="#FFBC0000">\"You are $age years old\"</font>");
-		}"</string>
 	<string name="lesson8_p3">The <b>!!</b> implies that the input cannot return <b>null</b>, making it necessary to input something. <b>null</b>" denotes the absence of value.
 
 		The same logic works for Doubles and other types, using the "<b>toDouble()</b> and similar functions.</string>
-	<string name="lesson8_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" intTest: <font color="#FF0096FF">Int</font>;
-		intTest = readLine()!!.toInt();
-		"<font color="#FF2C82C8">var</font>" dblTest = readLine()!!.toDouble();
-		"<font color="#FF2C82C8">var</font>" longTest: Long = readLine()!!.toLong();
-
-		println("<font color="#FFBC0000">\"Int input is $intTest, double input is $dblTest, long input is $longTest\"</font>");
-		}"</string>
 	<string name="lesson9_title">Comments</string>
 	<string name="lesson9_p">"Commenting code is a good practice, helping you and your  fellow programmers understand and maintain the code.
 
 		\u0009\u0009There are two types of comments in Kotlin: "<b>single-line</b> comments and <b>multi-line</b>" comments.
 
 		"<b>Single-line comments</b> start with two forward slashes(//). Everything after them is ignored by the compiler:</string>
-	<string name="lesson9_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		println("<font color="#FFBC0000">\"Hello World!\"</font>); <font color="#FF009B00">// outputs Hello World!</font>"
-		}"</string>
 	<string name="lesson9_p2">"Comments clarify the program’s intent to the reader.
 
 
 		"<b>Multi-line comments</b> can span multiple lines. They start with a forward slash and an asterisk, end with an asterisk and a forward slash(/* */):</string>
-	<string name="lesson9_code2"><font color="#FF009B00">/* This is a multi-line comment */</font>"
-		"<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		println("<font color="#FFBC0000">\"Hello World!\"</font>");
-		"<font color="#FF009B00">"/* Multi-line comments
-			can span
-			over multiple lines */"</font>"
-		}"</string>
 	<string name="lesson9_hint">Commenting code is a good practice. It helps explain the code to you and other programmers reading your code.</string>
 	<string name="lesson10_title">Arithmetics Operations</string>
 	<string name="lesson10_p">"Kotlin supports the following arithmetic operations:
@@ -364,108 +271,30 @@
 		\u0009\u0009These operations are "<b>binary</b>, which means they operate with <b>two operands</b>".
 
 		The code below declares two integer variables and prints their sum using the + (addition) operator:"</string>
-	<string name="lesson10_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> num1:<font color="#FF0096FF">Int</font>" = 8;
-		"<font color="#FF2C82C8">var</font> num2:<font color="#FF0096FF">Int</font>" = 3;
-
-		"<font color="#FF009B00">// Calculating the sum</font>"
-		"<font color="#FF2C82C8">val</font>" sum = num1 + num2;
-		println("<font color="#FFBC0000">\"Sum is $sum\"</font>");
-		}"</string>
 	<string name="lesson10_title2">Division</string>
 	<string name="lesson10_p2">The <b>division (/)</b>" operator results in an integer, removing any remainder.
 		For example, dividing 8 by 3 results in 2:"</string>
-	<string name="lesson10_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> num1:<font color="#FF0096FF">Int</font>" = 10;
-		"<font color="#FF2C82C8">var</font> num2:<font color="#FF0096FF">Int</font>" = 3;
-
-		"<font color="#FF2C82C8">var</font>" div = num1 / num2;
-		println(div);
-		}"</string>
 	<string name="lesson10_p3">"To get the remainder of the division use the  % "<b>(modulo)</b>" operator.
 		For example:"</string>
-	<string name="lesson10_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> num1:<font color="#FF0096FF">Int</font>" = 10;
-		"<font color="#FF2C82C8">var</font> num2:<font color="#FF0096FF">Int</font>" = 3;
-
-		"<font color="#FF2C82C8">var</font>" remainder = num1 % num2;
-		println(remainder);
-		}"</string>
 	<string name="lesson10_p4">"The modulo operator cannot be applied to floating-point numbers, however the  division operator works with floating-point values and results in a floating-point result:"</string>
-	<string name="lesson10_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> num1: <font color="#FF0096FF">Double</font>" = 10.42;
-		"<font color="#FF2C82C8">var</font> num2: <font color="#FF0096FF">Double</font>" = 5.14;
-
-		"<font color="#FF2C82C8">var</font>" res = num1 / num2;
-		println(res);
-		}"</string>
 	<string name="lesson10_hint">Division by zero produces an exception.</string>
 	<string name="lesson11_title">Increment and Decrement</string>
 	<string name="lesson11_p">The <b>increment operator ++</b>" provides a shortcut for adding 1 to an integer.
 		The following code outputs 5:"</string>
-	<string name="lesson11_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> x: <font color="#FF0096FF">Int</font>" = 4;
-		x++; "<font color="#FF009B00">// the same as x = x + 1;</font>"
-		println(x);
-		}"</string>
 	<string name="lesson11_p2">Similarly, the <b>decrement operator --</b> is used to subtract 1 from an integer:</string>
-	<string name="lesson11_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> x: <font color="#FF0096FF">Int</font>" = 4;
-		x--; "<font color="#FF009B00">// the same as x = x - 1;</font>"
-		println(x);
-		}"</string>
 	<string name="lesson11_p3">Both, increment and decrement operators have <b>prefix</b> (before the variable name) and <b>postfix</b>" (after the variable name) forms.
 
 		The "<b>prefix</b> form increments the variable and then uses it in the assignment statement.</string>
-	<string name="lesson11_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> x: <font color="#FF0096FF">Int</font>" = 4;
-		"<font color="#FF2C82C8">val</font>" y = ++x;
-		"<font color="#FF009B00">// x is incremented, then assigned to y</font>"
-		println(y);
-		}"</string>
 	<string name="lesson11_p4">The <b>postfix</b> form uses the value of the variable first, before incrementing it.</string>
-	<string name="lesson11_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> x: <font color="#FF0096FF">Int</font>" = 4;
-		"<font color="#FF2C82C8">val</font>" y = x++;
-		"<font color="#FF009B00">// x is assigned to y, then incremented</font>"
-		println(y);
-		}"</string>
 	<string name="lesson11_hint">The same applies to the decrement operator.</string>
 	<string name="lesson12_title">String Templates</string>
 	<string name="lesson12_p"><b>String templates</b> are used to insert a variable’s value into a string:</string>
-	<string name="lesson12_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" x = 5;
-		"<font color="#FF2C82C8">val</font> s1 = <font color="#FFBC0000">\"Value is $x\"</font>";
-		println(s1);
-		}"</string>
 	<string name="lesson12_p2">Anything in the curly brackets starting with a $ (dollar) sign will be evaluated and the result will be put in the string:</string>
-	<string name="lesson12_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" x = 5;
-		"<font color="#FF2C82C8">var</font>" y = 6;
-		"<font color="#FF2C82C8">val</font> sum = <font color="#FFBC0000">\"Sum is ${x + y}\"</font>";
-		println(sum);
-		}"</string>
 	<string name="lesson12_p3">"We can even call functions in the expression.
 
 		\u0009\u0009Let's call the "<b>replace()</b> function t to replace is with was:</string>
-	<string name="lesson12_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" x = 5;
-		"<font color="#FF2C82C8">var</font> s1 = <font color="#FFBC0000">\"Value is $x\"</font>";
-		"<font color="#FF2C82C8">var</font> s2 = <font color="#FFBC0000">\"${s1.replace(«is», «was»)}, but now is ${x + 2}\"</font>";
-		println(s2);
-		}"</string>
 	<string name="lesson13_title">Practice Time: Basics</string>
 	<string name="lesson13_p">The following code takes as input the name and the age of a user and prints a hello message:</string>
-	<string name="lesson13_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font>";
-		"<font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font>";
-		println("<font color="#FFBC0000">\"Please insert your name and age\"</font>");
-		name = readLine()!!;
-		age = readLine()!!.toInt();
-
-		println("<font color="#FFBC0000">\"Hi $name, you are $age years old\"</font>");
-
-		\u0009\u0009}"</string>
 	<string name="lesson13_p2">"Practice your Kotlin skills by implementing the following tasks:
 
 		\u0009\u00091. Write a code that takes as input 3 integers and print their sum.
@@ -477,232 +306,64 @@
 
 		\u0009\u0009Use the "<b>if</b>" statement to specify a block of code to be executed if a condition is true.
 		Let’s print a «Good morning» greeting if the "<b>hour</b> variable’s value is less than 12:</string>
-	<string name="lesson14_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">val</font>" hour = 11;
-		"<font color="#FF2C82C8">if</font>" (hour &lt; 12) {
-		println("<font color="#FFBC0000">\"Good morning!\"</font>");
-		}
-		}"</string>
 	<string name="lesson14_p2">What if we need to print another message if <b>hour</b>" is not less than 12?
 		The "<b>else</b> statement is used to specify a block of code to be executed if the condition evaluates to false:</string>
-	<string name="lesson14_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">val</font>" hour = 15;
-		"<font color="#FF2C82C8">if</font>" (hour &lt; 12) {
-		println("<font color="#FFBC0000">\"Good morning!\"</font>");
-		} "<font color="#FF2C82C8">else</font>" {
-		println("<font color="#FFBC0000">\"Good day!\"</font>");
-		}
-		}"</string>
 	<string name="lesson14_p3">The condition for the <b>if</b> statement can be any Boolean value:</string>
-	<string name="lesson14_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">val</font>" hour = 11;
-		"<font color="#FF2C82C8">val</font> isMorning: <font color="#FF0096FF">Boolean</font>" = (hour &lt; 12);
-
-		"<font color="#FF2C82C8">if</font>" (isMorning) {
-		println("<font color="#FFBC0000">\"Good morning!\"</font>");
-		} "<font color="#FF2C82C8">else</font>" {
-		println("<font color="#FFBC0000">\"Good day!\"</font>");
-		}
-		}"</string>
 	<string name="lesson14_p4">In Kotlin, <b>if</b> is an expression, i.e. it returns a value. This means that we can use if to assign values to a variable based on the condition. For example:</string>
-	<string name="lesson14_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">val</font>" a = 8;
-		"<font color="#FF2C82C8">val</font>" b = 42;
-		"<font color="#FF2C82C8">val</font> max = <font color="#FF2C82C8">if</font> (a > b) a <font color="#FF2C82C8">else</font>" b;
-
-		println(max);
-		} "</string>
 	<string name="lesson14_p5">Because of this, there is no ternary operator in Kotlin, as the same behavior can be accomplished with the <b>if</b> statement.</string>
 	<string name="lesson14_hint">When the <b>if</b> statement is used as an expression, the <b>else</b> clause is mandatory.</string>
 	<string name="lesson15_title">The if-else-if Chain</string>
 	<string name="lesson15_p">There can be multiple <b>else if</b>" clauses when a decision among three or more actions is needed.
 		The last "<b>else</b> clause is optional:</string>
-	<string name="lesson15_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" age = readLine()!!.toInt()
-
-		"<font color="#FF2C82C8">if</font>" (age &lt; 20) {
-		println("<font color="#FFBC0000">\"Too young\"</font>")
-		}
-		"<font color="#FF2C82C8">else if</font>" (age > 50) {
-		println("<font color="#FFBC0000">\"Too old\"</font>")
-		}
-		"<font color="#FF2C82C8">else</font>" {
-		println("<font color="#FFBC0000">\"Welcome!\"</font>")
-		}
-		}"</string>
 	<string name="lesson15_hint">You can add as many <b>else if</b> statements as you need into your chain.</string>
 	<string name="lesson16_title">Logical Operators</string>
 	<string name="lesson16_p">Logical operators <b>&amp;&amp;</b> (AND), <b>||</b> (OR), <b>!</b> (NOT) are used to combine conditional statements forming a compound boolean expression that returns true or false as the result.</string>
 	<string name="lesson16_p2"><b>The &amp;&amp; operator</b></string>
 	<string name="lesson16_p3">The <b>&amp;&amp;</b> operator (logical AND) returns true if all boolean expressions evaluate to true.</string>
-	<string name="lesson16_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> a: <font color="#FF0096FF">Int</font>" = 3;
-		"<font color="#FF2C82C8">var</font> b: <font color="#FF0096FF">Int</font>" = 5;
-
-		"<font color="#FF2C82C8">if</font>"(a == 3 &amp;&amp; b &lt; 8) {
-		println("<font color="#FFBC0000">\"hello\"</font>");
-		}
-		"<font color="#FF2C82C8">if</font>" (a == 3 &amp;&amp; b > 8) {
-		println("<font color="#FFBC0000">\"bye\"</font>");
-		}
-		}"</string>
 	<string name="lesson16_hint">The <b>==</b>" operator is used to check for equality.
 		Not equal to is checked using the "<b>!=</b> operator.</string>
 	<string name="lesson16_p4"><b>The <b>||</b> operator</b></string>
 	<string name="lesson16_p5">The <b>||</b> operator (logical OR) returns true if any one of the boolean expressions evaluates to true.</string>
-	<string name="lesson16_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> a: <font color="#FF0096FF">Int</font>" = 3;
-		"<font color="#FF2C82C8">var</font> b: <font color="#FF0096FF">Int</font>" = 5;
-
-		"<font color="#FF2C82C8">if</font>"(a == 3 || b &lt; 8) {
-		println("<font color="#FFBC0000">\"hello\"</font>");
-		}
-		"<font color="#FF2C82C8">if</font>" (a == 3 || b > 8) {
-		println("<font color="#FFBC0000">\"bye\"</font>");
-		}
-		}"</string>
 	<string name="lesson16_p6"><b>The <b>!</b> operator</b></string>
 	<string name="lesson16_p7">The <b>!</b>" operator (logical NOT) returns the reverse of the state of a boolean expression.
 		NOT true returns false, and NOT false returns true.
 		The following code outputs bye because (b == 6) evaluates to false, which is then reversed to true using the "<b>!</b> operator:</string>
-	<string name="lesson16_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> b: <font color="#FF0096FF">Int</font>" = 5;
-
-		"<font color="#FF2C82C8">if</font>" (!(b == 6)) {
-		println("<font color="#FFBC0000">\"bye\"</font>");
-		}
-		}"</string>
 	<string name="lesson17_title">when Expression</string>
 	<string name="lesson17_p">In Kotlin, the <b>when</b>" statement is used to check for multiple conditions.
 		The basic syntax of the "<b>when</b> statement is as follows:</string>
-	<string name="lesson17_code"><font color="#FF2C82C8">when</font>" (variable) {
-		condition -> statement
-		}"</string>
 	<string name="lesson17_hint"><b>when</b> is the equivalent to the <b>switch</b> statement in other languages.</string>
 	<string name="lesson17_p2"><b>when</b> matches its argument against all branches sequentially until some branch condition is satisfied.</string>
-	<string name="lesson17_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">val</font>" num = 15;
-		"<font color="#FF2C82C8">when</font>" (num) {
-		10 -> println("<font color="#FFBC0000">\"Case 1\"</font>");
-		15 -> println("<font color="#FFBC0000">\"Case 2\"</font>");
-		20 -> println("<font color="#FFBC0000">\"Case 3\"</font>");
-		"<font color="#FF2C82C8">else</font> -> println(<font color="#FFBC0000">\"Default case\"</font>");
-		}
-		}"</string>
 	<string name="lesson17_p3"><b>when</b> can also be used as a replacement for an <b>if-else if</b> chain. If no argument is supplied, the branch conditions are simply boolean expressions:</string>
-	<string name="lesson17_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font>" = readLine()!!.toInt();
-		"<font color="#FF2C82C8">when</font>" {
-		age &lt; 22 -> println("<font color="#FFBC0000">\"Too young\"</font>");
-		age > 50 -> println("<font color="#FFBC0000">\"Too old\"</font>");
-		"<font color="#FF2C82C8">else</font> -> println(<font color="#FFBC0000">\"Welcome\"</font>");
-		}
-		}"</string>
 	<string name="lesson17_p4">The last <b>else</b> case is evaluated if all of the previous cases before it evaluated to <b>false.</b>"
 
 		Multiple conditions can be tested in one case as long as they are all separated by commas."</string>
-	<string name="lesson17_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" x = 5;
-
-		"<font color="#FF2C82C8">when</font>"(x) {
-		1, 3, 5, 7, 9 -> println("<font color="#FFBC0000">\"Odd\"</font>");
-		2, 4, 6, 8 -> println("<font color="#FFBC0000">\"Even\"</font>");
-		"<font color="#FF2C82C8">else</font> -> println(<font color="#FFBC0000">\"Unknown\"</font>");
-		}
-		"<font color="#FF009B00">//Outputs Odd</font>"
-		}"</string>
 	<string name="lesson17_p5"><b>when</b> can also be used as an expression. If it is used as an expression, the value of the satisfied branch becomes the value of the overall expression.</string>
-	<string name="lesson17_code5"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" grade = 88;
-		"<font color="#FF2C82C8">var</font> result = <font color="#FF2C82C8">when</font>" {
-		grade &lt; 50 -> "<font color="#FFBC0000">\"Failed\"</font>";
-		grade > 50 &amp;&amp; grade &lt; 80 -> "<font color="#FFBC0000">\"Good\"</font>";
-		grade > 80 -> "<font color="#FFBC0000">\"Awesome!\"</font>";
-		"<font color="#FF2C82C8">else</font> -> <font color="#FFBC0000">\"Unknown\"</font>";
-		}
-		println(result);
-		}"</string>
 	<string name="lesson17_hint2">If <b>when</b> is used as an expression, the <b>else</b> branch is mandatory.</string>
 	<string name="lesson18_title">The while Loop</string>
 	<string name="lesson18_p">A <b>loop</b>" is a block of code that will repeatedly run until a certain condition is true.
 		The "<b>while</b>" statement executes statements repeatedly while an expression is true.
 		It takes the form:"</string>
-	<string name="lesson18_code"><font color="#FF2C82C8">while</font>"(condition) {
-		statement(s)
-		}"</string>
 	<string name="lesson18_p2">"The statements within the curly brackets will repeatedly execute until the given condition is satisfied.
 		For example:"</string>
-	<string name="lesson18_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" x = 0;
-
-		"<font color="#FF2C82C8">while</font>"(x &lt;= 5) {
-		println(x);
-		x++;
-		}
-		}"</string>
 	<string name="lesson18_hint">It is important to ensure that the condition eventually evaluates to false. Otherwise we will encounter an <b>infinite loop</b>.</string>
 	<string name="lesson19_title">The do-while Loop</string>
 	<string name="lesson19_p">The <b>do-while</b>" loop first executes the loop statements before evaluating the expression.
 		This means that the statements in a "<b>do-while</b> loop will always run at least once, even if the condition evaluates to false.</string>
-	<string name="lesson19_code"><font color="#FF2C82C8">do</font>" {
-		statements
-		} "<font color="#FF2C82C8">while</font> (condition);</string>
 	<string name="lesson19_p2">For example:</string>
-	<string name="lesson19_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" x = 5;
-		"<font color="#FF2C82C8">do</font>" {
-		println(x);
-		x--;
-		} "<font color="#FF2C82C8">while</font>" (x > 0);
-		}"</string>
 	<string name="lesson19_p3">Notice the semicolon at the end of the while condition.</string>
 	<string name="lesson20_title">break and continue</string>
 	<string name="lesson20_p">The <b>break</b> statement ends the execution of the loop.</string>
-	<string name="lesson20_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" x = 5;
-		"<font color="#FF2C82C8">do</font>" {
-		println(x);
-		x--;
-		"<font color="#FF2C82C8">if</font> (x == 3) <font color="#FF2C82C8">break</font>";
-		} "<font color="#FF2C82C8">while</font>" (x > 0);
-		}"</string>
 	<string name="lesson20_p2">In case you want to remain in the loop, but skip an iteration, use the <b>continue</b> statement:</string>
-	<string name="lesson20_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" x = 0;
-		"<font color="#FF2C82C8">while</font>" (x &lt; 5) {
-		x++;
-		"<font color="#FF2C82C8">if</font>" (x == 3)
-		"<font color="#FF2C82C8">continue</font>";
-		println(x);
-		}
-		}"</string>
 	<string name="lesson21_title">Arrays</string>
 	<string name="lesson21_p">An <b>array</b>" is a collection of values of the same type.
 		When you need to store a list of values, such as numbers, you can store them in an array, instead of declaring separate variables for each number.
 
 		To create an array, we can use a library function "<b>arrayOf()</b> and pass the item values to it:</string>
-	<string name="lesson21_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" arr = arrayOf(1, 2, 3);
-		println(arr[0]);
-		println(arr[1]);
-		println(arr[2]);
-		}"</string>
 	<string name="lesson21_p2">In an array the elements are ordered and each has a specific and constant position, which is called an <b>index</b>".
 		To access an array element by its index, the "<b>index operator []</b> should be used.</string>
-	<string name="lesson21_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" arr = arrayOf(1, 2, 3);
-		println(arr[0]);
-		println(arr[1]);
-		println(arr[2]);
-		}"</string>
 	<string name="lesson21_p3">Kotlin supports specialized classes to represent arrays of primitive types. <b>ByteArray</b>, <b>ShortArray</b>, <b>IntArray</b>" and so on.
 		Here’s an example of declaring an "<b>IntArray</b> array. Note the <b>intArrayOf()</b> library function that creates and returns an <b>IntArray</b>:</string>
-	<string name="lesson21_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font> nums: <font color="#FF0096FF">IntArray</font>" = intArrayOf(4, 13, 25, 6, -2);
-		println("<font color="#FFBC0000">\"Printing 1st and last elements\"</font>");
-		println(nums[0]);
-		println(nums[4]);
-		}"</string>
+	
 	<string name="lesson21_hint">Note that elements in the array are identified with <b>zero-based</b> index numbers, meaning that the first element’s index is <b>0</b>" rather than one.
 		Thus, the maximum index of the 5-element array is "<b>4</b>.</string>
 	<string name="lesson22_title">Ranges</string>
@@ -712,86 +373,33 @@
 
 
 		\u0009\u0009To create a range you can use the "<b>rangeTo()</b> function:</string>
-	<string name="lesson22_code"><font color="#FF2C82C8">var</font> myRange = 1.rangeTo(10);</string>
 	<string name="lesson22_p2">This code defines a range variable <b>myRange</b> containing values from <b>1</b> to <b>10</b>" inclusive.
 		Ranges in Kotlin are "<b>closed</b>", meaning that the start value and end value are included in the range.
 
 		To create a decreasing range, use the "<b>downTo()</b> function:</string>
-	<string name="lesson22_code2"><font color="#FF2C82C8">var</font> decRange = 8.downTo(2);</string>
 	<string name="lesson22_p3">decRange contains the values: 8, 7, 6, 5, 4, 3, 2.</string>
 	<string name="lesson22_p4"><b>The .. operator</b>"
 		Another way to define a range is using the .. (double dot) operator:"</string>
-	<string name="lesson22_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" myRange = 1..10;
-		println(myRange);
-		}"</string>
 	<string name="lesson22_p5">The <b>in</b> operator allows to verify if a value belongs to a range:</string>
-	<string name="lesson22_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
-		"<font color="#FF2C82C8">var</font>" myRange = 1..10;
-		"<font color="#FF2C82C8">if</font> (5 <font color="#FF2C82C8">in</font>" myRange) {
-		println("<font color="#FFBC0000">\"5 is in the range\"</font>");
-		}
-		}"</string>
 	<string name="lesson22_p6">Similarly, <b>!in</b> can be used to check if a number does not belong to a range.</string>
 	<string name="lesson22_hint">Ranges are similar to arrays, they are collections of values which could be iterated through.</string>
 	<!--23-->
 	<string name="lesson23_title">The for Loop</string>
 	<string name="lesson23_p">The <b>for</b> loop iterates through a collection, more specifically through anything that provides an iterator.\n
 		Let‘s print the list of values in a range.</string>
-	<string name="lesson23_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">var</font> myRange = 1..10;\n
-		<font color="#FF2C82C8">for</font> (x <font color="#FF2C82C8">in</font> myRange) {\n
-		println(x);\n
-		}\n
-		}</string>
 	<string name="lesson23_p2">The program will print numbers 1 through 10.\n
 		During each step of the loop, the variable <b>x</b> will contain the value of the current element in the range.\n\n
 		Let’s say we want to iterate over a range of even numbers.\n
 		To do so we can define a range with a <b>step</b>:</string>
-	<string name="lesson23_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">var</font> evenRange = 0..10 step 2;\n
-		<font color="#FF2C82C8">for</font> (i <font color="#FF2C82C8">in</font> evenRange) {\n
-		println(i)\n
-		}\n
-		}</string>
 	<!--24-->
 	<string name="lesson24_title">Using Loops with Arrays</string>
 	<string name="lesson24_p">One of the most convenient ways to loop over an array is the <b>for</b> loop:</string>
-	<string name="lesson24_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">var</font> nums: <font color="#FF0096FF">IntArray</font> = intArrayOf(4, 5, -5, 12);\n
-		<font color="#FF2C82C8">for</font> (n <font color="#FF2C82C8">in</font> nums) {\n
-		println(<font color="#FFBC0000">\"Value: $n\"</font>);\n
-		}\n
-		}</string>
 	<string name="lesson24_p2">The while loop requires an additional index variable to access array elements.</string>
-	<string name="lesson24_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">var</font> nums: <font color="#FF0096FF">IntArray</font> = intArrayOf(4, 5, -5, 12);\n
-		<font color="#FF2C82C8">var</font> index: <font color="#FF0096FF">Int</font> = 0;\n
-		<font color="#FF2C82C8">while</font> (index &lt; 4) {\n
-		println(<font color="#FFBC0000">\"Value: ${nums[index]}\"</font>);\n
-		++index;\n
-		}\n
-		}</string>
 	<string name="lesson24_p3">To iterate through an array with an index, you can use the for loop with the array indices:</string>
-	<string name="lesson24_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">var</font> nums: <font color="#FF0096FF">IntArray</font> = intArrayOf(4, 5, -5, 12);\n
-		<font color="#FF2C82C8">for</font> (ix <font color="#FF0096FF">in</font> nums.indices) {\n
-		println(<font color="#FFBC0000">\"Value: ${nums[ix]}\"</font>);\n
-		}\n
-		}</string>
 	<!--25-->
 	<string name="lesson25_title">Practice Time: Loops and Arrays</string>
 	<string name="lesson25_p">Let’s see an example of arrays and loops in action.\n
 		Having an array of floating-point numbers and we want to calculate the sum of the array elements.</string>
-	<string name="lesson25_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">var</font> nums: <font color="#FF0096FF">DoubleArray</font> = doubleArrayOf(3.14, 1.1, 2.2, 44.55, 21.3);\n\n
-		<font color="#FF009B00">//Calculating the sum</font>\n
-		<font color="#FF2C82C8">var</font> sum: <font color="#FF0096FF">Double</font> = 0.0;\n
-		<font color="#FF2C82C8">for</font> (num <font color="#FF2C82C8">in</font> nums) {\n
-		sum += num;\n
-		}\n
-		println(<font color="#FFBC0000">\"The sum equals to $sum\"</font>);\n
-		}</string>
 	<string name="lesson25_p2">We declared a variable sum with initial value 0.0. This variable is then used to accumulate the sum of the array elements using the for loop.\n\n
 		Implement the following tasks:\n
 		1. Define an array of integers and calculate the product of its elements.\n
@@ -801,29 +409,13 @@
 	<string name="lesson26_p">A function is a block of code that can be executed by calling the function.\n
 		A function declaration is done using the fun keyword.\n
 		The basic syntax of a function in Kotlin looks like this:</string>
-	<string name="lesson26_code"><font color="#FF2C82C8">fun</font> name(parameter: type = default value): <font color="#FF2C82C8">return</font> type {\n
-		statements\n
-		}</string>
 	<string name="lesson26_p2">A function has a <b>name</b>, which is used to refer to it, in other words, to <b>call</b> the function.\n
 		After the name comes the list of function <b>parameters</b>.\n
 		Following the brackets is the data type that should be returned by the function.\n
 		This can be anything, as long as the variable being returned matches that type.\n\n
 		When the function is called, all of the statements within the curly brackets are run. Let’s declare and then call a function that prints greeting messages:</string>
-	<string name="lesson26_code2"><font color="#FF2C82C8">fun</font> greetUser() {\n
-		println(<font color="#FFBC0000">\"Hello user!\"</font>);\n
-		println(<font color="#FFBC0000">\"Good morning.\"</font>);\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		greetUser();\n
-		}</string>
 	<string name="lesson26_p3">The <b>greetUser()</b> function does not take any parameters, and does not return any value, as it just generates output.\n\n
 		Let’s define a function that takes an Int parameter and returns the square of that number:</string>
-	<string name="lesson26_code3"><font color="#FF2C82C8">fun</font> square(x: <font color="#FF0096FF">Int</font>): <font color="#FF0096FF">Int</font> {\n
-		<font color="#FF2C82C8">return</font> x * x\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		println(square(8));\n
-		}</string>
 	<string name="lesson26_p4">The return keyword is used to return a value from a function.</string>
 	<string name="lesson26_hint">You can call a function as many times as you want.\n
 		If a function returns a value, you can assign it to a variable, like: var a = square(8);</string>
@@ -831,83 +423,23 @@
 	<string name="lesson27_title">Function Parameters</string>
 	<string name="lesson27_p">Function parameters are used to pass values to a function.\n
 		Parameters are defined on function declaration by using a name and the type of the parameter:</string>
-	<string name="lesson27_code"><font color="#FF2C82C8">fun</font> greetUser(name: <font color="#FF0096FF">String</font>) {\n
-		println(<font color="#FFBC0000">\"Hello $name!\"</font>);\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		greetUser(<font color="#FFBC0000">\"Max\"</font>);\n
-		}</string>
 	<string name="lesson27_p2">We declared a greetUser() function which takes one String parameter called name.\n
 		Now, when calling the function, we can pass the actual value of the parameter to the function (also called the argument). In the example above, "Max" is the argument passed to the function.\n\n
 		Functions can take multiple parameters.\n
 		Let‘s declare a function that takes two integers and prints their sum:</string>
-	<string name="lesson27_code2"><font color="#FF2C82C8">fun</font> printSum(num1: <font color="#FF0096FF">Int</font>, num2: <font color="#FF0096FF">Int</font>) {\n
-		println(<font color="#FFBC0000">\"The sum is ${num1 + num2}!\"</font>);\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">val</font> a = 4;\n
-		<font color="#FF2C82C8">val</font> b = 5;\n
-		printSum(a, b);\n
-		}</string>
 	<string name="lesson27_p3">One of the most important properties of functions is their ability to return a value.\n
 		Let’s declare a function taking two integer parameters and returning their product.\n
 		The return keyword is used to return a value:</string>
-	<string name="lesson27_code3"><font color="#FF2C82C8">fun</font> printSum(num1: Int, num2: <font color="#FF0096FF">Int</font>) {\n
-		println(<font color="#FFBC0000">\"The sum is ${num1 + num2}!\"</font>);\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> getProduct(num1: <font color="#FF0096FF">Int</font>, num2: <font color="#FF0096FF">Int</font>): <font color="#FF0096FF">Int</font> {\n
-		<font color="#FF2C82C8">return</font> num1 * num2;\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">val</font> a = 4;\n
-		<font color="#FF2C82C8">val</font> b = 5;\n
-		printSum(a, b);\n\n
-		<font color="#FF2C82C8">val</font> product = getProduct(a, b);\n
-		println(<font color="#FFBC0000">\"The product is $product\"</font>);\n
-		}</string>
 	<string name="lesson27_p4">Notice the additional :Int after the closing bracket of the parameter list in the function declaration:  it defines the type of the function’s return value.\n\n
 		We can directly include the returned value of the function in a string, using string templates:</string>
-	<string name="lesson27_code4"><font color="#FF2C82C8">fun</font> getProduct(num1: <font color="#FF0096FF">Int</font>, num2: <font color="#FF0096FF">Int</font>): <font color="#FF0096FF">Int</font> {\n
-		<font color="#FF2C82C8">return</font> num1 * num2;\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">val</font> a = 4;\n
-		<font color="#FF2C82C8">val</font> b = 5;\n\n
-		println(<font color="#FFBC0000">\"The product is ${getProduct(a, b)}\"</font>);\n
-		}</string>
 	<!--28-->
 	<string name="lesson28_title">Function Default Arguments</string>
 	<string name="lesson28_p">Sometimes it is convenient to set a default value for the function parameters. These default values are used when corresponding arguments are omitted.\n\n
 		Let’s declare a function with three parameters, which calculates and returns their sum:</string>
-	<string name="lesson28_code"><font color="#FF2C82C8">fun</font> getSum(num1: <font color="#FF0096FF">Int</font>, num2: <font color="#FF0096FF">Int</font>, num3: <font color="#FF0096FF">Int</font>): <font color="#FF0096FF">Int</font> {\n
-		<font color="#FF2C82C8">return</font> num1 + num2 + num3;\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">val</font> a = 4;\n
-		<font color="#FF2C82C8">val</font> b = 5;\n
-		<font color="#FF2C82C8">val</font> c = 6;\n\n
-		println(<font color="#FFBC0000">\"The sum is ${getSum(a, b, c)}\"</font>);\n
-		}</string>
 	<string name="lesson28_p2">Let’s set a default value for the third argument:</string>
-	<string name="lesson28_code2"><font color="#FF2C82C8">fun</font> getSum(num1: <font color="#FF0096FF">Int</font>, num2: <font color="#FF0096FF">Int</font>, num3: <font color="#FF0096FF">Int</font> = 0): <font color="#FF0096FF">Int</font> {\n
-		<font color="#FF2C82C8">return</font> num1 + num2 + num3;\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">val</font> a = 4;\n
-		<font color="#FF2C82C8">val</font> b = 5;\n
-		<font color="#FF2C82C8">val</font> c = 6;\n\n
-		println(<font color="#FFBC0000">\"The sum is ${getSum(a, b, c)}\"</font>);\n
-		println(<font color="#FFBC0000">\"The sum of two numbers is ${getSum(a, b)}\"</font>);\n
-		}</string>
 	<string name="lesson28_p3">Now we can call the same function with two arguments only.\n\n
 		<b>Named Arguments</b>\n
 		Function parameters can be named when calling functions:</string>
-	<string name="lesson28_code3"><font color="#FF2C82C8">fun</font> getSum(num1: <font color="#FF0096FF">Int</font>, num2: <font color="#FF0096FF">Int</font>): <font color="#FF0096FF">Int</font> {\n
-		<font color="#FF2C82C8">return</font> num1 + num2;\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		println(getSum(num1 = 42, num2 = 14));\n
-		}</string>
 	<string name="lesson28_p4">This makes the code more readable when calling functions with multiple parameters.</string>
 	<string name="lesson28_hint">If a default parameter precedes a parameter with no default value, the default value can be used only by calling the function with named arguments.</string>
 	<!--29-->
@@ -915,57 +447,19 @@
 	<string name="lesson29_p">Kotlin provides a special type called Any.\n
 		This type allows storing literally anything.\n
 		Let’s declare a function taking Any as the parameter:</string>
-	<string name="lesson29_code"><font color="#FF2C82C8">fun</font> printIt(arg: <font color="#FF0096FF">Any</font>) {\n
-		println(arg);\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		printIt(<font color="#FFBC0000">\"Some string\"</font>);\n
-		printIt(42);\n
-		}</string>
 	<string name="lesson29_p2">As you can see in the example above, the function can be called using any argument type.\n\n
 		You can check the arguments type using the <b>is</b> operator.\n
 		Let’s check if the argument is a <b>String</b> and output its length:</string>
-	<string name="lesson29_code2"><font color="#FF2C82C8">fun</font> printIt(arg: <font color="#FF0096FF">Any</font>) {\n
-		<font color="#FF2C82C8">if</font> (arg <font color="#FF2C82C8">is</font> <font color="#FF0096FF">String</font>) {\n
-        println(<font color="#FFBC0000">\"Length ${arg.length}\"</font>);\n
-		}\n
-		println(arg);\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		printIt(<font color="#FFBC0000">\"Some string\"</font>);\n
-		printIt(42);\n
-		}</string>
 	<string name="lesson29_p3">Kotlin automatically casts the <b>Any</b> argument to the correct type. In the example above, we can access the <b>length</b> property of the <b>String</b> without the need to "convert" <b>arg</b> to <b>String.</b></string>
 	<!--30-->
 	<string name="lesson30_title">Nullable Types</string>
 	<string name="lesson30_p">In programming languages, null is the absence of value.\n
 		If you declare a variable in Kotlin you get a non-nullable value, meaning that the variable cannot be null:</string>
-	<string name="lesson30_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">var</font> str: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"Kotlin\"</font>;\n
-		str = null;\n
-		}</string>
 	<string name="lesson30_p2">This code generates a compile error, because Kotlin’s <b>type system</b> tries to eliminate <b>NullPointerException</b>. This guarantees accessing properties and methods of <b>str</b>:</string>
-	<string name="lesson30_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">var</font> a: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"Kotlin\"</font>;\n
-		println(a.length);<font color="#FF009B00">// safely accessing a property</font>\n
-		}</string>
 	<string name="lesson30_p3">To allow nulls, we can declare a variable as nullable using the question mark as shown below:</string>
-	<string name="lesson30_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">var</font> str: <font color="#FF0096FF">String</font>? = <font color="#FFBC0000">\"Kotlin\"</font>;\n
-		str = null;\n
-		println(str);\n
-		}</string>
 	<string name="lesson30_p4">The code above will work without any errors.\n\n
 		However, now, trying to access a property on nullable <b>str</b>, causes a compile-time error, as now <b>str</b> can be null:</string>
-	<string name="lesson30_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">var</font> str: <font color="#FF0096FF">String</font>? = <font color="#FFBC0000">\"Kotlin\"</font>;\n
-		println(str.length);\n
-		}</string>
 	<string name="lesson30_p5">To safely <b>access</b> nullable values, we have to use the <b>?.</b> operator (called the <b>safe call operator</b>).</string>
-	<string name="lesson30_code5"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">var</font> str: <font color="#FF0096FF">String</font>? = <font color="#FFBC0000">\"Kotlin\"</font>;\n
-		println(str?.length);\n
-		}</string>
 	<string name="lesson30_hint">The <b>?</b> can be used with any type to make it nullable.</string>
 	<!--31-->
 	<string name="lesson31_title">Classes</string>
@@ -974,17 +468,7 @@
 		Based on the prototype we then build the house, which is the <b>object</b>.\n\n
 		Just like houses, we can create multiple <b>objects</b> from a <b>class</b>.\n\n
 		To define a class in Kotlin, the <b>class</b> keyword is used:</string>
-	<string name="lesson31_code"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">ClassName</font> {\n\n
-		}</string>
 	<string name="lesson31_p2">Now, we can declare objects of the type ClassName():</string>
-	<string name="lesson31_code2"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">ClassName</font> {\n
-		<font color="#FF009B00">// methods and/or</font>\n
-		<font color="#FF009B00">// properties</font>\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">ClassName</font>();\n
-		<font color="#FF2C82C8">var</font> obj2: <font color="#FF0096FF">ClassName</font> = <font color="#FF0096FF">ClassName()</font>;\n
-		}</string>
 	<string name="lesson31_p3">Both ways shown in the code above can be used to create objects.</string>
 	<string name="lesson31_hint">Each object is called an instance of a class. The process of creating objects is called <b>instantiation</b>.</string>
 	<!--32-->
@@ -992,153 +476,30 @@
 	<string name="lesson32_p"><b>Classes</b> can have <b>properties</b>.\n
 		Properties are similar to regular variables but declared in a class.\n
 		For example:</string>
-	<string name="lesson32_code">class <font color="#FF0096FF">User</font> {\n
-		<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
-		<font color="#FF2C82C8">var</font> email: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
-		}</string>
 	<string name="lesson32_p2">Similar to regular variables, properties declared using the <b>var</b> keyword are <b>mutable</b>, i.e. they can be <b>reassigned</b>.\n
 		To declare a <b>read-only</b> property, we should use the <b>val</b> keyword:</string>
-	<string name="lesson32_code2"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
-		<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
-		<font color="#FF2C82C8">var</font> email: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
-		<font color="#FF2C82C8">val</font> learningAt = <font color="#FFBC0000">\"Kotlin\"</font>;\n
-		}</string>
 	<string name="lesson32_p3">Each object has it\'s own unique values for it\'s class properties.\n
 		In order to use properties, simply refer to it by name on the instance object using a <b>dot</b>:</string>
-	<string name="lesson32_code3"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
-		<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
-		<font color="#FF2C82C8">var</font> email: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
-		<font color="#FF2C82C8">val</font> learningAt = <font color="#FFBC0000">\"Kotlin\"</font>;\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">User</font>();\n
-		obj.name = <font color="#FFBC0000">\"John\"</font>;\n
-		println(obj.learningAt);\n
-		}</string>
 	<!--33-->
 	<string name="lesson33_title">Member Functions</string>
 	<string name="lesson33_p">A class can have functions declaration in its body.\n
 		These functions are called <b>member functions</b> (or <b>methods</b>).\n
 		These are declared just like regular functions:</string>
-	<string name="lesson33_code"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
-		<font color="#FF2C82C8">fun</font> printHello() {\n
-		println(<font color="#FFBC0000">\"Hello!\"</font>);\n
-		}\n
-		}</string>
 	<string name="lesson33_p2">Member functions are called (invoked) with dot notation:</string>
-	<string name="lesson33_code2"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
-		<font color="#FF2C82C8">fun</font> printHello() {\n
-        println(<font color="#FFBC0000">\"Hello!\"</font>);\n
-		}\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">User</font>();\n
-		obj.printHello();\n
-		}</string>
 	<string name="lesson33_p3">We can access class properties from member functions, make any necessary calculation, and so on.\n
 		For example, the <b>printHello</b>() member function below prints a hello message using the <b>name</b> property of the class:</string>
-	<string name="lesson33_code3"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
-		<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
-		<font color="#FF2C82C8">fun</font> printHello() {\n
-        println(<font color="#FFBC0000">\"Hello, $name!\"</font>);\n
-		}\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">User</font>();\n
-		obj.name = <font color="#FFBC0000">\"John\"</font>;\n
-		obj.printHello();\n
-		}</string>
 	<!--34-->
 	<string name="lesson34_title">Getters and Setters</string>
 	<string name="lesson34_p">Accessing properties directly is not a good practice.\n
 		Sometimes you need to check the value in case of an invalid input, or do some other data validation or calculation before assigning or accessing the property value.\n
 		Let\'s say we have a <b>User</b> class with an <b>age</b> property:</string>
-	<string name="lesson34_code">class <font color="#FF0096FF">User</font> {\n
-		var age: <font color="#FF0096FF">Int</font> = 0;\n
-		fun printInfo() {\n
-		println(<font color="#FFBC0000">\"The user is $age years old.\"</font>);\n
-		}\n
-		}</string>
 	<string name="lesson34_p2">The object\'s property can be easily assigned to an invalid value. Here\'s an example:</string>
-	<string name="lesson34_code2"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
-		<font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font> = 0;\n
-		<font color="#FF2C82C8">fun</font> printInfo() {\n
-        println(<font color="#FFBC0000">\"The user is $age years old.\"</font>);\n
-		}\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF009B00">// client code</font>\n
-		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">User</font>();\n
-		obj.age = -12;\n
-		obj.printInfo();\n
-		}</string>
 	<string name="lesson34_p3"><b>Getters</b> and <b>setters</b> allow <b>flexibility</b> in property access. The setter is defined using the <b>set</b> keyword and allows to define behavior when a value is assigned to the property:</string>
-	<string name="lesson34_code3"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
-		<font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font> = 0\n
-        <font color="#FF2C82C8">set</font>(value) {\n
-		<font color="#FF2C82C8">if</font> (value > 0) {\n
-		field = value;\n
-		}\n
-        }\n
-		<font color="#FF2C82C8">fun</font> printInfo() {\n
-        println(<font color="#FFBC0000">\"The user is $age years old.\"</font>);\n
-		}\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF009B00">// client code</font>\n
-		val obj = <font color="#FF0096FF">User</font>();\n
-		obj.age = -12;\n
-		obj.printInfo();\n
-		obj.age = 11;\n
-		obj.printInfo();\n
-		}</string>
 	<string name="lesson34_p4">The <b>field</b> keyword refers to the property (<b>age</b> in this case).\n
 		Every time a client code assigns a new value to the age property, the <b>setter</b> is called with the <b>value</b> as its argument. The code checks whether the value is greater than 0, and only then assigns it to the property.\n
 		The following code will output 0, as the value <b>-12</b> won\'t be assigned to the age property:</string>
-	<string name="lesson34_code4"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
-		<font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font> = 0\n
-        <font color="#FF2C82C8">set</font>(value) {\n
-		<font color="#FF2C82C8">if</font> (value > 0) {\n
-		field = value;\n
-		}\n
-        }\n
-		<font color="#FF2C82C8">fun</font> printInfo() {\n
-        println(<font color="#FFBC0000">\"The user is $age years old.\"</font>);\n
-		}\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF009B00">// client code</font>\n
-		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">User</font>();\n
-		obj.age = -12;\n
-		obj.printInfo();\n
-		obj.age = 11;\n
-		obj.printInfo();\n
-		}</string>
 	<string name="lesson34_p5">A getter, on the contrary, is called every time the value of a property is read.\n
 		We can, for example, add 2 to the value of the <b>age</b> property when it is accessed:</string>
-	<string name="lesson34_code5"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
-		<font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font> = 0\n
-        <font color="#FF2C82C8">get</font>() {\n
-		<font color="#FF2C82C8">return</font> field + 2;\n
-        }\n
-        <font color="#FF2C82C8">set</font>(value) {\n
-		<font color="#FF2C82C8">if</font> (value > 0) {\n
-		field = value;\n
-		}\n
-        }\n
-		<font color="#FF2C82C8">fun</font> printInfo() {\n
-        println(<font color="#FFBC0000">\"The user is $age years old.\"</font>);\n
-		}\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF009B00">// client code</font>\n
-		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">User</font>();\n
-		obj.age = -12;\n
-		obj.printInfo();\n
-		obj.age = 11;\n
-		obj.printInfo();\n
-		println(<font color="#FFBC0000">\"Accessing age gives the value ${obj.age}\"</font>);\n
-		}</string>
 	<string name="lesson34_p6">The <b>field</b> keyword refers to the property (<b>age</b> in this case).\n
 		A property can have both, a getter and a setter.</string>
 	<!--35-->
@@ -1146,27 +507,9 @@
 	<string name="lesson35_p">Constructors are a convenient way to pass in values to object properties during their instantiation.\n
 		Kotlin provides a primary constructor, which can be used to initialize properties on creation of an object.\n
 		Here\'s how a primary constructor is defined:</string>
-	<string name="lesson35_code"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> <font color="#FF2C82C8">constructor</font>(<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font>) {\n
-		<font color="#FF2C82C8">fun</font> sayHi() {\n
-        println(<font color="#FFBC0000">\"Hello, $name\"</font>);\n
-		}\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		val obj = <font color="#FF0096FF">User</font>(readLine()!!);\n
-		obj.sayHi();\n
-		}</string>
 	<string name="lesson35_p2">Following the name of the class is the primary constructor. The primary constructor is part of the class header.\n
 		As you can see in the code above, the constructor defines a property called name of type String. Now, when creating an object, you can pass a value for the name property in the braces.\n
 		The constructor keyword can be omitted:</string>
-	<string name="lesson35_code2"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">Student</font>(var age: <font color="#FF0096FF">Int</font>) {\n
-		<font color="#FF2C82C8">fun</font> printAge() {\n
-		println(<font color="#FFBC0000">\"I am $age years old\"</font>);\n
-		}\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">val</font> st = <font color="#FF0096FF">Student</font>(21);\n
-		st.printAge();\n
-		}</string>
 	<string name="lesson35_hint">Primary constructors are able to declare properties using var or val declarations. Multiple properties should be separated by a comma.\n
 		Primary constructors cannot contain code.</string>
 	<!--36-->
@@ -1174,29 +517,8 @@
 	<string name="lesson36_p">The initializer block can be used to run code automatically when an object is created.\n
 		To declare an initializer block, the keyword init is used, followed by curly braces containing the initialization code.\n\n
 		For example:</string>
-	<string name="lesson36_code"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">Student</font>(<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font>, <font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font>) {\n
-		<font color="#FF2C82C8">init</font> {\n
-        println(<font color="#FFBC0000">\"Student: $name\"</font>);\n
-		println(<font color="#FFBC0000">\"Age: $age\"</font>);\n
-		}\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">var</font> philip = <font color="#FF0096FF">Student</font>(<font color="#FFBC0000">\"Philip\"</font>, 14);\n
-		}</string>
 	<string name="lesson36_p2">Now, when a Student object is created, the code in the init block will run automatically.\n\n
 		A class can have more than one init blocks. They are executed in the same order as they appear in the class body.\n
 		For example:</string>
-	<string name="lesson36_code2"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">Student</font>(name: <font color="#FF0096FF">String</font>, age: <font color="#FF0096FF">Int</font>){\n
-		<font color="#FF2C82C8">init</font> {\n
-        println(<font color="#FFBC0000">\"This will print first\"</font>);\n
-		}\n\n
-		<font color="#FF2C82C8">init</font> {\n
-        <font color="#FF2C82C8">var</font> sname = name;\n
-        println(<font color="#FFBC0000">\"Using a variable declared above $sname\"</font>);\n
-		}\n
-		}\n\n
-		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
-		<font color="#FF2C82C8">val</font> <font color="#FF0096FF">Steve</font> = <font color="#FF0096FF">Student</font>(<font color="#FFBC0000">\"Steve\"</font>, 15)\n
-		}</string>
 	<string name="lesson36_p3">Parameters of the primary constructor can be used in the initializer blocks.</string>
 </resources>

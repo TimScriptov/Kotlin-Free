@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--4-->
+	<string name="lesson4_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> num: <font color="#FF0096FF">Int</font>" = 42;
+		println(num);
+		}"</string>
+	<string name="lesson4_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> pi: <font color="#FF0096FF">Float</font>" = 3.14f;
+		"<font color="#FF2C82C8">var</font> e: <font color="#FF0096FF">Double</font>" = 2.71828;
+
+		println(pi);
+		println(e);
+		}"</string>
+		
+	<!--5-->
+	<string name="lesson5_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> ch: <font color="#FF0096FF">Char</font> = <font color="#FFBC0000">\'a\'</font>";
+		println(ch);
+		}"</string>
+	<string name="lesson5_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF009B00">// string literal</font>"
+		println("<font color="#FFBC0000">\"Hello, world!\"</font>");
+
+		"<font color="#FF2C82C8">var</font> s: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"Hello, world!\"</font>";
+		"<font color="#FF009B00">// printing the content of the s variable</font>"
+		println(s);
+		}"</string>
+	
+	<!--6-->
+	<string name="lesson6_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">val</font>" billion = 1_000_000_000;
+		"<font color="#FF2C82C8">val</font>" hexNum = 0xAA_0C_BA_FF;
+		"<font color="#FF2C82C8">val</font>" bytes = 0b11011011_11100010;
+
+		"<font color="#FF009B00">// everything will be printed in base 10</font>"
+		println(billion);
+		println(hexNum);
+		println(bytes);
+		}"</string>
+	<string name="lesson6_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">val</font>" thisIsFloat = 3.14f;
+		"<font color="#FF2C82C8">val</font>" againFloat = 2.78F;
+		"<font color="#FF2C82C8">val</font>" doubleIsDefault = 20.134;
+
+		println(thisIsFloat);
+		println(againFloat);
+		println(doubleIsDefault);
+		}"</string>
+		
+	<!--7-->
+	<string name="lesson7_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		println("<font color="#FFBC0000">\"Hello, world!\"</font>");
+		}"</string>
+	<string name="lesson7_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		println("<font color="#FFBC0000">\"Line by\"</font>");
+		println("<font color="#FFBC0000">\"line\"</font>");
+
+		print("<font color="#FFBC0000">\"On the \"</font>");
+		print("<font color="#FFBC0000">\"same line\"</font>");
+		}"</string>
+	<string name="lesson7_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> num: <font color="#FF0096FF">Int</font>" = 42;
+		println("<font color="#FFBC0000">\"Num is\"</font>" + num);
+		"<font color="#FF009B00">// using string templates</font>"
+		println("<font color="#FFBC0000">\"Num is $num\"</font>");
+
+		"<font color="#FF2C82C8">val</font>" dbl = 3.14;
+		println("<font color="#FFBC0000">\"Int value is $num, and double value is $dbl\"</font>");
+		}"</string>
+	<string name="lesson7_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> a: <font color="#FF0096FF">Int</font>" = 42;
+		"<font color="#FF2C82C8">var</font> b: <font color="#FF0096FF">Int</font>" = 8;
+
+		println("<font color="#FFBC0000">\"Result: ${a+b}\"</font>");
+		}"</string>
+		
+	<!--8-->
+	<string name="lesson8_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">val</font>" test = readLine();
+		println("<font color="#FFBC0000">\"Your input is $test\"</font>");
+		}"</string>
+	<string name="lesson8_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" age = readLine()!!.toInt();
+		println("<font color="#FFBC0000">\"You are $age years old\"</font>");
+		}"</string>
+	<string name="lesson8_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" intTest: <font color="#FF0096FF">Int</font>;
+		intTest = readLine()!!.toInt();
+		"<font color="#FF2C82C8">var</font>" dblTest = readLine()!!.toDouble();
+		"<font color="#FF2C82C8">var</font>" longTest: Long = readLine()!!.toLong();
+
+		println("<font color="#FFBC0000">\"Int input is $intTest, double input is $dblTest, long input is $longTest\"</font>");
+		}"</string>
+		
+	<!--9-->
+	<string name="lesson9_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		println("<font color="#FFBC0000">\"Hello World!\"</font>); <font color="#FF009B00">// outputs Hello World!</font>"
+		}"</string>
+	<string name="lesson9_code2"><font color="#FF009B00">/* This is a multi-line comment */</font>"
+		"<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		println("<font color="#FFBC0000">\"Hello World!\"</font>");
+		"<font color="#FF009B00">"/* Multi-line comments
+			can span
+			over multiple lines */"</font>"
+		}"</string>
+		
+	<!--10-->
+	<string name="lesson10_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> num1:<font color="#FF0096FF">Int</font>" = 8;
+		"<font color="#FF2C82C8">var</font> num2:<font color="#FF0096FF">Int</font>" = 3;
+
+		"<font color="#FF009B00">// Calculating the sum</font>"
+		"<font color="#FF2C82C8">val</font>" sum = num1 + num2;
+		println("<font color="#FFBC0000">\"Sum is $sum\"</font>");
+		}"</string>
+	<string name="lesson10_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> num1:<font color="#FF0096FF">Int</font>" = 10;
+		"<font color="#FF2C82C8">var</font> num2:<font color="#FF0096FF">Int</font>" = 3;
+
+		"<font color="#FF2C82C8">var</font>" div = num1 / num2;
+		println(div);
+		}"</string>
+	<string name="lesson10_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> num1:<font color="#FF0096FF">Int</font>" = 10;
+		"<font color="#FF2C82C8">var</font> num2:<font color="#FF0096FF">Int</font>" = 3;
+
+		"<font color="#FF2C82C8">var</font>" remainder = num1 % num2;
+		println(remainder);
+		}"</string>
+	<string name="lesson10_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> num1: <font color="#FF0096FF">Double</font>" = 10.42;
+		"<font color="#FF2C82C8">var</font> num2: <font color="#FF0096FF">Double</font>" = 5.14;
+
+		"<font color="#FF2C82C8">var</font>" res = num1 / num2;
+		println(res);
+		}"</string>
+		
+	<!--11-->
+	<string name="lesson11_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> x: <font color="#FF0096FF">Int</font>" = 4;
+		x++; "<font color="#FF009B00">// the same as x = x + 1;</font>"
+		println(x);
+		}"</string>
+	<string name="lesson11_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> x: <font color="#FF0096FF">Int</font>" = 4;
+		x--; "<font color="#FF009B00">// the same as x = x - 1;</font>"
+		println(x);
+		}"</string>
+	<string name="lesson11_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> x: <font color="#FF0096FF">Int</font>" = 4;
+		"<font color="#FF2C82C8">val</font>" y = ++x;
+		"<font color="#FF009B00">// x is incremented, then assigned to y</font>"
+		println(y);
+		}"</string>
+	<string name="lesson11_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> x: <font color="#FF0096FF">Int</font>" = 4;
+		"<font color="#FF2C82C8">val</font>" y = x++;
+		"<font color="#FF009B00">// x is assigned to y, then incremented</font>"
+		println(y);
+		}"</string>
+	
+	<!--12-->
+	<string name="lesson12_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" x = 5;
+		"<font color="#FF2C82C8">val</font> s1 = <font color="#FFBC0000">\"Value is $x\"</font>";
+		println(s1);
+		}"</string>
+	<string name="lesson12_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" x = 5;
+		"<font color="#FF2C82C8">var</font>" y = 6;
+		"<font color="#FF2C82C8">val</font> sum = <font color="#FFBC0000">\"Sum is ${x + y}\"</font>";
+		println(sum);
+		}"</string>
+	<string name="lesson12_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" x = 5;
+		"<font color="#FF2C82C8">var</font> s1 = <font color="#FFBC0000">\"Value is $x\"</font>";
+		"<font color="#FF2C82C8">var</font> s2 = <font color="#FFBC0000">\"${s1.replace(«is», «was»)}, but now is ${x + 2}\"</font>";
+		println(s2);
+		}"</string>
+		
+	<!--13-->
+	<string name="lesson13_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font>";
+		"<font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font>";
+		println("<font color="#FFBC0000">\"Please insert your name and age\"</font>");
+		name = readLine()!!;
+		age = readLine()!!.toInt();
+
+		println("<font color="#FFBC0000">\"Hi $name, you are $age years old\"</font>");
+
+		\u0009\u0009}"</string>
+		
+	<!--14-->
+	<string name="lesson14_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">val</font>" hour = 11;
+		"<font color="#FF2C82C8">if</font>" (hour &lt; 12) {
+		println("<font color="#FFBC0000">\"Good morning!\"</font>");
+		}
+		}"</string>
+	<string name="lesson14_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">val</font>" hour = 15;
+		"<font color="#FF2C82C8">if</font>" (hour &lt; 12) {
+		println("<font color="#FFBC0000">\"Good morning!\"</font>");
+		} "<font color="#FF2C82C8">else</font>" {
+		println("<font color="#FFBC0000">\"Good day!\"</font>");
+		}
+		}"</string>
+	<string name="lesson14_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">val</font>" hour = 11;
+		"<font color="#FF2C82C8">val</font> isMorning: <font color="#FF0096FF">Boolean</font>" = (hour &lt; 12);
+
+		"<font color="#FF2C82C8">if</font>" (isMorning) {
+		println("<font color="#FFBC0000">\"Good morning!\"</font>");
+		} "<font color="#FF2C82C8">else</font>" {
+		println("<font color="#FFBC0000">\"Good day!\"</font>");
+		}
+		}"</string>
+	<string name="lesson14_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">val</font>" a = 8;
+		"<font color="#FF2C82C8">val</font>" b = 42;
+		"<font color="#FF2C82C8">val</font> max = <font color="#FF2C82C8">if</font> (a > b) a <font color="#FF2C82C8">else</font>" b;
+
+		println(max);
+		} "</string>
+		
+	<!--15-->
+	<string name="lesson15_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" age = readLine()!!.toInt()
+
+		"<font color="#FF2C82C8">if</font>" (age &lt; 20) {
+		println("<font color="#FFBC0000">\"Too young\"</font>")
+		}
+		"<font color="#FF2C82C8">else if</font>" (age > 50) {
+		println("<font color="#FFBC0000">\"Too old\"</font>")
+		}
+		"<font color="#FF2C82C8">else</font>" {
+		println("<font color="#FFBC0000">\"Welcome!\"</font>")
+		}
+		}"</string>
+		
+	<!--16-->
+	<string name="lesson16_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> a: <font color="#FF0096FF">Int</font>" = 3;
+		"<font color="#FF2C82C8">var</font> b: <font color="#FF0096FF">Int</font>" = 5;
+
+		"<font color="#FF2C82C8">if</font>"(a == 3 &amp;&amp; b &lt; 8) {
+		println("<font color="#FFBC0000">\"hello\"</font>");
+		}
+		"<font color="#FF2C82C8">if</font>" (a == 3 &amp;&amp; b > 8) {
+		println("<font color="#FFBC0000">\"bye\"</font>");
+		}
+		}"</string>
+	<string name="lesson16_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> a: <font color="#FF0096FF">Int</font>" = 3;
+		"<font color="#FF2C82C8">var</font> b: <font color="#FF0096FF">Int</font>" = 5;
+
+		"<font color="#FF2C82C8">if</font>"(a == 3 || b &lt; 8) {
+		println("<font color="#FFBC0000">\"hello\"</font>");
+		}
+		"<font color="#FF2C82C8">if</font>" (a == 3 || b > 8) {
+		println("<font color="#FFBC0000">\"bye\"</font>");
+		}
+		}"</string>
+	<string name="lesson16_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> b: <font color="#FF0096FF">Int</font>" = 5;
+
+		"<font color="#FF2C82C8">if</font>" (!(b == 6)) {
+		println("<font color="#FFBC0000">\"bye\"</font>");
+		}
+		}"</string>
+		
+	<!--17-->
+	<string name="lesson17_code"><font color="#FF2C82C8">when</font>" (variable) {
+		condition -> statement
+		}"</string>
+	<string name="lesson17_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">val</font>" num = 15;
+		"<font color="#FF2C82C8">when</font>" (num) {
+		10 -> println("<font color="#FFBC0000">\"Case 1\"</font>");
+		15 -> println("<font color="#FFBC0000">\"Case 2\"</font>");
+		20 -> println("<font color="#FFBC0000">\"Case 3\"</font>");
+		"<font color="#FF2C82C8">else</font> -> println(<font color="#FFBC0000">\"Default case\"</font>");
+		}
+		}"</string>
+	<string name="lesson17_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font>" = readLine()!!.toInt();
+		"<font color="#FF2C82C8">when</font>" {
+		age &lt; 22 -> println("<font color="#FFBC0000">\"Too young\"</font>");
+		age > 50 -> println("<font color="#FFBC0000">\"Too old\"</font>");
+		"<font color="#FF2C82C8">else</font> -> println(<font color="#FFBC0000">\"Welcome\"</font>");
+		}
+		}"</string>
+	<string name="lesson17_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" x = 5;
+
+		"<font color="#FF2C82C8">when</font>"(x) {
+		1, 3, 5, 7, 9 -> println("<font color="#FFBC0000">\"Odd\"</font>");
+		2, 4, 6, 8 -> println("<font color="#FFBC0000">\"Even\"</font>");
+		"<font color="#FF2C82C8">else</font> -> println(<font color="#FFBC0000">\"Unknown\"</font>");
+		}
+		"<font color="#FF009B00">//Outputs Odd</font>"
+		}"</string>
+	<string name="lesson17_code5"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" grade = 88;
+		"<font color="#FF2C82C8">var</font> result = <font color="#FF2C82C8">when</font>" {
+		grade &lt; 50 -> "<font color="#FFBC0000">\"Failed\"</font>";
+		grade > 50 &amp;&amp; grade &lt; 80 -> "<font color="#FFBC0000">\"Good\"</font>";
+		grade > 80 -> "<font color="#FFBC0000">\"Awesome!\"</font>";
+		"<font color="#FF2C82C8">else</font> -> <font color="#FFBC0000">\"Unknown\"</font>";
+		}
+		println(result);
+		}"</string>
+		
+	<!--18-->
+	<string name="lesson18_code"><font color="#FF2C82C8">while</font>"(condition) {
+		statement(s)
+		}"</string>
+	<string name="lesson18_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" x = 0;
+
+		"<font color="#FF2C82C8">while</font>"(x &lt;= 5) {
+		println(x);
+		x++;
+		}
+		}"</string>
+		
+	<!--19-->
+	<string name="lesson19_code"><font color="#FF2C82C8">do</font>" {
+		statements
+		} "<font color="#FF2C82C8">while</font> (condition);</string>
+	<string name="lesson19_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" x = 5;
+		"<font color="#FF2C82C8">do</font>" {
+		println(x);
+		x--;
+		} "<font color="#FF2C82C8">while</font>" (x > 0);
+		}"</string>
+	<string name="lesson20_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" x = 5;
+		"<font color="#FF2C82C8">do</font>" {
+		println(x);
+		x--;
+		"<font color="#FF2C82C8">if</font> (x == 3) <font color="#FF2C82C8">break</font>";
+		} "<font color="#FF2C82C8">while</font>" (x > 0);
+		}"</string>
+	<string name="lesson20_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" x = 0;
+		"<font color="#FF2C82C8">while</font>" (x &lt; 5) {
+		x++;
+		"<font color="#FF2C82C8">if</font>" (x == 3)
+		"<font color="#FF2C82C8">continue</font>";
+		println(x);
+		}
+		}"</string>
+		
+	<!--21-->
+	<string name="lesson21_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" arr = arrayOf(1, 2, 3);
+		println(arr[0]);
+		println(arr[1]);
+		println(arr[2]);
+		}"</string>
+	<string name="lesson21_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" arr = arrayOf(1, 2, 3);
+		println(arr[0]);
+		println(arr[1]);
+		println(arr[2]);
+		}"</string>
+	<string name="lesson21_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font> nums: <font color="#FF0096FF">IntArray</font>" = intArrayOf(4, 13, 25, 6, -2);
+		println("<font color="#FFBC0000">\"Printing 1st and last elements\"</font>");
+		println(nums[0]);
+		println(nums[4]);
+		}"</string>
+		
+	<!--22-->
+	<string name="lesson22_code"><font color="#FF2C82C8">var</font> myRange = 1.rangeTo(10);</string>
+	<string name="lesson22_code2"><font color="#FF2C82C8">var</font> decRange = 8.downTo(2);</string>
+	<string name="lesson22_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" myRange = 1..10;
+		println(myRange);
+		}"</string>
+	<string name="lesson22_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>">) {
+		"<font color="#FF2C82C8">var</font>" myRange = 1..10;
+		"<font color="#FF2C82C8">if</font> (5 <font color="#FF2C82C8">in</font>" myRange) {
+		println("<font color="#FFBC0000">\"5 is in the range\"</font>");
+		}
+		}"</string>
+		
+	<!--23-->
+	<string name="lesson23_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">var</font> myRange = 1..10;\n
+		<font color="#FF2C82C8">for</font> (x <font color="#FF2C82C8">in</font> myRange) {\n
+		println(x);\n
+		}\n
+		}</string>
+	<string name="lesson23_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">var</font> evenRange = 0..10 step 2;\n
+		<font color="#FF2C82C8">for</font> (i <font color="#FF2C82C8">in</font> evenRange) {\n
+		println(i)\n
+		}\n
+		}</string>
+		
+	<!--24-->
+	<string name="lesson24_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">var</font> nums: <font color="#FF0096FF">IntArray</font> = intArrayOf(4, 5, -5, 12);\n
+		<font color="#FF2C82C8">for</font> (n <font color="#FF2C82C8">in</font> nums) {\n
+		println(<font color="#FFBC0000">\"Value: $n\"</font>);\n
+		}\n
+		}</string>
+	<string name="lesson24_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">var</font> nums: <font color="#FF0096FF">IntArray</font> = intArrayOf(4, 5, -5, 12);\n
+		<font color="#FF2C82C8">var</font> index: <font color="#FF0096FF">Int</font> = 0;\n
+		<font color="#FF2C82C8">while</font> (index &lt; 4) {\n
+		println(<font color="#FFBC0000">\"Value: ${nums[index]}\"</font>);\n
+		++index;\n
+		}\n
+		}</string>
+	<string name="lesson24_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">var</font> nums: <font color="#FF0096FF">IntArray</font> = intArrayOf(4, 5, -5, 12);\n
+		<font color="#FF2C82C8">for</font> (ix <font color="#FF0096FF">in</font> nums.indices) {\n
+		println(<font color="#FFBC0000">\"Value: ${nums[ix]}\"</font>);\n
+		}\n
+		}</string>
+		
+	<!--25-->
+	<string name="lesson25_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">var</font> nums: <font color="#FF0096FF">DoubleArray</font> = doubleArrayOf(3.14, 1.1, 2.2, 44.55, 21.3);\n\n
+		<font color="#FF009B00">//Calculating the sum</font>\n
+		<font color="#FF2C82C8">var</font> sum: <font color="#FF0096FF">Double</font> = 0.0;\n
+		<font color="#FF2C82C8">for</font> (num <font color="#FF2C82C8">in</font> nums) {\n
+		sum += num;\n
+		}\n
+		println(<font color="#FFBC0000">\"The sum equals to $sum\"</font>);\n
+		}</string>
+		
+	<!--26-->
+	<string name="lesson26_code"><font color="#FF2C82C8">fun</font> name(parameter: type = default value): <font color="#FF2C82C8">return</font> type {\n
+		statements\n
+		}</string>
+	<string name="lesson26_code2"><font color="#FF2C82C8">fun</font> greetUser() {\n
+		println(<font color="#FFBC0000">\"Hello user!\"</font>);\n
+		println(<font color="#FFBC0000">\"Good morning.\"</font>);\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		greetUser();\n
+		}</string>
+	<string name="lesson26_code3"><font color="#FF2C82C8">fun</font> square(x: <font color="#FF0096FF">Int</font>): <font color="#FF0096FF">Int</font> {\n
+		<font color="#FF2C82C8">return</font> x * x\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		println(square(8));\n
+		}</string>
+		
+	<!--27-->
+	<string name="lesson27_code"><font color="#FF2C82C8">fun</font> greetUser(name: <font color="#FF0096FF">String</font>) {\n
+		println(<font color="#FFBC0000">\"Hello $name!\"</font>);\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		greetUser(<font color="#FFBC0000">\"Max\"</font>);\n
+		}</string>
+	<string name="lesson27_code2"><font color="#FF2C82C8">fun</font> printSum(num1: <font color="#FF0096FF">Int</font>, num2: <font color="#FF0096FF">Int</font>) {\n
+		println(<font color="#FFBC0000">\"The sum is ${num1 + num2}!\"</font>);\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">val</font> a = 4;\n
+		<font color="#FF2C82C8">val</font> b = 5;\n
+		printSum(a, b);\n
+		}</string>
+	<string name="lesson27_code3"><font color="#FF2C82C8">fun</font> printSum(num1: Int, num2: <font color="#FF0096FF">Int</font>) {\n
+		println(<font color="#FFBC0000">\"The sum is ${num1 + num2}!\"</font>);\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> getProduct(num1: <font color="#FF0096FF">Int</font>, num2: <font color="#FF0096FF">Int</font>): <font color="#FF0096FF">Int</font> {\n
+		<font color="#FF2C82C8">return</font> num1 * num2;\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">val</font> a = 4;\n
+		<font color="#FF2C82C8">val</font> b = 5;\n
+		printSum(a, b);\n\n
+		<font color="#FF2C82C8">val</font> product = getProduct(a, b);\n
+		println(<font color="#FFBC0000">\"The product is $product\"</font>);\n
+		}</string>
+	<string name="lesson27_code4"><font color="#FF2C82C8">fun</font> getProduct(num1: <font color="#FF0096FF">Int</font>, num2: <font color="#FF0096FF">Int</font>): <font color="#FF0096FF">Int</font> {\n
+		<font color="#FF2C82C8">return</font> num1 * num2;\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">val</font> a = 4;\n
+		<font color="#FF2C82C8">val</font> b = 5;\n\n
+		println(<font color="#FFBC0000">\"The product is ${getProduct(a, b)}\"</font>);\n
+		}</string>
+		
+	<!--28-->
+	<string name="lesson28_code"><font color="#FF2C82C8">fun</font> getSum(num1: <font color="#FF0096FF">Int</font>, num2: <font color="#FF0096FF">Int</font>, num3: <font color="#FF0096FF">Int</font>): <font color="#FF0096FF">Int</font> {\n
+		<font color="#FF2C82C8">return</font> num1 + num2 + num3;\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">val</font> a = 4;\n
+		<font color="#FF2C82C8">val</font> b = 5;\n
+		<font color="#FF2C82C8">val</font> c = 6;\n\n
+		println(<font color="#FFBC0000">\"The sum is ${getSum(a, b, c)}\"</font>);\n
+		}</string>
+	<string name="lesson28_code2"><font color="#FF2C82C8">fun</font> getSum(num1: <font color="#FF0096FF">Int</font>, num2: <font color="#FF0096FF">Int</font>, num3: <font color="#FF0096FF">Int</font> = 0): <font color="#FF0096FF">Int</font> {\n
+		<font color="#FF2C82C8">return</font> num1 + num2 + num3;\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">val</font> a = 4;\n
+		<font color="#FF2C82C8">val</font> b = 5;\n
+		<font color="#FF2C82C8">val</font> c = 6;\n\n
+		println(<font color="#FFBC0000">\"The sum is ${getSum(a, b, c)}\"</font>);\n
+		println(<font color="#FFBC0000">\"The sum of two numbers is ${getSum(a, b)}\"</font>);\n
+		}</string>
+	<string name="lesson28_code3"><font color="#FF2C82C8">fun</font> getSum(num1: <font color="#FF0096FF">Int</font>, num2: <font color="#FF0096FF">Int</font>): <font color="#FF0096FF">Int</font> {\n
+		<font color="#FF2C82C8">return</font> num1 + num2;\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		println(getSum(num1 = 42, num2 = 14));\n
+		}</string>
+		
+	<!--29-->
+	<string name="lesson29_code"><font color="#FF2C82C8">fun</font> printIt(arg: <font color="#FF0096FF">Any</font>) {\n
+		println(arg);\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		printIt(<font color="#FFBC0000">\"Some string\"</font>);\n
+		printIt(42);\n
+		}</string>
+	<string name="lesson29_code2"><font color="#FF2C82C8">fun</font> printIt(arg: <font color="#FF0096FF">Any</font>) {\n
+		<font color="#FF2C82C8">if</font> (arg <font color="#FF2C82C8">is</font> <font color="#FF0096FF">String</font>) {\n
+        println(<font color="#FFBC0000">\"Length ${arg.length}\"</font>);\n
+		}\n
+		println(arg);\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		printIt(<font color="#FFBC0000">\"Some string\"</font>);\n
+		printIt(42);\n
+		}</string>
+		
+	<!--30-->
+	<string name="lesson30_code"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">var</font> str: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"Kotlin\"</font>;\n
+		str = null;\n
+		}</string>
+	<string name="lesson30_code2"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">var</font> a: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"Kotlin\"</font>;\n
+		println(a.length);<font color="#FF009B00">// safely accessing a property</font>\n
+		}</string>
+	<string name="lesson30_code3"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">var</font> str: <font color="#FF0096FF">String</font>? = <font color="#FFBC0000">\"Kotlin\"</font>;\n
+		str = null;\n
+		println(str);\n
+		}</string>
+	<string name="lesson30_code4"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">var</font> str: <font color="#FF0096FF">String</font>? = <font color="#FFBC0000">\"Kotlin\"</font>;\n
+		println(str.length);\n
+		}</string>
+	<string name="lesson30_code5"><font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">var</font> str: <font color="#FF0096FF">String</font>? = <font color="#FFBC0000">\"Kotlin\"</font>;\n
+		println(str?.length);\n
+		}</string>
+		
+	<!--31-->
+	<string name="lesson31_code"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">ClassName</font> {\n\n
+		}</string>
+	<string name="lesson31_code2"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">ClassName</font> {\n
+		<font color="#FF009B00">// methods and/or</font>\n
+		<font color="#FF009B00">// properties</font>\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">ClassName</font>();\n
+		<font color="#FF2C82C8">var</font> obj2: <font color="#FF0096FF">ClassName</font> = <font color="#FF0096FF">ClassName()</font>;\n
+		}</string>
+		
+	<!--32-->
+	<string name="lesson32_code">class <font color="#FF0096FF">User</font> {\n
+		<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
+		<font color="#FF2C82C8">var</font> email: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
+		}</string>
+	<string name="lesson32_code2"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
+		<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
+		<font color="#FF2C82C8">var</font> email: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
+		<font color="#FF2C82C8">val</font> learningAt = <font color="#FFBC0000">\"Kotlin\"</font>;\n
+		}</string>
+	<string name="lesson32_code3"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
+		<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
+		<font color="#FF2C82C8">var</font> email: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
+		<font color="#FF2C82C8">val</font> learningAt = <font color="#FFBC0000">\"Kotlin\"</font>;\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">User</font>();\n
+		obj.name = <font color="#FFBC0000">\"John\"</font>;\n
+		println(obj.learningAt);\n
+		}</string>
+		
+	<!--33-->
+	<string name="lesson33_code"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
+		<font color="#FF2C82C8">fun</font> printHello() {\n
+		println(<font color="#FFBC0000">\"Hello!\"</font>);\n
+		}\n
+		}</string>
+	<string name="lesson33_code2"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
+		<font color="#FF2C82C8">fun</font> printHello() {\n
+        println(<font color="#FFBC0000">\"Hello!\"</font>);\n
+		}\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">User</font>();\n
+		obj.printHello();\n
+		}</string>
+	<string name="lesson33_code3"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
+		<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font> = <font color="#FFBC0000">\"\"</font>;\n
+		<font color="#FF2C82C8">fun</font> printHello() {\n
+        println(<font color="#FFBC0000">\"Hello, $name!\"</font>);\n
+		}\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">User</font>();\n
+		obj.name = <font color="#FFBC0000">\"John\"</font>;\n
+		obj.printHello();\n
+		}</string>
+		
+	<!--34-->
+	<string name="lesson34_code">class <font color="#FF0096FF">User</font> {\n
+		var age: <font color="#FF0096FF">Int</font> = 0;\n
+		fun printInfo() {\n
+		println(<font color="#FFBC0000">\"The user is $age years old.\"</font>);\n
+		}\n
+		}</string>
+	<string name="lesson34_code2"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
+		<font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font> = 0;\n
+		<font color="#FF2C82C8">fun</font> printInfo() {\n
+        println(<font color="#FFBC0000">\"The user is $age years old.\"</font>);\n
+		}\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF009B00">// client code</font>\n
+		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">User</font>();\n
+		obj.age = -12;\n
+		obj.printInfo();\n
+		}</string>
+	<string name="lesson34_code3"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
+		<font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font> = 0\n
+        <font color="#FF2C82C8">set</font>(value) {\n
+		<font color="#FF2C82C8">if</font> (value > 0) {\n
+		field = value;\n
+		}\n
+        }\n
+		<font color="#FF2C82C8">fun</font> printInfo() {\n
+        println(<font color="#FFBC0000">\"The user is $age years old.\"</font>);\n
+		}\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF009B00">// client code</font>\n
+		val obj = <font color="#FF0096FF">User</font>();\n
+		obj.age = -12;\n
+		obj.printInfo();\n
+		obj.age = 11;\n
+		obj.printInfo();\n
+		}</string>
+	<string name="lesson34_code4"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
+		<font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font> = 0\n
+        <font color="#FF2C82C8">set</font>(value) {\n
+		<font color="#FF2C82C8">if</font> (value > 0) {\n
+		field = value;\n
+		}\n
+        }\n
+		<font color="#FF2C82C8">fun</font> printInfo() {\n
+        println(<font color="#FFBC0000">\"The user is $age years old.\"</font>);\n
+		}\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF009B00">// client code</font>\n
+		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">User</font>();\n
+		obj.age = -12;\n
+		obj.printInfo();\n
+		obj.age = 11;\n
+		obj.printInfo();\n
+		}</string>
+	<string name="lesson34_code5"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> {\n
+		<font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font> = 0\n
+        <font color="#FF2C82C8">get</font>() {\n
+		<font color="#FF2C82C8">return</font> field + 2;\n
+        }\n
+        <font color="#FF2C82C8">set</font>(value) {\n
+		<font color="#FF2C82C8">if</font> (value > 0) {\n
+		field = value;\n
+		}\n
+        }\n
+		<font color="#FF2C82C8">fun</font> printInfo() {\n
+        println(<font color="#FFBC0000">\"The user is $age years old.\"</font>);\n
+		}\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF009B00">// client code</font>\n
+		<font color="#FF2C82C8">val</font> obj = <font color="#FF0096FF">User</font>();\n
+		obj.age = -12;\n
+		obj.printInfo();\n
+		obj.age = 11;\n
+		obj.printInfo();\n
+		println(<font color="#FFBC0000">\"Accessing age gives the value ${obj.age}\"</font>);\n
+		}</string>
+		
+	<!--35-->
+	<string name="lesson35_code"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">User</font> <font color="#FF2C82C8">constructor</font>(<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font>) {\n
+		<font color="#FF2C82C8">fun</font> sayHi() {\n
+        println(<font color="#FFBC0000">\"Hello, $name\"</font>);\n
+		}\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		val obj = <font color="#FF0096FF">User</font>(readLine()!!);\n
+		obj.sayHi();\n
+		}</string>
+	<string name="lesson35_code2"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">Student</font>(var age: <font color="#FF0096FF">Int</font>) {\n
+		<font color="#FF2C82C8">fun</font> printAge() {\n
+		println(<font color="#FFBC0000">\"I am $age years old\"</font>);\n
+		}\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">val</font> st = <font color="#FF0096FF">Student</font>(21);\n
+		st.printAge();\n
+		}</string>
+		
+	<!--36-->
+	<string name="lesson36_code"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">Student</font>(<font color="#FF2C82C8">var</font> name: <font color="#FF0096FF">String</font>, <font color="#FF2C82C8">var</font> age: <font color="#FF0096FF">Int</font>) {\n
+		<font color="#FF2C82C8">init</font> {\n
+        println(<font color="#FFBC0000">\"Student: $name\"</font>);\n
+		println(<font color="#FFBC0000">\"Age: $age\"</font>);\n
+		}\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">var</font> philip = <font color="#FF0096FF">Student</font>(<font color="#FFBC0000">\"Philip\"</font>, 14);\n
+		}</string>
+	<string name="lesson36_code2"><font color="#FF2C82C8">class</font> <font color="#FF0096FF">Student</font>(name: <font color="#FF0096FF">String</font>, age: <font color="#FF0096FF">Int</font>){\n
+		<font color="#FF2C82C8">init</font> {\n
+        println(<font color="#FFBC0000">\"This will print first\"</font>);\n
+		}\n\n
+		<font color="#FF2C82C8">init</font> {\n
+        <font color="#FF2C82C8">var</font> sname = name;\n
+        println(<font color="#FFBC0000">\"Using a variable declared above $sname\"</font>);\n
+		}\n
+		}\n\n
+		<font color="#FF2C82C8">fun</font> main(args: <font color="#FF0096FF">Array</font>&lt;<font color="#FF0096FF">String</font>&gt;) {\n
+		<font color="#FF2C82C8">val</font> <font color="#FF0096FF">Steve</font> = <font color="#FF0096FF">Student</font>(<font color="#FFBC0000">\"Steve\"</font>, 15)\n
+		}</string>
+		
+</resources>

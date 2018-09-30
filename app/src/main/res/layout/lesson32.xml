@@ -38,7 +38,7 @@
 					android:padding="10dp"/>
 
 				<HorizontalScrollView
-					android:background="#ffdddddd"
+					android:background="@color/kotlin_code"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content">
 
@@ -57,7 +57,7 @@
 					android:padding="10dp"/>
 
 				<HorizontalScrollView
-					android:background="#ffdddddd"
+					android:background="@color/kotlin_code"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content">
 
@@ -76,7 +76,7 @@
 					android:padding="10dp"/>
 
 				<HorizontalScrollView
-					android:background="#ffdddddd"
+					android:background="@color/kotlin_code"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content">
 

@@ -38,7 +38,7 @@
 					android:text="@string/lesson8_p"/>
 
 				<HorizontalScrollView
-					android:background="#ffdddddd"
+					android:background="@color/kotlin_code"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content">
 
@@ -47,7 +47,7 @@
 						android:padding="10.0dip"
 						android:layout_width="fill_parent"
 						android:layout_height="wrap_content"
-						android:text="@string/lesson10_code"/>
+						android:text="@string/lesson8_code"/>
 
 				</HorizontalScrollView>
 
@@ -56,16 +56,16 @@
 					android:padding="10.0dip"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content"
-					android:text="@string/lesson10_hint"/>
+					android:text="@string/lesson8_hint"/>
 
 				<TextView
 					android:padding="10.0dip"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content"
-					android:text="@string/lesson10_p2"/>
+					android:text="@string/lesson8_p2"/>
 
 				<HorizontalScrollView
-					android:background="#ffdddddd"
+					android:background="@color/kotlin_code"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content">
 
@@ -74,7 +74,7 @@
 						android:padding="10.0dip"
 						android:layout_width="fill_parent"
 						android:layout_height="wrap_content"
-						android:text="@string/lesson10_code2"/>
+						android:text="@string/lesson8_code2"/>
 
 				</HorizontalScrollView>
 
@@ -82,10 +82,10 @@
 					android:padding="10.0dip"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content"
-					android:text="@string/lesson10_p3"/>
+					android:text="@string/lesson8_p3"/>
 
 				<HorizontalScrollView
-					android:background="#ffdddddd"
+					android:background="@color/kotlin_code"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content">
 
@@ -94,7 +94,7 @@
 						android:padding="10.0dip"
 						android:layout_width="fill_parent"
 						android:layout_height="wrap_content"
-						android:text="@string/lesson10_code3"/>
+						android:text="@string/lesson8_code3"/>
 
 				</HorizontalScrollView>
 

@@ -2470,31 +2470,31 @@ containing a value of this type.
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f0d0004;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f090054;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f090055;
-        public static final int abc_btn_colored_borderless_text_material=0x7f090056;
-        public static final int abc_btn_colored_text_material=0x7f090057;
-        public static final int abc_color_highlight_material=0x7f090058;
-        public static final int abc_hint_foreground_material_dark=0x7f090059;
-        public static final int abc_hint_foreground_material_light=0x7f09005a;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f090056;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f090057;
+        public static final int abc_btn_colored_borderless_text_material=0x7f090058;
+        public static final int abc_btn_colored_text_material=0x7f090059;
+        public static final int abc_color_highlight_material=0x7f09005a;
+        public static final int abc_hint_foreground_material_dark=0x7f09005b;
+        public static final int abc_hint_foreground_material_light=0x7f09005c;
         public static final int abc_input_method_navigation_guard=0x7f090005;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f09005b;
-        public static final int abc_primary_text_disable_only_material_light=0x7f09005c;
-        public static final int abc_primary_text_material_dark=0x7f09005d;
-        public static final int abc_primary_text_material_light=0x7f09005e;
-        public static final int abc_search_url_text=0x7f09005f;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f09005d;
+        public static final int abc_primary_text_disable_only_material_light=0x7f09005e;
+        public static final int abc_primary_text_material_dark=0x7f09005f;
+        public static final int abc_primary_text_material_light=0x7f090060;
+        public static final int abc_search_url_text=0x7f090061;
         public static final int abc_search_url_text_normal=0x7f090006;
         public static final int abc_search_url_text_pressed=0x7f090007;
         public static final int abc_search_url_text_selected=0x7f090008;
-        public static final int abc_secondary_text_material_dark=0x7f090060;
-        public static final int abc_secondary_text_material_light=0x7f090061;
-        public static final int abc_tint_btn_checkable=0x7f090062;
-        public static final int abc_tint_default=0x7f090063;
-        public static final int abc_tint_edittext=0x7f090064;
-        public static final int abc_tint_seek_thumb=0x7f090065;
-        public static final int abc_tint_spinner=0x7f090066;
-        public static final int abc_tint_switch_thumb=0x7f090067;
-        public static final int abc_tint_switch_track=0x7f090068;
+        public static final int abc_secondary_text_material_dark=0x7f090062;
+        public static final int abc_secondary_text_material_light=0x7f090063;
+        public static final int abc_tint_btn_checkable=0x7f090064;
+        public static final int abc_tint_default=0x7f090065;
+        public static final int abc_tint_edittext=0x7f090066;
+        public static final int abc_tint_seek_thumb=0x7f090067;
+        public static final int abc_tint_spinner=0x7f090068;
+        public static final int abc_tint_switch_thumb=0x7f090069;
+        public static final int abc_tint_switch_track=0x7f09006a;
         public static final int accent_material_dark=0x7f090009;
         public static final int accent_material_light=0x7f09000a;
         public static final int background_floating_material_dark=0x7f09000b;
@@ -2519,7 +2519,7 @@ containing a value of this type.
         public static final int colorPrimary=0x7f09004a;
         public static final int colorPrimaryDark=0x7f09004b;
         public static final int design_bottom_navigation_shadow_color=0x7f09003f;
-        public static final int design_error=0x7f090069;
+        public static final int design_error=0x7f09006b;
         public static final int design_fab_shadow_end_color=0x7f090040;
         public static final int design_fab_shadow_mid_color=0x7f090041;
         public static final int design_fab_shadow_start_color=0x7f090042;
@@ -2530,7 +2530,7 @@ containing a value of this type.
         public static final int design_snackbar_background_color=0x7f090047;
         public static final int design_textinput_error_color_dark=0x7f090048;
         public static final int design_textinput_error_color_light=0x7f090049;
-        public static final int design_tint_password_toggle=0x7f09006a;
+        public static final int design_tint_password_toggle=0x7f09006c;
         public static final int dim_foreground_disabled_material_dark=0x7f090017;
         public static final int dim_foreground_disabled_material_light=0x7f090018;
         public static final int dim_foreground_material_dark=0x7f090019;
@@ -2543,6 +2543,7 @@ containing a value of this type.
         public static final int grey_800=0x7f090053;
         public static final int highlighted_text_material_dark=0x7f09001d;
         public static final int highlighted_text_material_light=0x7f09001e;
+        public static final int kotlin_code=0x7f090055;
         public static final int material_blue_grey_800=0x7f09001f;
         public static final int material_blue_grey_900=0x7f090020;
         public static final int material_blue_grey_950=0x7f090021;
@@ -2558,6 +2559,7 @@ containing a value of this type.
         public static final int notification_action_color_filter=0x7f090004;
         public static final int notification_icon_bg_color=0x7f09002b;
         public static final int notification_material_background_media_default_color=0x7f09002c;
+        public static final int output=0x7f090054;
         public static final int primary_dark_material_dark=0x7f09002d;
         public static final int primary_dark_material_light=0x7f09002e;
         public static final int primary_material_dark=0x7f09002f;
@@ -2574,8 +2576,8 @@ containing a value of this type.
         public static final int secondary_text_disabled_material_light=0x7f09003a;
         public static final int switch_thumb_disabled_material_dark=0x7f09003b;
         public static final int switch_thumb_disabled_material_light=0x7f09003c;
-        public static final int switch_thumb_material_dark=0x7f09006b;
-        public static final int switch_thumb_material_light=0x7f09006c;
+        public static final int switch_thumb_material_dark=0x7f09006d;
+        public static final int switch_thumb_material_light=0x7f09006e;
         public static final int switch_thumb_normal_material_dark=0x7f09003d;
         public static final int switch_thumb_normal_material_light=0x7f09003e;
         public static final int transparent=0x7f09004e;
@@ -3209,389 +3211,453 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f0c0010;
         public static final int abc_shareactionprovider_share_with_application=0x7f0c0011;
         public static final int abc_toolbar_collapse_description=0x7f0c0012;
-        public static final int app_name=0x7f0c002a;
+        public static final int app_name=0x7f0c0087;
         public static final int appbar_scrolling_view_behavior=0x7f0c0021;
-        public static final int banner_ad_unit_id=0x7f0c002b;
+        public static final int banner_ad_unit_id=0x7f0c0088;
         public static final int bottom_sheet_behavior=0x7f0c0022;
-        public static final int changelog=0x7f0c0032;
-        public static final int changelog_p=0x7f0c0038;
+        public static final int changelog=0x7f0c008f;
+        public static final int changelog_p=0x7f0c0095;
         public static final int character_counter_pattern=0x7f0c0023;
         public static final int common_google_play_services_unknown_issue=0x7f0c0029;
-        public static final int lesson10_code=0x7f0c0074;
-        public static final int lesson10_code2=0x7f0c0077;
-        public static final int lesson10_code3=0x7f0c0079;
-        public static final int lesson10_code4=0x7f0c007b;
-        public static final int lesson10_hint=0x7f0c007c;
-        public static final int lesson10_p=0x7f0c0073;
-        public static final int lesson10_p2=0x7f0c0076;
-        public static final int lesson10_p3=0x7f0c0078;
-        public static final int lesson10_p4=0x7f0c007a;
         /** 10
          */
-        public static final int lesson10_title=0x7f0c0072;
-        public static final int lesson10_title2=0x7f0c0075;
-        public static final int lesson11_code=0x7f0c007f;
-        public static final int lesson11_code2=0x7f0c0081;
-        public static final int lesson11_code3=0x7f0c0083;
-        public static final int lesson11_code4=0x7f0c0085;
-        public static final int lesson11_hint=0x7f0c0086;
-        public static final int lesson11_p=0x7f0c007e;
-        public static final int lesson11_p2=0x7f0c0080;
-        public static final int lesson11_p3=0x7f0c0082;
-        public static final int lesson11_p4=0x7f0c0084;
+        public static final int lesson10_code=0x7f0c0039;
+        public static final int lesson10_code2=0x7f0c003a;
+        public static final int lesson10_code3=0x7f0c003b;
+        public static final int lesson10_code4=0x7f0c003c;
+        public static final int lesson10_hint=0x7f0c00c6;
+        public static final int lesson10_p=0x7f0c00c1;
+        public static final int lesson10_p2=0x7f0c00c3;
+        public static final int lesson10_p3=0x7f0c00c4;
+        public static final int lesson10_p4=0x7f0c00c5;
+        /** 10
+         */
+        public static final int lesson10_title=0x7f0c00c0;
+        public static final int lesson10_title2=0x7f0c00c2;
         /** 11
          */
-        public static final int lesson11_title=0x7f0c007d;
-        public static final int lesson12_code=0x7f0c0089;
-        public static final int lesson12_code2=0x7f0c008b;
-        public static final int lesson12_code3=0x7f0c008d;
-        public static final int lesson12_p=0x7f0c0088;
-        public static final int lesson12_p2=0x7f0c008a;
-        public static final int lesson12_p3=0x7f0c008c;
+        public static final int lesson11_code=0x7f0c003d;
+        public static final int lesson11_code2=0x7f0c003e;
+        public static final int lesson11_code3=0x7f0c003f;
+        public static final int lesson11_code4=0x7f0c0040;
+        public static final int lesson11_hint=0x7f0c00cc;
+        public static final int lesson11_p=0x7f0c00c8;
+        public static final int lesson11_p2=0x7f0c00c9;
+        public static final int lesson11_p3=0x7f0c00ca;
+        public static final int lesson11_p4=0x7f0c00cb;
+        /** 11
+         */
+        public static final int lesson11_title=0x7f0c00c7;
         /** 12
          */
-        public static final int lesson12_title=0x7f0c0087;
-        public static final int lesson13_code=0x7f0c0090;
-        public static final int lesson13_p=0x7f0c008f;
-        public static final int lesson13_p2=0x7f0c0091;
+        public static final int lesson12_code=0x7f0c0041;
+        public static final int lesson12_code2=0x7f0c0042;
+        public static final int lesson12_code3=0x7f0c0043;
+        public static final int lesson12_p=0x7f0c00ce;
+        public static final int lesson12_p2=0x7f0c00cf;
+        public static final int lesson12_p3=0x7f0c00d0;
+        /** 12
+         */
+        public static final int lesson12_title=0x7f0c00cd;
         /** 13
          */
-        public static final int lesson13_title=0x7f0c008e;
-        public static final int lesson14_code=0x7f0c0094;
-        public static final int lesson14_code2=0x7f0c0096;
-        public static final int lesson14_code3=0x7f0c0098;
-        public static final int lesson14_code4=0x7f0c009a;
-        public static final int lesson14_hint=0x7f0c009c;
-        public static final int lesson14_p=0x7f0c0093;
-        public static final int lesson14_p2=0x7f0c0095;
-        public static final int lesson14_p3=0x7f0c0097;
-        public static final int lesson14_p4=0x7f0c0099;
-        public static final int lesson14_p5=0x7f0c009b;
+        public static final int lesson13_code=0x7f0c0044;
+        public static final int lesson13_p=0x7f0c00d2;
+        public static final int lesson13_p2=0x7f0c00d3;
+        /** 13
+         */
+        public static final int lesson13_title=0x7f0c00d1;
         /** 14
          */
-        public static final int lesson14_title=0x7f0c0092;
-        public static final int lesson15_code=0x7f0c009f;
-        public static final int lesson15_hint=0x7f0c00a0;
-        public static final int lesson15_p=0x7f0c009e;
+        public static final int lesson14_code=0x7f0c0045;
+        public static final int lesson14_code2=0x7f0c0046;
+        public static final int lesson14_code3=0x7f0c0047;
+        public static final int lesson14_code4=0x7f0c0048;
+        public static final int lesson14_hint=0x7f0c00da;
+        public static final int lesson14_p=0x7f0c00d5;
+        public static final int lesson14_p2=0x7f0c00d6;
+        public static final int lesson14_p3=0x7f0c00d7;
+        public static final int lesson14_p4=0x7f0c00d8;
+        public static final int lesson14_p5=0x7f0c00d9;
+        /** 14
+         */
+        public static final int lesson14_title=0x7f0c00d4;
         /** 15
          */
-        public static final int lesson15_title=0x7f0c009d;
-        public static final int lesson16_code=0x7f0c00a5;
-        public static final int lesson16_code2=0x7f0c00a9;
-        public static final int lesson16_code3=0x7f0c00ac;
-        public static final int lesson16_hint=0x7f0c00a6;
-        public static final int lesson16_p=0x7f0c00a2;
-        public static final int lesson16_p2=0x7f0c00a3;
-        public static final int lesson16_p3=0x7f0c00a4;
-        public static final int lesson16_p4=0x7f0c00a7;
-        public static final int lesson16_p5=0x7f0c00a8;
-        public static final int lesson16_p6=0x7f0c00aa;
-        public static final int lesson16_p7=0x7f0c00ab;
+        public static final int lesson15_code=0x7f0c0049;
+        public static final int lesson15_hint=0x7f0c00dd;
+        public static final int lesson15_p=0x7f0c00dc;
+        /** 15
+         */
+        public static final int lesson15_title=0x7f0c00db;
         /** 16
          */
-        public static final int lesson16_title=0x7f0c00a1;
-        public static final int lesson17_code=0x7f0c00af;
-        public static final int lesson17_code2=0x7f0c00b2;
-        public static final int lesson17_code3=0x7f0c00b4;
-        public static final int lesson17_code4=0x7f0c00b6;
-        public static final int lesson17_code5=0x7f0c00b8;
-        public static final int lesson17_hint=0x7f0c00b0;
-        public static final int lesson17_hint2=0x7f0c00b9;
-        public static final int lesson17_p=0x7f0c00ae;
-        public static final int lesson17_p2=0x7f0c00b1;
-        public static final int lesson17_p3=0x7f0c00b3;
-        public static final int lesson17_p4=0x7f0c00b5;
-        public static final int lesson17_p5=0x7f0c00b7;
+        public static final int lesson16_code=0x7f0c004a;
+        public static final int lesson16_code2=0x7f0c004b;
+        public static final int lesson16_code3=0x7f0c004c;
+        public static final int lesson16_hint=0x7f0c00e2;
+        public static final int lesson16_p=0x7f0c00df;
+        public static final int lesson16_p2=0x7f0c00e0;
+        public static final int lesson16_p3=0x7f0c00e1;
+        public static final int lesson16_p4=0x7f0c00e3;
+        public static final int lesson16_p5=0x7f0c00e4;
+        public static final int lesson16_p6=0x7f0c00e5;
+        public static final int lesson16_p7=0x7f0c00e6;
+        /** 16
+         */
+        public static final int lesson16_title=0x7f0c00de;
         /** 17
          */
-        public static final int lesson17_title=0x7f0c00ad;
-        public static final int lesson18_code=0x7f0c00bc;
-        public static final int lesson18_code2=0x7f0c00be;
-        public static final int lesson18_hint=0x7f0c00bf;
-        public static final int lesson18_p=0x7f0c00bb;
-        public static final int lesson18_p2=0x7f0c00bd;
+        public static final int lesson17_code=0x7f0c004d;
+        public static final int lesson17_code2=0x7f0c004e;
+        public static final int lesson17_code3=0x7f0c004f;
+        public static final int lesson17_code4=0x7f0c0050;
+        public static final int lesson17_code5=0x7f0c0051;
+        public static final int lesson17_hint=0x7f0c00e9;
+        public static final int lesson17_hint2=0x7f0c00ee;
+        public static final int lesson17_p=0x7f0c00e8;
+        public static final int lesson17_p2=0x7f0c00ea;
+        public static final int lesson17_p3=0x7f0c00eb;
+        public static final int lesson17_p4=0x7f0c00ec;
+        public static final int lesson17_p5=0x7f0c00ed;
+        /** 17
+         */
+        public static final int lesson17_title=0x7f0c00e7;
         /** 18
          */
-        public static final int lesson18_title=0x7f0c00ba;
-        public static final int lesson19_code=0x7f0c00c2;
-        public static final int lesson19_code2=0x7f0c00c4;
-        public static final int lesson19_p=0x7f0c00c1;
-        public static final int lesson19_p2=0x7f0c00c3;
-        public static final int lesson19_p3=0x7f0c00c5;
+        public static final int lesson18_code=0x7f0c0052;
+        public static final int lesson18_code2=0x7f0c0053;
+        public static final int lesson18_hint=0x7f0c00f2;
+        public static final int lesson18_p=0x7f0c00f0;
+        public static final int lesson18_p2=0x7f0c00f1;
+        /** 18
+         */
+        public static final int lesson18_title=0x7f0c00ef;
         /** 19
          */
-        public static final int lesson19_title=0x7f0c00c0;
-        public static final int lesson1_hint=0x7f0c003b;
-        public static final int lesson1_p=0x7f0c003a;
-        public static final int lesson1_title=0x7f0c0039;
-        public static final int lesson20_code=0x7f0c00c8;
-        public static final int lesson20_code2=0x7f0c00ca;
-        public static final int lesson20_p=0x7f0c00c7;
-        public static final int lesson20_p2=0x7f0c00c9;
+        public static final int lesson19_code=0x7f0c0054;
+        public static final int lesson19_code2=0x7f0c0055;
+        public static final int lesson19_p=0x7f0c00f4;
+        public static final int lesson19_p2=0x7f0c00f5;
+        public static final int lesson19_p3=0x7f0c00f6;
+        /** 19
+         */
+        public static final int lesson19_title=0x7f0c00f3;
+        public static final int lesson1_hint=0x7f0c0098;
+        public static final int lesson1_p=0x7f0c0097;
+        public static final int lesson1_title=0x7f0c0096;
+        public static final int lesson20_code=0x7f0c0056;
+        public static final int lesson20_code2=0x7f0c0057;
+        public static final int lesson20_p=0x7f0c00f8;
+        public static final int lesson20_p2=0x7f0c00f9;
         /** 20
          */
-        public static final int lesson20_title=0x7f0c00c6;
-        public static final int lesson21_code=0x7f0c00cd;
-        public static final int lesson21_code2=0x7f0c00cf;
-        public static final int lesson21_code3=0x7f0c00d1;
-        public static final int lesson21_hint=0x7f0c00d2;
-        public static final int lesson21_p=0x7f0c00cc;
-        public static final int lesson21_p2=0x7f0c00ce;
-        public static final int lesson21_p3=0x7f0c00d0;
+        public static final int lesson20_title=0x7f0c00f7;
         /** 21
          */
-        public static final int lesson21_title=0x7f0c00cb;
-        public static final int lesson22_code=0x7f0c00d5;
-        public static final int lesson22_code2=0x7f0c00d7;
-        public static final int lesson22_code3=0x7f0c00da;
-        public static final int lesson22_code4=0x7f0c00dc;
-        public static final int lesson22_hint=0x7f0c00de;
-        public static final int lesson22_p=0x7f0c00d4;
-        public static final int lesson22_p2=0x7f0c00d6;
-        public static final int lesson22_p3=0x7f0c00d8;
-        public static final int lesson22_p4=0x7f0c00d9;
-        public static final int lesson22_p5=0x7f0c00db;
-        public static final int lesson22_p6=0x7f0c00dd;
+        public static final int lesson21_code=0x7f0c0058;
+        public static final int lesson21_code2=0x7f0c0059;
+        public static final int lesson21_code3=0x7f0c005a;
+        public static final int lesson21_hint=0x7f0c00fe;
+        public static final int lesson21_p=0x7f0c00fb;
+        public static final int lesson21_p2=0x7f0c00fc;
+        public static final int lesson21_p3=0x7f0c00fd;
+        /** 21
+         */
+        public static final int lesson21_title=0x7f0c00fa;
         /** 22
          */
-        public static final int lesson22_title=0x7f0c00d3;
-        public static final int lesson23_code=0x7f0c00e1;
-        public static final int lesson23_code2=0x7f0c00e3;
-        public static final int lesson23_p=0x7f0c00e0;
-        public static final int lesson23_p2=0x7f0c00e2;
+        public static final int lesson22_code=0x7f0c005b;
+        public static final int lesson22_code2=0x7f0c005c;
+        public static final int lesson22_code3=0x7f0c005d;
+        public static final int lesson22_code4=0x7f0c005e;
+        public static final int lesson22_hint=0x7f0c0106;
+        public static final int lesson22_p=0x7f0c0100;
+        public static final int lesson22_p2=0x7f0c0101;
+        public static final int lesson22_p3=0x7f0c0102;
+        public static final int lesson22_p4=0x7f0c0103;
+        public static final int lesson22_p5=0x7f0c0104;
+        public static final int lesson22_p6=0x7f0c0105;
+        /** 22
+         */
+        public static final int lesson22_title=0x7f0c00ff;
+        /** 23
+         */
+        public static final int lesson23_code=0x7f0c005f;
+        public static final int lesson23_code2=0x7f0c0060;
+        public static final int lesson23_p=0x7f0c0108;
+        public static final int lesson23_p2=0x7f0c0109;
         /** 23
 23
          */
-        public static final int lesson23_title=0x7f0c00df;
-        public static final int lesson24_code=0x7f0c00e6;
-        public static final int lesson24_code2=0x7f0c00e8;
-        public static final int lesson24_code3=0x7f0c00ea;
-        public static final int lesson24_p=0x7f0c00e5;
-        public static final int lesson24_p2=0x7f0c00e7;
-        public static final int lesson24_p3=0x7f0c00e9;
+        public static final int lesson23_title=0x7f0c0107;
+        /** 24
+         */
+        public static final int lesson24_code=0x7f0c0061;
+        public static final int lesson24_code2=0x7f0c0062;
+        public static final int lesson24_code3=0x7f0c0063;
+        public static final int lesson24_p=0x7f0c010b;
+        public static final int lesson24_p2=0x7f0c010c;
+        public static final int lesson24_p3=0x7f0c010d;
         /** 24
 24
          */
-        public static final int lesson24_title=0x7f0c00e4;
-        public static final int lesson25_code=0x7f0c00ed;
-        public static final int lesson25_p=0x7f0c00ec;
-        public static final int lesson25_p2=0x7f0c00ee;
+        public static final int lesson24_title=0x7f0c010a;
+        /** 25
+         */
+        public static final int lesson25_code=0x7f0c0064;
+        public static final int lesson25_p=0x7f0c010f;
+        public static final int lesson25_p2=0x7f0c0110;
         /** 25
 25
          */
-        public static final int lesson25_title=0x7f0c00eb;
-        public static final int lesson26_code=0x7f0c00f1;
-        public static final int lesson26_code2=0x7f0c00f3;
-        public static final int lesson26_code3=0x7f0c00f5;
-        public static final int lesson26_hint=0x7f0c00f7;
-        public static final int lesson26_p=0x7f0c00f0;
-        public static final int lesson26_p2=0x7f0c00f2;
-        public static final int lesson26_p3=0x7f0c00f4;
-        public static final int lesson26_p4=0x7f0c00f6;
+        public static final int lesson25_title=0x7f0c010e;
+        /** 26
+         */
+        public static final int lesson26_code=0x7f0c0065;
+        public static final int lesson26_code2=0x7f0c0066;
+        public static final int lesson26_code3=0x7f0c0067;
+        public static final int lesson26_hint=0x7f0c0116;
+        public static final int lesson26_p=0x7f0c0112;
+        public static final int lesson26_p2=0x7f0c0113;
+        public static final int lesson26_p3=0x7f0c0114;
+        public static final int lesson26_p4=0x7f0c0115;
         /** 26
 26
          */
-        public static final int lesson26_title=0x7f0c00ef;
-        public static final int lesson27_code=0x7f0c00fa;
-        public static final int lesson27_code2=0x7f0c00fc;
-        public static final int lesson27_code3=0x7f0c00fe;
-        public static final int lesson27_code4=0x7f0c0100;
-        public static final int lesson27_p=0x7f0c00f9;
-        public static final int lesson27_p2=0x7f0c00fb;
-        public static final int lesson27_p3=0x7f0c00fd;
-        public static final int lesson27_p4=0x7f0c00ff;
+        public static final int lesson26_title=0x7f0c0111;
+        /** 27
+         */
+        public static final int lesson27_code=0x7f0c0068;
+        public static final int lesson27_code2=0x7f0c0069;
+        public static final int lesson27_code3=0x7f0c006a;
+        public static final int lesson27_code4=0x7f0c006b;
+        public static final int lesson27_p=0x7f0c0118;
+        public static final int lesson27_p2=0x7f0c0119;
+        public static final int lesson27_p3=0x7f0c011a;
+        public static final int lesson27_p4=0x7f0c011b;
         /** 27
 27
          */
-        public static final int lesson27_title=0x7f0c00f8;
-        public static final int lesson28_code=0x7f0c0103;
-        public static final int lesson28_code2=0x7f0c0105;
-        public static final int lesson28_code3=0x7f0c0107;
-        public static final int lesson28_hint=0x7f0c0109;
-        public static final int lesson28_p=0x7f0c0102;
-        public static final int lesson28_p2=0x7f0c0104;
-        public static final int lesson28_p3=0x7f0c0106;
-        public static final int lesson28_p4=0x7f0c0108;
+        public static final int lesson27_title=0x7f0c0117;
+        /** 28
+         */
+        public static final int lesson28_code=0x7f0c006c;
+        public static final int lesson28_code2=0x7f0c006d;
+        public static final int lesson28_code3=0x7f0c006e;
+        public static final int lesson28_hint=0x7f0c0121;
+        public static final int lesson28_p=0x7f0c011d;
+        public static final int lesson28_p2=0x7f0c011e;
+        public static final int lesson28_p3=0x7f0c011f;
+        public static final int lesson28_p4=0x7f0c0120;
         /** 28
 28
          */
-        public static final int lesson28_title=0x7f0c0101;
-        public static final int lesson29_code=0x7f0c010c;
-        public static final int lesson29_code2=0x7f0c010e;
-        public static final int lesson29_p=0x7f0c010b;
-        public static final int lesson29_p2=0x7f0c010d;
-        public static final int lesson29_p3=0x7f0c010f;
+        public static final int lesson28_title=0x7f0c011c;
+        /** 29
+         */
+        public static final int lesson29_code=0x7f0c006f;
+        public static final int lesson29_code2=0x7f0c0070;
+        public static final int lesson29_p=0x7f0c0123;
+        public static final int lesson29_p2=0x7f0c0124;
+        public static final int lesson29_p3=0x7f0c0125;
         /** 29
 29
          */
-        public static final int lesson29_title=0x7f0c010a;
-        public static final int lesson2_hint=0x7f0c003f;
-        public static final int lesson2_p=0x7f0c003d;
-        public static final int lesson2_p2=0x7f0c003e;
-        public static final int lesson2_title=0x7f0c003c;
-        public static final int lesson30_code=0x7f0c0112;
-        public static final int lesson30_code2=0x7f0c0114;
-        public static final int lesson30_code3=0x7f0c0116;
-        public static final int lesson30_code4=0x7f0c0118;
-        public static final int lesson30_code5=0x7f0c011a;
-        public static final int lesson30_hint=0x7f0c011b;
-        public static final int lesson30_p=0x7f0c0111;
-        public static final int lesson30_p2=0x7f0c0113;
-        public static final int lesson30_p3=0x7f0c0115;
-        public static final int lesson30_p4=0x7f0c0117;
-        public static final int lesson30_p5=0x7f0c0119;
+        public static final int lesson29_title=0x7f0c0122;
+        public static final int lesson2_hint=0x7f0c009c;
+        public static final int lesson2_p=0x7f0c009a;
+        public static final int lesson2_p2=0x7f0c009b;
+        public static final int lesson2_title=0x7f0c0099;
+        /** 30
+         */
+        public static final int lesson30_code=0x7f0c0071;
+        public static final int lesson30_code2=0x7f0c0072;
+        public static final int lesson30_code3=0x7f0c0073;
+        public static final int lesson30_code4=0x7f0c0074;
+        public static final int lesson30_code5=0x7f0c0075;
+        public static final int lesson30_hint=0x7f0c012c;
+        public static final int lesson30_p=0x7f0c0127;
+        public static final int lesson30_p2=0x7f0c0128;
+        public static final int lesson30_p3=0x7f0c0129;
+        public static final int lesson30_p4=0x7f0c012a;
+        public static final int lesson30_p5=0x7f0c012b;
         /** 30
 30
          */
-        public static final int lesson30_title=0x7f0c0110;
-        public static final int lesson31_code=0x7f0c011e;
-        public static final int lesson31_code2=0x7f0c0120;
-        public static final int lesson31_hint=0x7f0c0122;
-        public static final int lesson31_p=0x7f0c011d;
-        public static final int lesson31_p2=0x7f0c011f;
-        public static final int lesson31_p3=0x7f0c0121;
+        public static final int lesson30_title=0x7f0c0126;
+        /** 31
+         */
+        public static final int lesson31_code=0x7f0c0076;
+        public static final int lesson31_code2=0x7f0c0077;
+        public static final int lesson31_hint=0x7f0c0131;
+        public static final int lesson31_p=0x7f0c012e;
+        public static final int lesson31_p2=0x7f0c012f;
+        public static final int lesson31_p3=0x7f0c0130;
         /** 31
 31
          */
-        public static final int lesson31_title=0x7f0c011c;
-        public static final int lesson32_code=0x7f0c0125;
-        public static final int lesson32_code2=0x7f0c0127;
-        public static final int lesson32_code3=0x7f0c0129;
-        public static final int lesson32_p=0x7f0c0124;
-        public static final int lesson32_p2=0x7f0c0126;
-        public static final int lesson32_p3=0x7f0c0128;
+        public static final int lesson31_title=0x7f0c012d;
+        /** 32
+         */
+        public static final int lesson32_code=0x7f0c0078;
+        public static final int lesson32_code2=0x7f0c0079;
+        public static final int lesson32_code3=0x7f0c007a;
+        public static final int lesson32_p=0x7f0c0133;
+        public static final int lesson32_p2=0x7f0c0134;
+        public static final int lesson32_p3=0x7f0c0135;
         /** 32
 32
          */
-        public static final int lesson32_title=0x7f0c0123;
-        public static final int lesson33_code=0x7f0c012c;
-        public static final int lesson33_code2=0x7f0c012e;
-        public static final int lesson33_code3=0x7f0c0130;
-        public static final int lesson33_p=0x7f0c012b;
-        public static final int lesson33_p2=0x7f0c012d;
-        public static final int lesson33_p3=0x7f0c012f;
+        public static final int lesson32_title=0x7f0c0132;
+        /** 33
+         */
+        public static final int lesson33_code=0x7f0c007b;
+        public static final int lesson33_code2=0x7f0c007c;
+        public static final int lesson33_code3=0x7f0c007d;
+        public static final int lesson33_p=0x7f0c0137;
+        public static final int lesson33_p2=0x7f0c0138;
+        public static final int lesson33_p3=0x7f0c0139;
         /** 33
 33
          */
-        public static final int lesson33_title=0x7f0c012a;
-        public static final int lesson34_code=0x7f0c0133;
-        public static final int lesson34_code2=0x7f0c0135;
-        public static final int lesson34_code3=0x7f0c0137;
-        public static final int lesson34_code4=0x7f0c0139;
-        public static final int lesson34_code5=0x7f0c013b;
-        public static final int lesson34_p=0x7f0c0132;
-        public static final int lesson34_p2=0x7f0c0134;
-        public static final int lesson34_p3=0x7f0c0136;
-        public static final int lesson34_p4=0x7f0c0138;
-        public static final int lesson34_p5=0x7f0c013a;
-        public static final int lesson34_p6=0x7f0c013c;
+        public static final int lesson33_title=0x7f0c0136;
+        /** 34
+         */
+        public static final int lesson34_code=0x7f0c007e;
+        public static final int lesson34_code2=0x7f0c007f;
+        public static final int lesson34_code3=0x7f0c0080;
+        public static final int lesson34_code4=0x7f0c0081;
+        public static final int lesson34_code5=0x7f0c0082;
+        public static final int lesson34_p=0x7f0c013b;
+        public static final int lesson34_p2=0x7f0c013c;
+        public static final int lesson34_p3=0x7f0c013d;
+        public static final int lesson34_p4=0x7f0c013e;
+        public static final int lesson34_p5=0x7f0c013f;
+        public static final int lesson34_p6=0x7f0c0140;
         /** 34
 34
          */
-        public static final int lesson34_title=0x7f0c0131;
-        public static final int lesson35_code=0x7f0c013f;
-        public static final int lesson35_code2=0x7f0c0141;
-        public static final int lesson35_hint=0x7f0c0142;
-        public static final int lesson35_p=0x7f0c013e;
-        public static final int lesson35_p2=0x7f0c0140;
+        public static final int lesson34_title=0x7f0c013a;
+        /** 35
+         */
+        public static final int lesson35_code=0x7f0c0083;
+        public static final int lesson35_code2=0x7f0c0084;
+        public static final int lesson35_hint=0x7f0c0144;
+        public static final int lesson35_p=0x7f0c0142;
+        public static final int lesson35_p2=0x7f0c0143;
         /** 35
 35
          */
-        public static final int lesson35_title=0x7f0c013d;
-        public static final int lesson36_code=0x7f0c0145;
-        public static final int lesson36_code2=0x7f0c0147;
-        public static final int lesson36_p=0x7f0c0144;
-        public static final int lesson36_p2=0x7f0c0146;
+        public static final int lesson35_title=0x7f0c0141;
+        /** 36
+         */
+        public static final int lesson36_code=0x7f0c0085;
+        public static final int lesson36_code2=0x7f0c0086;
+        public static final int lesson36_p=0x7f0c0146;
+        public static final int lesson36_p2=0x7f0c0147;
         public static final int lesson36_p3=0x7f0c0148;
         /** 36
 36
          */
-        public static final int lesson36_title=0x7f0c0143;
+        public static final int lesson36_title=0x7f0c0145;
         public static final int lesson3_code=0x7f0c0149;
         public static final int lesson3_code2=0x7f0c014a;
         public static final int lesson3_code3=0x7f0c014b;
         public static final int lesson3_code4=0x7f0c014c;
-        public static final int lesson3_hint=0x7f0c0045;
-        public static final int lesson3_p=0x7f0c0041;
-        public static final int lesson3_p2=0x7f0c0042;
-        public static final int lesson3_p3=0x7f0c0043;
-        public static final int lesson3_p4=0x7f0c0044;
+        public static final int lesson3_hint=0x7f0c00a2;
+        public static final int lesson3_p=0x7f0c009e;
+        public static final int lesson3_p2=0x7f0c009f;
+        public static final int lesson3_p3=0x7f0c00a0;
+        public static final int lesson3_p4=0x7f0c00a1;
         /** 3
          */
-        public static final int lesson3_title=0x7f0c0040;
-        public static final int lesson4_code=0x7f0c0048;
-        public static final int lesson4_code2=0x7f0c004a;
-        public static final int lesson4_hint=0x7f0c004c;
-        public static final int lesson4_p=0x7f0c0047;
-        public static final int lesson4_p2=0x7f0c0049;
-        public static final int lesson4_p3=0x7f0c004b;
+        public static final int lesson3_title=0x7f0c009d;
         /** 4
          */
-        public static final int lesson4_title=0x7f0c0046;
-        public static final int lesson5_code=0x7f0c004f;
-        public static final int lesson5_code2=0x7f0c0051;
-        public static final int lesson5_p=0x7f0c004e;
-        public static final int lesson5_p2=0x7f0c0050;
-        public static final int lesson5_p3=0x7f0c0052;
+        public static final int lesson4_code=0x7f0c002a;
+        public static final int lesson4_code2=0x7f0c002b;
+        public static final int lesson4_hint=0x7f0c00a7;
+        public static final int lesson4_p=0x7f0c00a4;
+        public static final int lesson4_p2=0x7f0c00a5;
+        public static final int lesson4_p3=0x7f0c00a6;
+        /** 4
+         */
+        public static final int lesson4_title=0x7f0c00a3;
         /** 5
          */
-        public static final int lesson5_title=0x7f0c004d;
-        public static final int lesson6_code=0x7f0c0058;
-        public static final int lesson6_code2=0x7f0c005a;
-        public static final int lesson6_hint=0x7f0c0056;
-        public static final int lesson6_p=0x7f0c0054;
-        public static final int lesson6_p2=0x7f0c0055;
-        public static final int lesson6_p3=0x7f0c0057;
-        public static final int lesson6_p4=0x7f0c0059;
+        public static final int lesson5_code=0x7f0c002c;
+        public static final int lesson5_code2=0x7f0c002d;
+        public static final int lesson5_p=0x7f0c00a9;
+        public static final int lesson5_p2=0x7f0c00aa;
+        public static final int lesson5_p3=0x7f0c00ab;
+        /** 5
+         */
+        public static final int lesson5_title=0x7f0c00a8;
         /** 6
          */
-        public static final int lesson6_title=0x7f0c0053;
-        public static final int lesson7_code=0x7f0c005d;
-        public static final int lesson7_code2=0x7f0c005f;
-        public static final int lesson7_code3=0x7f0c0061;
-        public static final int lesson7_code4=0x7f0c0063;
-        public static final int lesson7_p=0x7f0c005c;
-        public static final int lesson7_p2=0x7f0c005e;
-        public static final int lesson7_p3=0x7f0c0060;
-        public static final int lesson7_p4=0x7f0c0062;
+        public static final int lesson6_code=0x7f0c002e;
+        public static final int lesson6_code2=0x7f0c002f;
+        public static final int lesson6_hint=0x7f0c00af;
+        public static final int lesson6_p=0x7f0c00ad;
+        public static final int lesson6_p2=0x7f0c00ae;
+        public static final int lesson6_p3=0x7f0c00b0;
+        public static final int lesson6_p4=0x7f0c00b1;
+        /** 6
+         */
+        public static final int lesson6_title=0x7f0c00ac;
         /** 7
          */
-        public static final int lesson7_title=0x7f0c005b;
-        public static final int lesson8_code=0x7f0c0066;
-        public static final int lesson8_code2=0x7f0c0069;
-        public static final int lesson8_code3=0x7f0c006b;
-        public static final int lesson8_hint=0x7f0c0067;
-        public static final int lesson8_p=0x7f0c0065;
-        public static final int lesson8_p2=0x7f0c0068;
-        public static final int lesson8_p3=0x7f0c006a;
+        public static final int lesson7_code=0x7f0c0030;
+        public static final int lesson7_code2=0x7f0c0031;
+        public static final int lesson7_code3=0x7f0c0032;
+        public static final int lesson7_code4=0x7f0c0033;
+        public static final int lesson7_p=0x7f0c00b3;
+        public static final int lesson7_p2=0x7f0c00b4;
+        public static final int lesson7_p3=0x7f0c00b5;
+        public static final int lesson7_p4=0x7f0c00b6;
+        /** 7
+         */
+        public static final int lesson7_title=0x7f0c00b2;
         /** 8
          */
-        public static final int lesson8_title=0x7f0c0064;
-        public static final int lesson9_code=0x7f0c006e;
-        public static final int lesson9_code2=0x7f0c0070;
-        public static final int lesson9_hint=0x7f0c0071;
-        public static final int lesson9_p=0x7f0c006d;
-        public static final int lesson9_p2=0x7f0c006f;
+        public static final int lesson8_code=0x7f0c0034;
+        public static final int lesson8_code2=0x7f0c0035;
+        public static final int lesson8_code3=0x7f0c0036;
+        public static final int lesson8_hint=0x7f0c00b9;
+        public static final int lesson8_p=0x7f0c00b8;
+        public static final int lesson8_p2=0x7f0c00ba;
+        public static final int lesson8_p3=0x7f0c00bb;
+        /** 8
+         */
+        public static final int lesson8_title=0x7f0c00b7;
         /** 9
          */
-        public static final int lesson9_title=0x7f0c006c;
-        public static final int lessons=0x7f0c002c;
-        public static final int lessons1=0x7f0c002d;
-        public static final int lessons2=0x7f0c002e;
-        public static final int lessons3=0x7f0c002f;
-        public static final int lessons4=0x7f0c0030;
+        public static final int lesson9_code=0x7f0c0037;
+        public static final int lesson9_code2=0x7f0c0038;
+        public static final int lesson9_hint=0x7f0c00bf;
+        public static final int lesson9_p=0x7f0c00bd;
+        public static final int lesson9_p2=0x7f0c00be;
+        /** 9
+         */
+        public static final int lesson9_title=0x7f0c00bc;
+        public static final int lessons=0x7f0c0089;
+        public static final int lessons1=0x7f0c008a;
+        public static final int lessons2=0x7f0c008b;
+        public static final int lessons3=0x7f0c008c;
+        public static final int lessons4=0x7f0c008d;
         public static final int password_toggle_content_description=0x7f0c0024;
         public static final int path_password_eye=0x7f0c0025;
         public static final int path_password_eye_mask_strike_through=0x7f0c0026;
         public static final int path_password_eye_mask_visible=0x7f0c0027;
         public static final int path_password_strike_through=0x7f0c0028;
-        public static final int powered_by_aide=0x7f0c0031;
-        public static final int preferences_summary_about=0x7f0c0037;
-        public static final int preferences_summary_language=0x7f0c0035;
-        public static final int preferences_title=0x7f0c0033;
-        public static final int preferences_title_about=0x7f0c0036;
+        public static final int powered_by_aide=0x7f0c008e;
+        public static final int preferences_summary_about=0x7f0c0094;
+        public static final int preferences_summary_language=0x7f0c0092;
+        public static final int preferences_title=0x7f0c0090;
+        public static final int preferences_title_about=0x7f0c0093;
         public static final int preferences_title_app=0x7f0c014d;
-        public static final int preferences_title_language=0x7f0c0034;
+        public static final int preferences_title_language=0x7f0c0091;
         public static final int search_menu_title=0x7f0c0013;
         public static final int status_bar_notification_info_overflow=0x7f0c0014;
     }

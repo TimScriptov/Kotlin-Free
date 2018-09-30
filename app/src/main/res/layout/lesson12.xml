@@ -38,7 +38,7 @@
 					android:text="@string/lesson12_p"/>
 
 				<HorizontalScrollView
-					android:background="#ffdddddd"
+					android:background="@color/kotlin_code"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content">
 
@@ -58,7 +58,7 @@
 					android:text="@string/lesson12_p2"/>
 
 				<HorizontalScrollView
-					android:background="#ffdddddd"
+					android:background="@color/kotlin_code"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content">
 
@@ -78,7 +78,7 @@
 					android:text="@string/lesson12_p3"/>
 
 				<HorizontalScrollView
-					android:background="#ffdddddd"
+					android:background="@color/kotlin_code"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content">
 
