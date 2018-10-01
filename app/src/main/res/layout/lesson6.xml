@@ -43,6 +43,11 @@
 					android:layout_height="wrap_content"
 					android:text="@string/lesson6_p2"/>
 
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
 				<TextView
 					android:background="#fffeec00"
 					android:padding="10.0dip"
@@ -50,11 +55,21 @@
 					android:layout_height="wrap_content"
 					android:text="@string/lesson6_hint"/>
 
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
 				<TextView
 					android:padding="10.0dip"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content"
 					android:text="@string/lesson6_p3"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
 
 				<HorizontalScrollView
 					android:background="@color/kotlin_code"
@@ -70,11 +85,21 @@
 
 				</HorizontalScrollView>
 
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
 				<TextView
 					android:padding="10.0dip"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content"
 					android:text="@string/lesson6_p4"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
 
 				<HorizontalScrollView
 					android:background="@color/kotlin_code"

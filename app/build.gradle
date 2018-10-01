@@ -7,8 +7,8 @@ android {
         applicationId "com.mcal.kotlinfree"
         minSdkVersion 14
         targetSdkVersion 27
-        versionCode 28
-        versionName "17.6"
+        versionCode 29
+        versionName "18.0"
     }
     buildTypes {
         release {

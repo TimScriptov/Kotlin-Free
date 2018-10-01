@@ -2,8 +2,8 @@
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	package="com.mcal.kotlinfree"
-	android:versionCode="28"
-	android:versionName="17.6">
+	android:versionCode="29"
+	android:versionName="18.0">
 
 	<uses-sdk
 		android:minSdkVersion="14"

@@ -37,6 +37,11 @@
 					android:layout_height="wrap_content"
 					android:text="@string/lesson2_p"/>
 
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
 				<HorizontalScrollView
 					android:background="@color/kotlin_code"
 					android:layout_width="fill_parent"
@@ -54,19 +59,34 @@
 					</LinearLayout>
 
 				</HorizontalScrollView>
-				
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
 				<TextView
 					android:padding="10.0dip"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content"
 					android:background="@color/output"
 					android:text="Hello, World!"/>
-				
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
 				<TextView
 					android:padding="10.0dip"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content"
 					android:text="@string/lesson2_p2"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
 
 				<HorizontalScrollView
 					android:background="@color/kotlin_code"
@@ -83,16 +103,26 @@
 							android:background="@drawable/lesson2_code2"/>
 
 					</LinearLayout>
-					
+
 				</HorizontalScrollView>
-				
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
 				<TextView
 					android:padding="10.0dip"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content"
 					android:background="@color/output"
 					android:text="Your name goes here"/>
-				
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
 				<TextView
 					android:background="#fffcfc00"
 					android:padding="10.0dip"

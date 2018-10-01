@@ -37,6 +37,11 @@
 					android:layout_height="wrap_content"
 					android:text="@string/lesson15_p"/>
 
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
 				<HorizontalScrollView
 					android:background="@color/kotlin_code"
 					android:layout_width="fill_parent"
@@ -50,6 +55,11 @@
 						android:text="@string/lesson15_code"/>
 
 				</HorizontalScrollView>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
 
 				<TextView
 					android:background="#fffcfc00"
@@ -65,3 +75,4 @@
 	</LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
+
