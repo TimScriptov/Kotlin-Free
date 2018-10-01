@@ -136,6 +136,11 @@
 					android:padding="10dp"
 					android:background="#fffcfc00"/>
 
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
 			</LinearLayout>
 
 		</ScrollView>
