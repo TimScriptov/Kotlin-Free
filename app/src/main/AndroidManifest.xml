@@ -54,22 +54,6 @@
 			android:name="com.mcal.kotlinfree.LessonsActivity"/>
 		
 		<activity
-			android:label="@string/lessons1"
-			android:name="com.mcal.kotlinfree.Lessons1"/>
-		
-		<activity
-			android:label="@string/lessons2"
-			android:name="com.mcal.kotlinfree.Lessons2"/>
-		
-		<activity
-			android:label="@string/lessons3"
-			android:name="com.mcal.kotlinfree.Lessons3"/>
-		
-		<activity
-			android:label="@string/lessons4"
-			android:name="com.mcal.kotlinfree.Lessons4"/>
-		
-		<activity
 			android:label="@string/preferences_title_about"
 			android:name="com.mcal.kotlinfree.app.AboutActivity"/>
 

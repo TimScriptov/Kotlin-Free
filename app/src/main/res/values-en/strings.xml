@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Kotlin Free</string>
+	<string name="banner_ad_unit_id">ca-app-pub-1411495427741055/6369974912</string>
+	<string name="lessons">Lessons</string>
+	<string name="lessons1">Part 1</string>
+	<string name="lessons2">Part 2</string>
+	<string name="lessons3">Part 3</string>
+	<string name="lessons4">Part 4</string>
+	<string name="powered_by_aide">Powered by Aide</string>
+	<string name="changelog">Changelog</string>
+	<string name="preferences_title">Settings</string>
+	<string name="preferences_title_language">Language</string>
+	<string name="preferences_summary_language">Change language here.</string>
+	<string name="preferences_title_about">About</string>
+	<string name="preferences_summary_about">About Kotlin</string>
+	<string name="changelog_p">
+		"<b>V17.0-21.09.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Getters and Setters(en/ru)
+		• Primary Constructor(en/ru)
+		• Initializer Block(en/ru)
+		
+		"<b>V16.0-9.09.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Classes(en/ru)
+		• Properties(en/ru)
+		• Member Functions(en/ru)
+		Fix:
+		• Settings
+
+		"<b>V15.0-2.09.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Function Parameters(en/ru)
+		• Function Default Arguments(en/ru)
+		• Type Checks and Automatic Casts(en/ru)
+		• Nullable Types(en/ru)
+		Settings:
+		• Languages
+
+		"<b>V14.0-18.08.18</b>"
+		"<b>New</b>":
+		•New interface
+		•Added Ukrainian language
+
+		"<b>V13.0-17.08.18</b>"
+		"<b>New</b>":
+		Lessons:
+		•Using Loops with Arrays(ru)
+		•Practice Time: Loops and Arrays(en/ru)
+		•Functions(en/ru)
+
+		"<b>V12.1-16.08.18</b>"
+		"<b>Fix</b>":
+		•Theme for sdk 14-20
+
+		"<b>V12.0-15.08.18</b>"
+		"<b>New</b>":
+		Lessons:
+		•The for Loop(en/ru)
+		•Using Loops with Arrays(en)
+
+		"<b>V11.0-3.08.18</b>"
+		"<b>New</b>":
+		Lessons:
+		•Arrays(en/ru)
+		•Ranges(en/ru)
+
+		"<b>V10.1-27.07.18</b>"
+		"<b>New</b>":
+		Code:
+		•Typeface monospace
+		•HorizontalScrollView
+
+		"<b>V10.0-25.07.18</b>"
+		"<b>New</b>":
+		Lessons:
+		•The while Loop(en/ru)
+		•The do-while Loop(en/ru)
+		•break and continue(en/ru)
+
+		"<b>V9.0-20.07.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• when Expression(en/ru)
+		"<b>Fix</b>":
+		• Russian language
+		• English language
+
+		"<b>V8.0-15.07.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Logical Operators(en/ru)
+		"<b>Fix</b>":
+		• Russian language
+
+		"<b>V7.0-25.06.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Control Flow: if and else(en/ru)
+		• The if-else-if Chain(en/ru)
+
+		"<b>V6.1-25.06.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Control Flow: if and else(en/ru)
+		• The if-else-if Chain(en/ru)
+
+		"<b>V6.0-22.06.18</b>"
+		"<b>New</b>":
+		• Changelog(en/ru)
+		Lessons:
+		• Increment and Decrement(en/ru)
+		• String Templates(en/ru)
+		• Practice Time: Basics: основа(en/ru)
+
+		"<b>V5.1-21.06.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Output(ru)
+		• Input(ru)
+		• Comments(ru)
+		• Arithmetic operations(ru)
+
+		"<b>V5.0-18.06.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Output(en)
+		• Input(en)
+		• Comments(en)
+		• Arithmetic operations(en)
+
+		"<b>V4.0-15.06.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Literal constans(en/ru)
+
+		"<b>V3.0-15.06.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Characters and strings(en/ru)
+
+		"<b>V2.0-14.06.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Basic types(en/ru)
+
+		"<b>V1.2-13.06.18</b>"
+		"<b>New</b>":
+		• Hightlight
+
+		"<b>V1.1-13.06.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Welcome to Kotlin!(ru)
+		• Basic syntax(ru)
+		• Variables(ru)
+
+		"<b>V1.0-12.06.18</b>"
+		"<b>New</b>":
+		Lessons:
+		• Welcome to Kotlin(en)
+		• Basic syntax(en)
+		• Variables(en)</string>
+	<string name="lesson1_title">Welcome to Kotlin!</string>
+	<string name="lesson1_p"><b>Kotlin</b> is a <b>statically-typed</b>" programming language that runs on the Java virtual machine.
+
+		Kotlin is a fully supported programming language by "<b>Google</b>" on the Android Operating System and was announced as an official Android development language at Google I/O 2017.
+		Kotlin can be used for backend development.
+
+		Kotlin uses aggressive type inference to determine the type of values and expressions where type has been left unstated. This reduces language verbosity compared to "<b>Java</b>.</string>
+	<string name="lesson1_hint">"Kotlin's standard library is designed to interoperate with Java code and is reliant on Java code from the existing Java Class Library."</string>
+	<string name="lesson2_title">Basic Syntax</string>
+	<string name="lesson2_p">"Let's start by printing a Hello, world! message to the screen:"</string>
+	<string name="lesson2_p2">"Let's break down the code:
+
+		\u0009\u0009Every Kotlin program must have the "<b>main</b> function defined, which is the starting point of the program and is done with the <b>fun</b>" keyword.
+		The "<b>println()</b>" function is used to generate output. In our case we have passed the message to print in double quotes to the function.
+
+		Play around with the following code to print your name."</string>
+	<string name="lesson2_hint">"In most cases, there's no need for semicolons as Kotlin provides semicolon inference. Try to run the code without the semicolon at the end of the "<b>println()</b> statement.</string>
+	<string name="lesson3_title">Variables</string>
+	<string name="lesson3_p">Declaring variables is done using either <b>var</b> or <b>val</b>. <b>val</b> declarations cannot be reassigned (they are called <b>immutable</b>). <b>For example:</b></string>
+	<string name="lesson3_p2">Assigning a new value to <b>num</b> or <b>str</b>" leads to a compile error.
+		The following code will not compile:"</string>
+	<string name="lesson3_p3">The <b>var</b> keyword allows to declare variables that can be reassigned:</string>
+	<string name="lesson3_p4">"As you can see, we did not explicitly set the type of the variables. The variables get there corresponding type thanks to Kotlin's "<b>type interference</b>", where the type gets automatically inferred from the value you have assigned to the variable.
+
+		To explicitly declare the type of a variable, use the following syntax:"</string>
+	<string name="lesson3_hint">The code above declares a <b>num</b> variable of type <b>Int</b> and a <b>str</b> variable of type <b>String</b></string>
+	<string name="lesson4_title">Basic Types</string>
+	<string name="lesson4_p">"Kotlin is a statically typed programming language with basic data types support such as Numbers, Characters, Booleans, Arrays, and Strings.
+
+		\u0009\u0009Numbers are represented by the following built-in types:
+		\u0009\u0009- Double
+		\u0009\u0009- Float
+		\u0009\u0009- Long
+		\u0009\u0009- Int
+		\u0009\u0009- Short
+		\u0009\u0009- Byte
+		\u0009\u0009Let's declare an "<b>Integer</b> and print its value:</string>
+	<string name="lesson4_p2">"The number types differ by the memery size they allocate:
+		"<b>Byte</b> allocates <b>1 byte</b>" of memory.
+		"<b>Short</b> is <b>2 bytes</b>",
+		"<b>Int</b> is <b>4 bytes</b>",
+		"<b>Long</b> allows to store <b>8 bytes</b>" of data.
+		If you need to store a "<b>floating point</b> value, for instance, 3.14, you can use Float or Double.</string>
+	<string name="lesson4_p3">Notice the <b>f</b> after 3.14. Kotlin, by default, interprets floating point numbers as <b>Doubles</b>, which have higher precision compared to <b>Floats</b>".
+		To declare a Float literal, you should explicitly tell the compiler that your value is Float by adding "<b>f</b> at the end of the value.</string>
+	<string name="lesson4_hint">To represent boolean values (true, false) the type <b>Boolean</b> is used.</string>
+	<string name="lesson5_title">Characters and Strings</string>
+	<string name="lesson5_p">Characters are represented by the type <b>Char</b>.</string>
+	<string name="lesson5_p2">A collection of characters is represented by a <b>String.</b>"
+		Let’s declare a "<b>String</b> variable and print it’s value:</string>
+	<string name="lesson5_p3">In languages like C++, characters are implicitly treated as numbers, however in Kotlin that is not the case.</string>
+	<string name="lesson6_title">Literal Constants</string>
+	<string name="lesson6_p">"Literals refer to fixed values that the program may not alter during its execution.
+
+		\u0009\u0009These can be of any of the basic data types like an integer constant, a floating constant, a character constant, or a string literal."</string>
+	<string name="lesson6_p2">"Kotlin supports the following literals for integral values:
+
+		\u0009\u0009- Decimals: "<b>123</b> (Longs are tagged by a capital <b>L</b>: <b>123L</b>")
+		- Hexadecimals: "<b>0x0F</b>"
+		- Binaries: "<b>0b00001011</b></string>
+	<string name="lesson6_hint">Octal literals (numbers in base 8) are not supported in Kotlin.</string>
+	<string name="lesson6_p3">You can use underscores to make number constants more readable:</string>
+	<string name="lesson6_p4">As floating-point numbers are by default interpreted as Double, Floats are tagged by <b>f</b> or <b>F</b>.</string>
+	<string name="lesson7_title">Output</string>
+	<string name="lesson7_p">Output in Kotlin can be done using the <b>println</b> function.</string>
+	<string name="lesson7_p2"><b>println()</b> automatically adds a <b>newline</b> (<b>"
+			"</b>") at the end of the output.
+		"<b>print()</b> can be used to output without the newline:</string>
+	<string name="lesson7_p3">To include a variable’s value in a string, we can use either the <b>+ (plus)</b> operator or <b>string templates</b>", which starts with a dollar sign ($). Check out the examples below: "</string>
+	<string name="lesson7_p4">String templates can include expressions in <b>curly braces</b>", which will be evaluated.
+		For example:"</string>
+	<string name="lesson8_title">Input</string>
+	<string name="lesson8_p">An easy way to read from the standard input is the <b>readLine()</b> function:</string>
+	<string name="lesson8_hint">Anything that the user inputs automatically gets converted to a <b>String</b>.</string>
+	<string name="lesson8_p2">To convert the input to an integer, use the <b>toInt()</b> function using <b>dot syntax</b>:</string>
+	<string name="lesson8_p3">The <b>!!</b> implies that the input cannot return <b>null</b>, making it necessary to input something. <b>null</b>" denotes the absence of value.
+
+		The same logic works for Doubles and other types, using the "<b>toDouble()</b> and similar functions.</string>
+	<string name="lesson9_title">Comments</string>
+	<string name="lesson9_p">"Commenting code is a good practice, helping you and your  fellow programmers understand and maintain the code.
+
+		\u0009\u0009There are two types of comments in Kotlin: "<b>single-line</b> comments and <b>multi-line</b>" comments.
+
+		"<b>Single-line comments</b> start with two forward slashes(//). Everything after them is ignored by the compiler:</string>
+	<string name="lesson9_p2">"Comments clarify the program’s intent to the reader.
+
+
+		"<b>Multi-line comments</b> can span multiple lines. They start with a forward slash and an asterisk, end with an asterisk and a forward slash(/* */):</string>
+	<string name="lesson9_hint">Commenting code is a good practice. It helps explain the code to you and other programmers reading your code.</string>
+	<string name="lesson10_title">Arithmetics Operations</string>
+	<string name="lesson10_p">"Kotlin supports the following arithmetic operations:
+
+		\u0009\u0009+ (addition)
+
+		\u0009\u0009- (subtraction)
+
+		\u0009\u0009* (multiplication)
+
+		\u0009\u0009/ (division)
+
+		\u0009\u0009% (modulo)
+
+
+		\u0009\u0009These operations are "<b>binary</b>, which means they operate with <b>two operands</b>".
+
+		The code below declares two integer variables and prints their sum using the + (addition) operator:"</string>
+	<string name="lesson10_title2">Division</string>
+	<string name="lesson10_p2">The <b>division (/)</b>" operator results in an integer, removing any remainder.
+		For example, dividing 8 by 3 results in 2:"</string>
+	<string name="lesson10_p3">"To get the remainder of the division use the  % "<b>(modulo)</b>" operator.
+		For example:"</string>
+	<string name="lesson10_p4">"The modulo operator cannot be applied to floating-point numbers, however the  division operator works with floating-point values and results in a floating-point result:"</string>
+	<string name="lesson10_hint">Division by zero produces an exception.</string>
+	<string name="lesson11_title">Increment and Decrement</string>
+	<string name="lesson11_p">The <b>increment operator ++</b>" provides a shortcut for adding 1 to an integer.
+		The following code outputs 5:"</string>
+	<string name="lesson11_p2">Similarly, the <b>decrement operator --</b> is used to subtract 1 from an integer:</string>
+	<string name="lesson11_p3">Both, increment and decrement operators have <b>prefix</b> (before the variable name) and <b>postfix</b>" (after the variable name) forms.
+
+		The "<b>prefix</b> form increments the variable and then uses it in the assignment statement.</string>
+	<string name="lesson11_p4">The <b>postfix</b> form uses the value of the variable first, before incrementing it.</string>
+	<string name="lesson11_hint">The same applies to the decrement operator.</string>
+	<string name="lesson12_title">String Templates</string>
+	<string name="lesson12_p"><b>String templates</b> are used to insert a variable’s value into a string:</string>
+	<string name="lesson12_p2">Anything in the curly brackets starting with a $ (dollar) sign will be evaluated and the result will be put in the string:</string>
+	<string name="lesson12_p3">"We can even call functions in the expression.
+
+		\u0009\u0009Let's call the "<b>replace()</b> function t to replace is with was:</string>
+	<string name="lesson13_title">Practice Time: Basics</string>
+	<string name="lesson13_p">The following code takes as input the name and the age of a user and prints a hello message:</string>
+	<string name="lesson13_p2">"Practice your Kotlin skills by implementing the following tasks:
+
+		\u0009\u00091. Write a code that takes as input 3 integers and print their sum.
+
+		\u0009\u00092. Take two floating-point numbers as input and insert their difference into the output using string templates."</string>
+	<string name="lesson14_title">Control Flow: if and else</string>
+	<string name="lesson14_p">"Conditional statements perform different actions depending on whether a boolean condition evaluates to true or false.
+
+
+		\u0009\u0009Use the "<b>if</b>" statement to specify a block of code to be executed if a condition is true.
+		Let’s print a «Good morning» greeting if the "<b>hour</b> variable’s value is less than 12:</string>
+	<string name="lesson14_p2">What if we need to print another message if <b>hour</b>" is not less than 12?
+		The "<b>else</b> statement is used to specify a block of code to be executed if the condition evaluates to false:</string>
+	<string name="lesson14_p3">The condition for the <b>if</b> statement can be any Boolean value:</string>
+	<string name="lesson14_p4">In Kotlin, <b>if</b> is an expression, i.e. it returns a value. This means that we can use if to assign values to a variable based on the condition. For example:</string>
+	<string name="lesson14_p5">Because of this, there is no ternary operator in Kotlin, as the same behavior can be accomplished with the <b>if</b> statement.</string>
+	<string name="lesson14_hint">When the <b>if</b> statement is used as an expression, the <b>else</b> clause is mandatory.</string>
+	<string name="lesson15_title">The if-else-if Chain</string>
+	<string name="lesson15_p">There can be multiple <b>else if</b>" clauses when a decision among three or more actions is needed.
+		The last "<b>else</b> clause is optional:</string>
+	<string name="lesson15_hint">You can add as many <b>else if</b> statements as you need into your chain.</string>
+	<string name="lesson16_title">Logical Operators</string>
+	<string name="lesson16_p">Logical operators <b>&amp;&amp;</b> (AND), <b>||</b> (OR), <b>!</b> (NOT) are used to combine conditional statements forming a compound boolean expression that returns true or false as the result.</string>
+	<string name="lesson16_p2"><b>The &amp;&amp; operator</b></string>
+	<string name="lesson16_p3">The <b>&amp;&amp;</b> operator (logical AND) returns true if all boolean expressions evaluate to true.</string>
+	<string name="lesson16_hint">The <b>==</b>" operator is used to check for equality.
+		Not equal to is checked using the "<b>!=</b> operator.</string>
+	<string name="lesson16_p4"><b>The <b>||</b> operator</b></string>
+	<string name="lesson16_p5">The <b>||</b> operator (logical OR) returns true if any one of the boolean expressions evaluates to true.</string>
+	<string name="lesson16_p6"><b>The <b>!</b> operator</b></string>
+	<string name="lesson16_p7">The <b>!</b>" operator (logical NOT) returns the reverse of the state of a boolean expression.
+		NOT true returns false, and NOT false returns true.
+		The following code outputs bye because (b == 6) evaluates to false, which is then reversed to true using the "<b>!</b> operator:</string>
+	<string name="lesson17_title">when Expression</string>
+	<string name="lesson17_p">In Kotlin, the <b>when</b>" statement is used to check for multiple conditions.
+		The basic syntax of the "<b>when</b> statement is as follows:</string>
+	<string name="lesson17_hint"><b>when</b> is the equivalent to the <b>switch</b> statement in other languages.</string>
+	<string name="lesson17_p2"><b>when</b> matches its argument against all branches sequentially until some branch condition is satisfied.</string>
+	<string name="lesson17_p3"><b>when</b> can also be used as a replacement for an <b>if-else if</b> chain. If no argument is supplied, the branch conditions are simply boolean expressions:</string>
+	<string name="lesson17_p4">The last <b>else</b> case is evaluated if all of the previous cases before it evaluated to <b>false.</b>"
+
+		Multiple conditions can be tested in one case as long as they are all separated by commas."</string>
+	<string name="lesson17_p5"><b>when</b> can also be used as an expression. If it is used as an expression, the value of the satisfied branch becomes the value of the overall expression.</string>
+	<string name="lesson17_hint2">If <b>when</b> is used as an expression, the <b>else</b> branch is mandatory.</string>
+	<string name="lesson18_title">The while Loop</string>
+	<string name="lesson18_p">A <b>loop</b>" is a block of code that will repeatedly run until a certain condition is true.
+		The "<b>while</b>" statement executes statements repeatedly while an expression is true.
+		It takes the form:"</string>
+	<string name="lesson18_p2">"The statements within the curly brackets will repeatedly execute until the given condition is satisfied.
+		For example:"</string>
+	<string name="lesson18_hint">It is important to ensure that the condition eventually evaluates to false. Otherwise we will encounter an <b>infinite loop</b>.</string>
+	<string name="lesson19_title">The do-while Loop</string>
+	<string name="lesson19_p">The <b>do-while</b>" loop first executes the loop statements before evaluating the expression.
+		This means that the statements in a "<b>do-while</b> loop will always run at least once, even if the condition evaluates to false.</string>
+	<string name="lesson19_p2">For example:</string>
+	<string name="lesson19_p3">Notice the semicolon at the end of the while condition.</string>
+	<string name="lesson20_title">break and continue</string>
+	<string name="lesson20_p">The <b>break</b> statement ends the execution of the loop.</string>
+	<string name="lesson20_p2">In case you want to remain in the loop, but skip an iteration, use the <b>continue</b> statement:</string>
+	<string name="lesson21_title">Arrays</string>
+	<string name="lesson21_p">An <b>array</b>" is a collection of values of the same type.
+		When you need to store a list of values, such as numbers, you can store them in an array, instead of declaring separate variables for each number.
+
+		To create an array, we can use a library function "<b>arrayOf()</b> and pass the item values to it:</string>
+	<string name="lesson21_p2">In an array the elements are ordered and each has a specific and constant position, which is called an <b>index</b>".
+		To access an array element by its index, the "<b>index operator []</b> should be used.</string>
+	<string name="lesson21_p3">Kotlin supports specialized classes to represent arrays of primitive types. <b>ByteArray</b>, <b>ShortArray</b>, <b>IntArray</b>" and so on.
+		Here’s an example of declaring an "<b>IntArray</b> array. Note the <b>intArrayOf()</b> library function that creates and returns an <b>IntArray</b>:</string>
+	
+	<string name="lesson21_hint">Note that elements in the array are identified with <b>zero-based</b> index numbers, meaning that the first element’s index is <b>0</b>" rather than one.
+		Thus, the maximum index of the 5-element array is "<b>4</b>.</string>
+	<string name="lesson22_title">Ranges</string>
+	<string name="lesson22_p">"Kotlin provides a unique type for a range of values.
+
+		\u0009\u0009A range has a start and an end value.
+
+
+		\u0009\u0009To create a range you can use the "<b>rangeTo()</b> function:</string>
+	<string name="lesson22_p2">This code defines a range variable <b>myRange</b> containing values from <b>1</b> to <b>10</b>" inclusive.
+		Ranges in Kotlin are "<b>closed</b>", meaning that the start value and end value are included in the range.
+
+		To create a decreasing range, use the "<b>downTo()</b> function:</string>
+	<string name="lesson22_p3">decRange contains the values: 8, 7, 6, 5, 4, 3, 2.</string>
+	<string name="lesson22_p4"><b>The .. operator</b>"
+		Another way to define a range is using the .. (double dot) operator:"</string>
+	<string name="lesson22_p5">The <b>in</b> operator allows to verify if a value belongs to a range:</string>
+	<string name="lesson22_p6">Similarly, <b>!in</b> can be used to check if a number does not belong to a range.</string>
+	<string name="lesson22_hint">Ranges are similar to arrays, they are collections of values which could be iterated through.</string>
+	<!--23-->
+	<string name="lesson23_title">The for Loop</string>
+	<string name="lesson23_p">The <b>for</b> loop iterates through a collection, more specifically through anything that provides an iterator.\n
+		Let‘s print the list of values in a range.</string>
+	<string name="lesson23_p2">The program will print numbers 1 through 10.\n
+		During each step of the loop, the variable <b>x</b> will contain the value of the current element in the range.\n\n
+		Let’s say we want to iterate over a range of even numbers.\n
+		To do so we can define a range with a <b>step</b>:</string>
+	<!--24-->
+	<string name="lesson24_title">Using Loops with Arrays</string>
+	<string name="lesson24_p">One of the most convenient ways to loop over an array is the <b>for</b> loop:</string>
+	<string name="lesson24_p2">The while loop requires an additional index variable to access array elements.</string>
+	<string name="lesson24_p3">To iterate through an array with an index, you can use the for loop with the array indices:</string>
+	<!--25-->
+	<string name="lesson25_title">Practice Time: Loops and Arrays</string>
+	<string name="lesson25_p">Let’s see an example of arrays and loops in action.\n
+		Having an array of floating-point numbers and we want to calculate the sum of the array elements.</string>
+	<string name="lesson25_p2">We declared a variable sum with initial value 0.0. This variable is then used to accumulate the sum of the array elements using the for loop.\n\n
+		Implement the following tasks:\n
+		1. Define an array of integers and calculate the product of its elements.\n
+		2. Define a range of numbers from 0 to 100, and output only the odd numbers in that range.</string>
+	<!--26-->
+	<string name="lesson26_title">Functions</string>
+	<string name="lesson26_p">A function is a block of code that can be executed by calling the function.\n
+		A function declaration is done using the fun keyword.\n
+		The basic syntax of a function in Kotlin looks like this:</string>
+	<string name="lesson26_p2">A function has a <b>name</b>, which is used to refer to it, in other words, to <b>call</b> the function.\n
+		After the name comes the list of function <b>parameters</b>.\n
+		Following the brackets is the data type that should be returned by the function.\n
+		This can be anything, as long as the variable being returned matches that type.\n\n
+		When the function is called, all of the statements within the curly brackets are run. Let’s declare and then call a function that prints greeting messages:</string>
+	<string name="lesson26_p3">The <b>greetUser()</b> function does not take any parameters, and does not return any value, as it just generates output.\n\n
+		Let’s define a function that takes an Int parameter and returns the square of that number:</string>
+	<string name="lesson26_p4">The return keyword is used to return a value from a function.</string>
+	<string name="lesson26_hint">You can call a function as many times as you want.\n
+		If a function returns a value, you can assign it to a variable, like: var a = square(8);</string>
+	<!--27-->
+	<string name="lesson27_title">Function Parameters</string>
+	<string name="lesson27_p">Function parameters are used to pass values to a function.\n
+		Parameters are defined on function declaration by using a name and the type of the parameter:</string>
+	<string name="lesson27_p2">We declared a greetUser() function which takes one String parameter called name.\n
+		Now, when calling the function, we can pass the actual value of the parameter to the function (also called the argument). In the example above, "Max" is the argument passed to the function.\n\n
+		Functions can take multiple parameters.\n
+		Let‘s declare a function that takes two integers and prints their sum:</string>
+	<string name="lesson27_p3">One of the most important properties of functions is their ability to return a value.\n
+		Let’s declare a function taking two integer parameters and returning their product.\n
+		The return keyword is used to return a value:</string>
+	<string name="lesson27_p4">Notice the additional :Int after the closing bracket of the parameter list in the function declaration:  it defines the type of the function’s return value.\n\n
+		We can directly include the returned value of the function in a string, using string templates:</string>
+	<!--28-->
+	<string name="lesson28_title">Function Default Arguments</string>
+	<string name="lesson28_p">Sometimes it is convenient to set a default value for the function parameters. These default values are used when corresponding arguments are omitted.\n\n
+		Let’s declare a function with three parameters, which calculates and returns their sum:</string>
+	<string name="lesson28_p2">Let’s set a default value for the third argument:</string>
+	<string name="lesson28_p3">Now we can call the same function with two arguments only.\n\n
+		<b>Named Arguments</b>\n
+		Function parameters can be named when calling functions:</string>
+	<string name="lesson28_p4">This makes the code more readable when calling functions with multiple parameters.</string>
+	<string name="lesson28_hint">If a default parameter precedes a parameter with no default value, the default value can be used only by calling the function with named arguments.</string>
+	<!--29-->
+	<string name="lesson29_title">Type Checks and Automatic Casts</string>
+	<string name="lesson29_p">Kotlin provides a special type called Any.\n
+		This type allows storing literally anything.\n
+		Let’s declare a function taking Any as the parameter:</string>
+	<string name="lesson29_p2">As you can see in the example above, the function can be called using any argument type.\n\n
+		You can check the arguments type using the <b>is</b> operator.\n
+		Let’s check if the argument is a <b>String</b> and output its length:</string>
+	<string name="lesson29_p3">Kotlin automatically casts the <b>Any</b> argument to the correct type. In the example above, we can access the <b>length</b> property of the <b>String</b> without the need to "convert" <b>arg</b> to <b>String.</b></string>
+	<!--30-->
+	<string name="lesson30_title">Nullable Types</string>
+	<string name="lesson30_p">In programming languages, null is the absence of value.\n
+		If you declare a variable in Kotlin you get a non-nullable value, meaning that the variable cannot be null:</string>
+	<string name="lesson30_p2">This code generates a compile error, because Kotlin’s <b>type system</b> tries to eliminate <b>NullPointerException</b>. This guarantees accessing properties and methods of <b>str</b>:</string>
+	<string name="lesson30_p3">To allow nulls, we can declare a variable as nullable using the question mark as shown below:</string>
+	<string name="lesson30_p4">The code above will work without any errors.\n\n
+		However, now, trying to access a property on nullable <b>str</b>, causes a compile-time error, as now <b>str</b> can be null:</string>
+	<string name="lesson30_p5">To safely <b>access</b> nullable values, we have to use the <b>?.</b> operator (called the <b>safe call operator</b>).</string>
+	<string name="lesson30_hint">The <b>?</b> can be used with any type to make it nullable.</string>
+	<!--31-->
+	<string name="lesson31_title">Classes</string>
+	<string name="lesson31_p">A <b>class</b> is like a <b>blueprint</b> for an <b>object</b>.\n
+		We can think of a <b>class</b> as a sketch (prototype) of a house. It contains all the details of the house (floors, doors, windows, etc.)\n
+		Based on the prototype we then build the house, which is the <b>object</b>.\n\n
+		Just like houses, we can create multiple <b>objects</b> from a <b>class</b>.\n\n
+		To define a class in Kotlin, the <b>class</b> keyword is used:</string>
+	<string name="lesson31_p2">Now, we can declare objects of the type ClassName():</string>
+	<string name="lesson31_p3">Both ways shown in the code above can be used to create objects.</string>
+	<string name="lesson31_hint">Each object is called an instance of a class. The process of creating objects is called <b>instantiation</b>.</string>
+	<!--32-->
+	<string name="lesson32_title">Properties</string>
+	<string name="lesson32_p"><b>Classes</b> can have <b>properties</b>.\n
+		Properties are similar to regular variables but declared in a class.\n
+		For example:</string>
+	<string name="lesson32_p2">Similar to regular variables, properties declared using the <b>var</b> keyword are <b>mutable</b>, i.e. they can be <b>reassigned</b>.\n
+		To declare a <b>read-only</b> property, we should use the <b>val</b> keyword:</string>
+	<string name="lesson32_p3">Each object has it\'s own unique values for it\'s class properties.\n
+		In order to use properties, simply refer to it by name on the instance object using a <b>dot</b>:</string>
+	<!--33-->
+	<string name="lesson33_title">Member Functions</string>
+	<string name="lesson33_p">A class can have functions declaration in its body.\n
+		These functions are called <b>member functions</b> (or <b>methods</b>).\n
+		These are declared just like regular functions:</string>
+	<string name="lesson33_p2">Member functions are called (invoked) with dot notation:</string>
+	<string name="lesson33_p3">We can access class properties from member functions, make any necessary calculation, and so on.\n
+		For example, the <b>printHello</b>() member function below prints a hello message using the <b>name</b> property of the class:</string>
+	<!--34-->
+	<string name="lesson34_title">Getters and Setters</string>
+	<string name="lesson34_p">Accessing properties directly is not a good practice.\n
+		Sometimes you need to check the value in case of an invalid input, or do some other data validation or calculation before assigning or accessing the property value.\n
+		Let\'s say we have a <b>User</b> class with an <b>age</b> property:</string>
+	<string name="lesson34_p2">The object\'s property can be easily assigned to an invalid value. Here\'s an example:</string>
+	<string name="lesson34_p3"><b>Getters</b> and <b>setters</b> allow <b>flexibility</b> in property access. The setter is defined using the <b>set</b> keyword and allows to define behavior when a value is assigned to the property:</string>
+	<string name="lesson34_p4">The <b>field</b> keyword refers to the property (<b>age</b> in this case).\n
+		Every time a client code assigns a new value to the age property, the <b>setter</b> is called with the <b>value</b> as its argument. The code checks whether the value is greater than 0, and only then assigns it to the property.\n
+		The following code will output 0, as the value <b>-12</b> won\'t be assigned to the age property:</string>
+	<string name="lesson34_p5">A getter, on the contrary, is called every time the value of a property is read.\n
+		We can, for example, add 2 to the value of the <b>age</b> property when it is accessed:</string>
+	<string name="lesson34_p6">The <b>field</b> keyword refers to the property (<b>age</b> in this case).\n
+		A property can have both, a getter and a setter.</string>
+	<!--35-->
+	<string name="lesson35_title">Primary Constructor</string>
+	<string name="lesson35_p">Constructors are a convenient way to pass in values to object properties during their instantiation.\n
+		Kotlin provides a primary constructor, which can be used to initialize properties on creation of an object.\n
+		Here\'s how a primary constructor is defined:</string>
+	<string name="lesson35_p2">Following the name of the class is the primary constructor. The primary constructor is part of the class header.\n
+		As you can see in the code above, the constructor defines a property called name of type String. Now, when creating an object, you can pass a value for the name property in the braces.\n
+		The constructor keyword can be omitted:</string>
+	<string name="lesson35_hint">Primary constructors are able to declare properties using var or val declarations. Multiple properties should be separated by a comma.\n
+		Primary constructors cannot contain code.</string>
+	<!--36-->
+	<string name="lesson36_title">Initializer Block</string>
+	<string name="lesson36_p">The initializer block can be used to run code automatically when an object is created.\n
+		To declare an initializer block, the keyword init is used, followed by curly braces containing the initialization code.\n\n
+		For example:</string>
+	<string name="lesson36_p2">Now, when a Student object is created, the code in the init block will run automatically.\n\n
+		A class can have more than one init blocks. They are executed in the same order as they appear in the class body.\n
+		For example:</string>
+	<string name="lesson36_p3">Parameters of the primary constructor can be used in the initializer blocks.</string>
+</resources>

@@ -53,8 +53,6 @@ public class MainActivity extends AppCompatActivity
 				super.onCreate ( savedInstanceState );
 				setContentView ( R.layout.main );
 
-				mPESdk = new SdkActivity ( new UtilsSettings ( this ) );
-
 				MobileAds.initialize ( this, "ca-app-pub-1411495427741055~6707896587" );
 
 				mAdView = (AdView) findViewById(R.id.adView);

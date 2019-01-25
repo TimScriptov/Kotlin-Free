@@ -41,7 +41,7 @@ public class I18n
 							config.locale = Locale.getDefault();
 							break;
 						case 1:
-							config.locale = Locale.ENGLISH;
+							config.locale = new Locale("en", "EN");
 							break;
 						case 2:
 							config.locale = new Locale("ru", "RU");

@@ -29,11 +29,6 @@ import com.mcal.kotlinfree.SdkActivity;
  */
 public class BaseActivity extends MCDActivity
 	{
-		protected SdkActivity getPESdk ( )
-			{
-				return MainActivity.mPESdk;
-			}
-
 		@Override
 		protected void onCreate ( Bundle savedInstanceState )
 			{

@@ -23,49 +23,347 @@
 		app:layout_behavior="@string/appbar_scrolling_view_behavior"
 		android:gravity="center">
 
-		<LinearLayout
+		<ScrollView
 			android:layout_height="match_parent"
-			android:layout_width="match_parent"
-			android:orientation="vertical"
-			android:layout_weight="1.0"
-			android:gravity="center">
+			android:layout_width="match_parent">
 
-			<Button
-				android:background="@drawable/bt_shape"
-				android:stateListAnimator="@drawable/state_list_animator_z"
-				android:layout_height="wrap_content"
-				android:layout_width="250dp"
-				android:text="@string/lessons1"
-				android:id="@+id/btnLessons1"/>
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:gravity="center">
 
-			<Button
-				android:background="@drawable/bt_shape"
-				android:stateListAnimator="@drawable/state_list_animator_z"
-				android:layout_height="wrap_content"
-				android:layout_width="250dp"
-				android:text="@string/lessons2"
-				android:id="@+id/btnLessons2"
-				android:layout_marginTop="5dp"/>
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson1"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson1_title"
+					android:layout_marginTop="5dp"/>
 
-			<Button
-				android:background="@drawable/bt_shape"
-				android:stateListAnimator="@drawable/state_list_animator_z"
-				android:layout_height="wrap_content"
-				android:layout_width="250dp"
-				android:text="@string/lessons3"
-				android:id="@+id/btnLessons3"
-				android:layout_marginTop="5dp"/>
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson2"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson2_title"
+					android:layout_marginTop="5dp"/>
 
-			<Button
-				android:background="@drawable/bt_shape"
-				android:stateListAnimator="@drawable/state_list_animator_z"
-				android:layout_height="wrap_content"
-				android:layout_width="250dp"
-				android:text="@string/lessons4"
-				android:id="@+id/btnLessons4"
-				android:layout_marginTop="5dp"/>
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson3"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson3_title"
+					android:layout_marginTop="5dp"/>
 
-		</LinearLayout>
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson4"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson4_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson5"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson5_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson6"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson6_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson7"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson7_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson8"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson8_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson9"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson9_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson10"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson10_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson11"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson11_title"
+					android:layout_margin="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson12"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson12_title"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson13"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson13_title"
+					android:layout_marginTop="5dp"
+					android:layout_marginBottom="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson14"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson14_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson15"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson15_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson16"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson16_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson17"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson17_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson18"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson18_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson19"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson19_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson20"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson20_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson21"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson21_title"
+					android:onClick="aboutOnClick"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson22"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson22_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson23"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson23_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson24"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson24_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson25"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson25_title"
+					android:layout_marginTop="5dp"
+					android:layout_marginBottom="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson26"
+					android:layout_height="wrap_content"
+					android:layout_width="250dp"
+					android:text="@string/lesson26_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson27"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson27_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson28"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson28_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson29"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson29_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson30"
+					android:layout_height="wrap_content"
+					android:layout_width="250dp"
+					android:text="@string/lesson30_title"
+					android:layout_marginTop="5dp"
+					android:layout_marginBottom="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson31"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson31_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson32"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson32_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson33"
+					android:layout_width="250.0dip"
+					android:layout_height="wrap_content"
+					android:text="@string/lesson33_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson34"
+					android:layout_height="wrap_content"
+					android:layout_width="250dp"
+					android:text="@string/lesson34_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson35"
+					android:layout_height="wrap_content"
+					android:layout_width="250dp"
+					android:text="@string/lesson35_title"
+					android:layout_marginTop="5dp"/>
+
+				<Button
+					android:background="@drawable/bt_shape"
+					android:stateListAnimator="@drawable/state_list_animator_z"
+					android:id="@+id/btnLesson36"
+					android:layout_height="wrap_content"
+					android:layout_width="250dp"
+					android:text="@string/lesson36_title"
+					android:layout_marginTop="5dp"
+					android:layout_marginBottom="5dp"/>
+
+			</LinearLayout>
+
+		</ScrollView>
 
 		<LinearLayout
 			android:layout_height="wrap_content"

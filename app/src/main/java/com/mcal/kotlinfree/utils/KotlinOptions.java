@@ -22,7 +22,6 @@ package com.mcal.kotlinfree.utils;
  */
 public interface KotlinOptions
 	{
-		String getDataSavedPath();
 		String STRING_VALUE_DEFAULT = "default";
 	}
 

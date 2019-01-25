@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string-array name="language_strings">
-		<item>За замовчуванням</item>
+		<item>Default</item>
 		<item>English</item>
 		<item>Pусский</item>
 		<item>Український</item>
 	</string-array>
 </resources>
+
