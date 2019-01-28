@@ -15,11 +15,10 @@
  */
 package com.mcal.kotlinfree.lessons;
 
-import android.app.Activity;
 import android.os.Bundle;
-import com.mcal.kotlinfree.R;
 import android.support.v7.widget.Toolbar;
 import android.support.v7.app.AppCompatActivity;
+import com.mcal.kotlinfree.R;
 
 public class Lesson8 extends AppCompatActivity
 	{

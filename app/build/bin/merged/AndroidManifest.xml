@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mcal.kotlinfree"
+    android:versionCode="29"
+    android:versionName="18.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBar" >
+        <activity
+            android:name="com.mcal.kotlinfree.app.SplashesActivity"
+            android:theme="@style/FullScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mcal.kotlinfree.MainActivity"
+            android:alwaysRetainTaskState="true"
+            android:excludeFromRecents="false"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.mcal.kotlinfree.app.MainSettingsActivity"
+            android:label="@string/preferences_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.LessonsActivity"
+            android:label="@string/lessons" />
+        <activity
+            android:name="com.mcal.kotlinfree.app.AboutActivity"
+            android:label="@string/preferences_title_about" />
+        <activity
+            android:name="com.mcal.kotlinfree.app.ChangelogActivity"
+            android:label="@string/changelog" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson1"
+            android:label="@string/lesson1_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson2"
+            android:label="@string/lesson2_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson3"
+            android:label="@string/lesson3_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson4"
+            android:label="@string/lesson4_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson5"
+            android:label="@string/lesson5_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson6"
+            android:label="@string/lesson6_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson7"
+            android:label="@string/lesson7_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson8"
+            android:label="@string/lesson8_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson9"
+            android:label="@string/lesson9_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson10"
+            android:label="@string/lesson10_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson11"
+            android:label="@string/lesson11_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson12"
+            android:label="@string/lesson12_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson13"
+            android:label="@string/lesson13_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson14"
+            android:label="@string/lesson14_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson15"
+            android:label="@string/lesson15_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson16"
+            android:label="@string/lesson16_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson17"
+            android:label="@string/lesson17_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson18"
+            android:label="@string/lesson18_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson19"
+            android:label="@string/lesson19_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson20"
+            android:label="@string/lesson20_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson21"
+            android:label="@string/lesson21_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson22"
+            android:label="@string/lesson22_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson23"
+            android:label="@string/lesson23_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson24"
+            android:label="@string/lesson24_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson25"
+            android:label="@string/lesson25_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson26"
+            android:label="@string/lesson26_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson27"
+            android:label="@string/lesson27_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson28"
+            android:label="@string/lesson28_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson29"
+            android:label="@string/lesson29_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson30"
+            android:label="@string/lesson30_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson31"
+            android:label="@string/lesson31_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson32"
+            android:label="@string/lesson32_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson33"
+            android:label="@string/lesson33_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson34"
+            android:label="@string/lesson34_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson35"
+            android:label="@string/lesson35_title" />
+        <activity
+            android:name="com.mcal.kotlinfree.lessons.Lesson36"
+            android:label="@string/lesson36_title" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="25.4.0" />
+    </application>
+
+</manifest>

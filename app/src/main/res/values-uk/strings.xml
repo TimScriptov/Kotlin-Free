@@ -2,10 +2,6 @@
 <resources>
 	<string name="app_name">Kotlin Free</string>
 	<string name="lessons">Уроки</string>
-	<string name="lessons1">Частина 1</string>
-	<string name="lessons2">Частина 2</string>
-	<string name="lessons3">Частина 3</string>
-	<string name="lessons4">Частина 4</string>
 	<string name="powered_by_aide">Powered by Aide</string>
 	<string name="changelog">Історія змін</string>
 	<string name="preferences_title">Налаштування</string>

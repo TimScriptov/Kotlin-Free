@@ -15,7 +15,6 @@
  */
 package com.mcal.kotlinfree.app;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.content.Intent;

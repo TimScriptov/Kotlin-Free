@@ -15,15 +15,15 @@
  */
 package com.mcal.kotlinfree.app;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * @since 27.09.2018
  * @author Тимашков Иван
  * @author https://github.com/TimScriptov
  */
-public class MainSettingsActivity extends Activity {
+public class MainSettingsActivity extends AppCompatActivity {
 
 		public void onCreate(Bundle savedInstanceState) {
 				super.onCreate(savedInstanceState);

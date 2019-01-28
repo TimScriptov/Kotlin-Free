@@ -3,10 +3,6 @@
 	<string name="app_name">Kotlin Free</string>
 	<string name="banner_ad_unit_id">ca-app-pub-1411495427741055/6369974912</string>
 	<string name="lessons">Lessons</string>
-	<string name="lessons1">Part 1</string>
-	<string name="lessons2">Part 2</string>
-	<string name="lessons3">Part 3</string>
-	<string name="lessons4">Part 4</string>
 	<string name="powered_by_aide">Powered by Aide</string>
 	<string name="changelog">Changelog</string>
 	<string name="preferences_title">Settings</string>
